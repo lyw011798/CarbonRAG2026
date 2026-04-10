@@ -13,7 +13,7 @@
 ## 3. Chunking & Storage Components
 
 - [x] 3.1 Implement `ChunkStrategy` in `src/chunker.py` to structure chunks along "第X條" boundaries and append metadata.
-- [ ] 3.2 Implement `VectorStore` in `src/store.py` encapsulating ChromaDB and initializing local `sentence-transformers`.
+- [x] 3.2 Implement `VectorStore` in `src/store.py` encapsulating ChromaDB and initializing local `sentence-transformers`.
 - [ ] 3.3 Create `data_update.py` CLI function to orchestrate the directory traversal and ingestion pipeline using the built core classes.
 
 ## 4. Query Engineering

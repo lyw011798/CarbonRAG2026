@@ -82,7 +82,8 @@ opentelemetry-sdk==1.41.0
 opentelemetry-semantic-conventions==0.62b0
 orjson==3.11.8
 overrides==7.7.0
-packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1769093650/work
+packaging==26.0
+
 pathspec==1.0.4
 pdfminer.six==20251230
 pdfplumber==0.11.9
