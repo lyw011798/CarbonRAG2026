@@ -18,8 +18,8 @@
 
 ## 4. Query Engineering
 
-- [ ] 4.1 Implement `RAGQuery` in `src/query.py` utilizing `LiteLLM` and injecting the Taiwan regulatory context prompt.
-- [ ] 4.2 Create `rag_query.py` CLI function managing interactive query loops, and attaching file and page citations to answers.
+- [x] 4.1 Implement `RAGQuery` in `src/query.py` utilizing `LiteLLM` and injecting the Taiwan regulatory context prompt.
+- [x] 4.2 Create `rag_query.py` CLI function managing interactive query loops, and attaching file and page citations to answers.
 
 ## 5. Domain Skill Generative Assembly
 

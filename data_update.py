@@ -2,8 +2,12 @@
 data_update.py — CLI function to orchestrate the directory traversal
 and ingestion pipeline for the Taiwan carbon market RAG system.
 
+Two-stage pipeline:
+  1. extract_to_processed: raw/ → processed/ (multi-format → pure .txt)
+  2. run_ingestion_pipeline: processed/ → ChromaDB (chunk → embed → store)
+
 Usage:
-    python data_update.py <data_directory> [--db-path ./db/chroma]
+    python data_update.py <raw_directory> [--processed-dir ./data/processed] [--db-path ./db/chroma]
 """
 import logging
 import os
@@ -46,26 +50,67 @@ def discover_files(directory: str) -> List[str]:
     return sorted(files)
 
 
+def extract_to_processed(
+    raw_dir: str,
+    processed_dir: str,
+) -> Dict[str, int]:
+    """
+    Stage 1: Extract text from raw multi-format files and write pure .txt
+    files into the processed directory.
+
+    Args:
+        raw_dir:       Path to the directory containing raw source files.
+        processed_dir: Path to the output directory for extracted .txt files.
+
+    Returns:
+        Stats dict with keys: extracted, errors.
+    """
+    stats = {"extracted": 0, "errors": 0}
+
+    # Auto-create output directory
+    os.makedirs(processed_dir, exist_ok=True)
+
+    files = discover_files(raw_dir)
+    if not files:
+        return stats
+
+    for file_path in files:
+        try:
+            processor = ProcessorFactory.get_processor(file_path)
+            text = processor.extract_text(file_path)
+
+            # Write as .txt with the same stem
+            out_name = Path(file_path).stem + ".txt"
+            out_path = Path(processed_dir) / out_name
+            out_path.write_text(text, encoding="utf-8")
+
+            stats["extracted"] += 1
+            logger.info("Extracted: %s → %s", Path(file_path).name, out_name)
+
+        except Exception as exc:
+            logger.warning("Failed to extract %s: %s", file_path, exc)
+            stats["errors"] += 1
+
+    return stats
+
+
 def run_ingestion_pipeline(
-    data_dir: str,
+    processed_dir: str,
     db_path: str = "./db/chroma",
 ) -> Dict[str, int]:
     """
-    Orchestrate the full ingestion pipeline:
-      1. Discover files
-      2. For each file: extract text → chunk → collect
-      3. Batch-store all chunks into VectorStore
+    Stage 2: Read processed .txt files, chunk them, and store in ChromaDB.
 
     Args:
-        data_dir:  Root directory containing documents.
-        db_path:   Path for persistent ChromaDB storage.
+        processed_dir: Directory containing pure .txt files ready for chunking.
+        db_path:       Path for persistent ChromaDB storage.
 
     Returns:
         Stats dict with keys: processed, skipped, errors.
     """
     stats = {"processed": 0, "skipped": 0, "errors": 0}
 
-    files = discover_files(data_dir)
+    files = discover_files(processed_dir)
     if not files:
         return stats
 
@@ -74,8 +119,7 @@ def run_ingestion_pipeline(
 
     for file_path in files:
         try:
-            processor = ProcessorFactory.get_processor(file_path)
-            text = processor.extract_text(file_path)
+            text = Path(file_path).read_text(encoding="utf-8")
 
             metadata = {
                 "source": file_path,
@@ -101,15 +145,27 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
     if len(sys.argv) < 2:
-        print(f"Usage: python {sys.argv[0]} <data_directory> [--db-path PATH]")
+        print(f"Usage: python {sys.argv[0]} <raw_directory> "
+              "[--processed-dir PATH] [--db-path PATH]")
         sys.exit(1)
 
-    data_directory = sys.argv[1]
+    raw_directory = sys.argv[1]
+    processed = "./data/processed"
     db = "./db/chroma"
+
+    if "--processed-dir" in sys.argv:
+        idx = sys.argv.index("--processed-dir")
+        processed = sys.argv[idx + 1]
     if "--db-path" in sys.argv:
         idx = sys.argv.index("--db-path")
         db = sys.argv[idx + 1]
 
-    result = run_ingestion_pipeline(data_dir=data_directory, db_path=db)
-    print(f"Done — processed: {result['processed']}, "
-          f"skipped: {result['skipped']}, errors: {result['errors']}")
+    # Stage 1: Extract
+    print("=== Stage 1: Extracting raw → processed ===")
+    extract_stats = extract_to_processed(raw_dir=raw_directory, processed_dir=processed)
+    print(f"  Extracted: {extract_stats['extracted']}, Errors: {extract_stats['errors']}")
+
+    # Stage 2: Ingest
+    print("=== Stage 2: Chunking + storing → ChromaDB ===")
+    ingest_stats = run_ingestion_pipeline(processed_dir=processed, db_path=db)
+    print(f"  Processed: {ingest_stats['processed']}, Errors: {ingest_stats['errors']}")

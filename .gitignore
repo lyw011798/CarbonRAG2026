@@ -3,3 +3,4 @@ __pycache__
 instructions_output.json
 model_cache/
 db/
+.env
