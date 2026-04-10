@@ -1,21 +1,32 @@
 ## Why
-Taiwan formally entered the carbon pricing era in 2025 with the enforcement of the Climate Change Response Act and the launch of carbon fee regulations, while the Taiwan Carbon Solution Exchange (TCX) was established in 2023. A localized Retrieval-Augmented Generation (RAG) system is needed to aggregate official policy documents, regulations, and market data to enable structured Q&A over this rapidly evolving domain.
+
+Taiwan formally entered the carbon pricing era in 2025 with the enforcement of the Climate Change Response Act and the launch of carbon fee regulations via the Taiwan Carbon Solution Exchange (TCX). This project solves the problem of tracking rapidly evolving regulations by building a domain-specific RAG system. It aggregates official policy documents, regulations, and market data into a structured knowledge base to enable accurate, context-aware Q&A.
 
 ## What Changes
-- Introduce a systematic pipeline to collect and embed 20+ public official documents covering carbon fees, credits, CBAM, and voluntary reduction schemes into a local vector store.
-- Implement a structured RAG query flow using local embeddings and LiteLLM to interface with standard models, ensuring robust jurisdiction framing.
-- Create an automated skill builder to synthesize key domain knowledge into a comprehensive reference manual for AI agents.
+
+- Build a reproducible data ingestion pipeline to load raw policy files, clean and chunk them by structural boundaries (e.g., articles/sections), embed them, and index them. (Owned by `PDFProcessor`, `ChunkStrategy`, and `VectorStore`)
+- Implement a CLI query interface that supports source-cited output and applies jurisdiction-specific context to prevent cross-standard confusion. (Owned by `RAGQuery`)
+- Implement an automated synthesizer to generate a domain expert `skill.md` reference for AI agents based on the collected knowledge. (Owned by `SkillBuilder`)
 
 ## Capabilities
 
 ### New Capabilities
-- `data-update`: A system to load, validate, chunk by structural entity, embed, and index documents directly into ChromaDB/pgvector, supporting both full wipe/reindex and incremental updates via hash matching.
-- `rag-query`: A CLI interface for querying the vector store with cited source outputs and domain-specific context framing.
-- `skill-builder`: An automated generator that consolidates findings and Q&A into a unified `skill.md` domain expert reference organized by core domain concepts.
+- `data-ingestion`: Manages incremental document preprocessing, table-to-text conversion, structural chunking (e.g. 第X條 boundaries), valid_date metadata tracking, and local embedding into a ChromaDB vector store.
+- `rag-query`: Provides an interactive CLI tool for querying the knowledge base using structured prompt framing over LiteLLM (gemini-2.5-flash / gpt-oss-20b), returning answers with clear citations to official sources.
+- `skill-builder`: Automates the generation of a comprehensive `skill.md` covering core concepts (carbon fee, CBAM), entities, and status derived from RAG responses.
 
 ### Modified Capabilities
-- (None)
+
+
+## Non-goals
+
+- No graphical user interfaces or web apps; all components operate via the CLI.
+- No remote embedding APIs; embeddings rely strictly on local models (`sentence-transformers`) to prevent external vendor dependencies.
+- No generalization to a universal RAG framework; intentionally heavily coupled to Taiwan's specific jurisdiction and regulatory structures.
 
 ## Impact
-- New Python system requiring `sentence-transformers`, `chromadb` (or `pgvector`), and `litellm` dependencies.
-- Will persist data locally in vector database format, and will rely on externally fetched pdfs.
+
+- Introduces new core libraries: `src/processor.py`, `src/chunker.py`, `src/store.py`, `src/query.py`, and `src/builder.py`.
+- Introduces three new CLI entrypoints: `data_update.py`, `rag_query.py`, and `skill_builder.py`.
+- Impacts project dependencies by adding `chromadb` (or pgvector), `sentence-transformers`, `litellm`, and `pdfplumber`.
+- Will generate local persistent data storage for ChromaDB.

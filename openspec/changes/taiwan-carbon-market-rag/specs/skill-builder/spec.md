@@ -1,8 +1,15 @@
 ## ADDED Requirements
 
-### Requirement: Automated skill manual generation
-The system SHALL generate a markdown file (`skill.md`) synthesizing core concepts, key entities, current status, and common Q&A by querying the compiled vector store on predefined topics.
+### Requirement: Automated Domain Skill Synthesis
+The SkillBuilder MUST automatically query the underlying RAG system across predefined critical domain topics (e.g., Core Concepts, Entities, Current Status) to compile knowledge.
 
-#### Scenario: Running the skill builder script
-- **WHEN** the user runs `skill_builder.py`
-- **THEN** a `skill.md` file is generated containing sections for "Overview", "Core Concepts", "Key Entities", "Current Status", and "Common Q&A"
+#### Scenario: Compiling knowledge sections
+- **WHEN** `skill_builder.py` is invoked
+- **THEN** iterative RAG queries are evaluated, extracting definitions and statuses referencing TCX, MOENV, and CBAM protocols
+
+### Requirement: Exporting generated artifact
+The SkillBuilder MUST successfully synthesize the responses into the structure of a markdown agent-skill reference document.
+
+#### Scenario: Finalizing build
+- **WHEN** the knowledge aggregation resolves
+- **THEN** the system generates and saves an offline `skill.md` file intended for usage by autonomous AI agents

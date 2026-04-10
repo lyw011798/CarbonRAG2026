@@ -1,20 +1,66 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+context: |
+  Tech stack: Python >= 3.10, ChromaDB, sentence-transformers,
+  LiteLLM (gemini-2.5-flash / gpt-oss-20b), pdfplumber,
+  beautifulsoup4 (HTML), pymupdf (PDF fallback)
 
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+  Domain: Taiwan carbon market knowledge base (RAG system)
+  Primary language: Traditional Chinese documents + English reports
+
+  Coding style: Moderate OOP with Strategy Pattern for document processing
+  - Use classes for components with clear boundaries
+  - No deep inheritance (max 1 level below ABC)
+  - Prefer composition over inheritance
+  - Type hints required on all public methods
+  - Each class in its own file under src/
+
+  Design patterns in use:
+  - Strategy Pattern: DocumentProcessor ABC with per-format subclasses
+  - Factory Pattern: ProcessorFactory resolves processor by file extension
+  - No other patterns unless justified in design.md
+
+  File structure convention:
+    src/
+    ├── processors/
+    │   ├── base.py         # DocumentProcessor (ABC)
+    │   ├── pdf.py          # PDFProcessor
+    │   ├── text.py         # TextProcessor (.txt)
+    │   ├── markdown.py     # MarkdownProcessor (.md)
+    │   ├── html.py         # HTMLProcessor (.html)
+    │   └── factory.py      # ProcessorFactory
+    ├── chunker.py          # ChunkStrategy
+    ├── store.py            # VectorStore (ChromaDB)
+    ├── query.py            # RAGQuery
+    └── builder.py          # SkillBuilder
+    data_update.py          # CLI entrypoint
+    rag_query.py            # CLI entrypoint
+    skill_builder.py        # CLI entrypoint
+
+  Metadata schema per chunk:
+    source, filename, page_num, valid_date, jurisdiction,
+    carbon_type (nature_based | engineered | policy | market)
+
+  Supported file formats:
+    .pdf  → pdfplumber (table-aware extraction)
+    .txt  → direct read with encoding detection
+    .md   → strip markdown syntax, preserve structure
+    .html → beautifulsoup4, remove tags/scripts/styles
+
+rules:
+  proposal:
+    - Include a "Non-goals" section
+    - Specify which class owns each responsibility
+    - Mention all 4 supported file formats explicitly
+  design:
+    - Include ASCII class diagram showing DocumentProcessor hierarchy
+    - Justify ProcessorFactory design decision
+    - Describe how each format handles its specific cleaning challenges:
+        PDF → table extraction, page header removal
+        MD  → preserve heading hierarchy as context
+        HTML → remove nav/footer/script noise
+        TXT → encoding detection (UTF-8 / BIG5 for gov documents)
+  tasks:
+    - Separate tasks per processor subclass (one task per format)
+    - Each task maps to one class or one function
+    - No task should take more than 2 hours
