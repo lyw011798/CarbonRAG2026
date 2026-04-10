@@ -5,14 +5,14 @@
 
 ## 2. Format Specific Processors
 
-- [ ] 2.1 Implement `PDFProcessor` in `src/processors/pdf.py` utilizing `pdfplumber` for table extraction and `pymupdf` fallback.
-- [ ] 2.2 Implement `TextProcessor` in `src/processors/text.py` including strict `UTF-8` and legacy `BIG5` encoding detection.
-- [ ] 2.3 Implement `MarkdownProcessor` in `src/processors/markdown.py` to strip syntax while preserving `# Heading` hierarchy.
-- [ ] 2.4 Implement `HTMLProcessor` in `src/processors/html.py` using `beautifulsoup4` to selectively extract body text and remove noise.
+- [x] 2.1 Implement `PDFProcessor` in `src/processors/pdf.py` utilizing `pdfplumber` for table extraction and `pymupdf` fallback.
+- [x] 2.2 Implement `TextProcessor` in `src/processors/text.py` including strict `UTF-8` and legacy `BIG5` encoding detection.
+- [x] 2.3 Implement `MarkdownProcessor` in `src/processors/markdown.py` to strip syntax while preserving `# Heading` hierarchy.
+- [x] 2.4 Implement `HTMLProcessor` in `src/processors/html.py` using `beautifulsoup4` to selectively extract body text and remove noise.
 
 ## 3. Chunking & Storage Components
 
-- [ ] 3.1 Implement `ChunkStrategy` in `src/chunker.py` to structure chunks along "第X條" boundaries and append metadata.
+- [x] 3.1 Implement `ChunkStrategy` in `src/chunker.py` to structure chunks along "第X條" boundaries and append metadata.
 - [ ] 3.2 Implement `VectorStore` in `src/store.py` encapsulating ChromaDB and initializing local `sentence-transformers`.
 - [ ] 3.3 Create `data_update.py` CLI function to orchestrate the directory traversal and ingestion pipeline using the built core classes.
 
