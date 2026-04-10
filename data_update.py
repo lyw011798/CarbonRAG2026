@@ -16,9 +16,6 @@ import argparse
 from pathlib import Path
 from typing import Dict, List
 
-from src.processors import ProcessorFactory
-from src.chunker import ChunkStrategy
-from src.store import VectorStore
 
 logger = logging.getLogger(__name__)
 
@@ -77,6 +74,7 @@ def extract_to_processed(
 
     for file_path in files:
         try:
+            from src.processors import ProcessorFactory
             processor = ProcessorFactory.get_processor(file_path)
             text = processor.extract_text(file_path)
 
@@ -114,6 +112,9 @@ def run_ingestion_pipeline(
     files = discover_files(processed_dir)
     if not files:
         return stats
+
+    from src.store import VectorStore
+    from src.chunker import ChunkStrategy
 
     store = VectorStore(db_path=db_path)
     chunker = ChunkStrategy()

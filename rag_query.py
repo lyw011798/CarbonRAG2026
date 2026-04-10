@@ -1,12 +1,6 @@
 import argparse
 import sys
 import logging
-from dotenv import load_dotenv
-from src.store import VectorStore
-from src.query import RAGQuery
-
-# Load environment variables from .env
-load_dotenv()
 
 # Setup basic logging
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
@@ -36,7 +30,7 @@ def format_citations(sources: list) -> str:
     
     return "\n".join(citation_lines)
 
-def interactive_loop(query_engine: RAGQuery, n_results: int):
+def interactive_loop(query_engine, n_results: int):
     """Runs the interactive QA loop."""
     print(f"\n{Colors.HEADER}=== Taiwan Carbon Market RAG System ==={Colors.RESET}")
     print("Type 'exit' or 'quit' to stop.\n")
@@ -86,6 +80,12 @@ def main():
     parser.add_argument("--top-k", type=int, default=5, help="Number of chunks to retrieve per query")
     
     args = parser.parse_args()
+    
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    from src.store import VectorStore
+    from src.query import RAGQuery
     
     print(f"{Colors.CYAN}Initializing VectorStore at {args.db_path}...{Colors.RESET}")
     try:
