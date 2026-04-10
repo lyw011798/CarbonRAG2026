@@ -12,6 +12,7 @@ Usage:
 import logging
 import os
 import sys
+import argparse
 from pathlib import Path
 from typing import Dict, List
 
@@ -144,21 +145,16 @@ def run_ingestion_pipeline(
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-    if len(sys.argv) < 2:
-        print(f"Usage: python {sys.argv[0]} <raw_directory> "
-              "[--processed-dir PATH] [--db-path PATH]")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Taiwan carbon market RAG system data ingestion script.")
+    parser.add_argument("raw_directory", nargs="?", default="data/raw", help="Path to the directory containing raw source files (default: data/raw)")
+    parser.add_argument("--processed-dir", default="./data/processed", help="Path to the output directory for extracted .txt files")
+    parser.add_argument("--db-path", default="./db/chroma", help="Path for persistent ChromaDB storage")
+    
+    args = parser.parse_args()
 
-    raw_directory = sys.argv[1]
-    processed = "./data/processed"
-    db = "./db/chroma"
-
-    if "--processed-dir" in sys.argv:
-        idx = sys.argv.index("--processed-dir")
-        processed = sys.argv[idx + 1]
-    if "--db-path" in sys.argv:
-        idx = sys.argv.index("--db-path")
-        db = sys.argv[idx + 1]
+    raw_directory = args.raw_directory
+    processed = args.processed_dir
+    db = args.db_path
 
     # Stage 1: Extract
     print("=== Stage 1: Extracting raw → processed ===")

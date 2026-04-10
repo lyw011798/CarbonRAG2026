@@ -36,13 +36,10 @@ def format_citations(sources: list) -> str:
     
     return "\n".join(citation_lines)
 
-def interactive_loop(query_engine: RAGQuery, n_results: int, use_mock: bool):
+def interactive_loop(query_engine: RAGQuery, n_results: int):
     """Runs the interactive QA loop."""
     print(f"\n{Colors.HEADER}=== Taiwan Carbon Market RAG System ==={Colors.RESET}")
     print("Type 'exit' or 'quit' to stop.\n")
-    
-    if use_mock:
-        print(f"{Colors.RED}[WARN] Running in MOCK mode. Real API will not be called.{Colors.RESET}\n")
 
     while True:
         try:
@@ -61,8 +58,7 @@ def interactive_loop(query_engine: RAGQuery, n_results: int, use_mock: bool):
             # Perform query
             result = query_engine.query(
                 question=question, 
-                n_results=n_results, 
-                use_mock=use_mock
+                n_results=n_results
             )
             
             answer = result["answer"]
@@ -88,7 +84,6 @@ def main():
     parser.add_argument("--db-path", type=str, default="./db/chroma", help="Path to ChromaDB directory")
     parser.add_argument("--model", type=str, default="gemini/gemini-2.5-flash", help="LiteLLM model string to use")
     parser.add_argument("--top-k", type=int, default=5, help="Number of chunks to retrieve per query")
-    parser.add_argument("--mock", action="store_true", help="Use mock mode to bypass actual LLM API calls")
     
     args = parser.parse_args()
     
@@ -103,8 +98,7 @@ def main():
     
     interactive_loop(
         query_engine=query_engine,
-        n_results=args.top_k,
-        use_mock=args.mock
+        n_results=args.top_k
     )
 
 if __name__ == "__main__":

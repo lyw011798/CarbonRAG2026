@@ -23,5 +23,5 @@
 
 ## 5. Domain Skill Generative Assembly
 
-- [ ] 5.1 Implement `SkillBuilder` in `src/builder.py` containing predefined query groups spanning core domain concepts and entities.
-- [ ] 5.2 Create `skill_builder.py` CLI function coordinating RAG evaluation calls to assemble and write out the final `skill.md` reference text.
+- [x] 5.1 Implement `SkillBuilder` in `src/builder.py` containing predefined query groups spanning core domain concepts and entities.
+- [x] 5.2 Create `skill_builder.py` CLI function coordinating RAG evaluation calls to assemble and write out the final `skill.md` reference text.
