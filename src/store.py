@@ -40,19 +40,51 @@ class VectorStore:
         if not chunks:
             return
 
-        texts = [c["text"] for c in chunks]
-        metadatas = [c["metadata"] for c in chunks]
-        ids = [str(uuid.uuid4()) for _ in chunks]
+        import hashlib
         
+        # Calculate deterministic IDs and deduplicate internally
+        seen_ids = set()
+        deduped_chunks = []
+        deduped_ids = []
+        
+        for c in chunks:
+            content_hash = hashlib.sha256(c["text"].encode("utf-8")).hexdigest()
+            if content_hash not in seen_ids:
+                seen_ids.add(content_hash)
+                deduped_chunks.append(c)
+                deduped_ids.append(content_hash)
+                
+        if not deduped_ids:
+            return
+            
+        # Check which IDs already exist
+        existing = self.collection.get(ids=deduped_ids)
+        existing_ids = set(existing['ids']) if existing and 'ids' in existing else set()
+        
+        # Filter chunks that need processing
+        new_texts = []
+        new_metadatas = []
+        new_ids = []
+        
+        for i, chunk in enumerate(deduped_chunks):
+            if deduped_ids[i] not in existing_ids:
+                new_texts.append(chunk["text"])
+                new_metadatas.append(chunk["metadata"])
+                new_ids.append(deduped_ids[i])
+
+                
+        if not new_texts:
+            return
+
         # Calculate embeddings locally
-        embeddings = self.model.encode(texts).tolist()
+        embeddings = self.model.encode(new_texts).tolist()
         
         # Upsert into ChromaDB
         self.collection.add(
-            documents=texts,
+            documents=new_texts,
             embeddings=embeddings,
-            metadatas=metadatas,
-            ids=ids
+            metadatas=new_metadatas,
+            ids=new_ids
         )
 
     def query(self, query_text: str, n_results: int = 5) -> List[Dict[str, Any]]:
