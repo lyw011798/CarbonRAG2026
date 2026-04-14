@@ -19,6 +19,12 @@ from pathlib import Path
 from typing import Dict, List
 
 
+try:
+    from src.store import VectorStore
+except Exception:
+    VectorStore = None
+
+
 logger = logging.getLogger(__name__)
 
 SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".md", ".html"}
@@ -220,10 +226,13 @@ def run_ingestion_pipeline(
     if not files:
         return stats
 
-    from src.store import VectorStore
     from src.chunker import ChunkStrategy
 
-    store = VectorStore(db_path=db_path) if "store" in run_stages or "embed" in run_stages else None
+    store_cls = VectorStore
+    if store_cls is None:
+        from src.store import VectorStore as store_cls
+
+    store = store_cls(db_path=db_path) if "store" in run_stages or "embed" in run_stages else None
     chunker = ChunkStrategy()
 
     for file_path in files:

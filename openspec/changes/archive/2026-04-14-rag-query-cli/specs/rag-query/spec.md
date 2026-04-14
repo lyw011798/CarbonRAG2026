@@ -24,7 +24,7 @@ The system MUST allow the one-time query flow to accept `--top-k` and `--model` 
 ### Requirement: Cited Source Output
 The system MUST display a final answer followed by a numbered source list for both interactive and one-time query results.
 
-#### Scenario: Displaying citations
+#### Scenario: Displaying answer and sources
 - **WHEN** the CLI produces a response
 - **THEN** stdout shows an `Answer:` block, then a `Sources:` block with entries formatted as `[n] <filename>  (section: <section>, score: <score>)`
 

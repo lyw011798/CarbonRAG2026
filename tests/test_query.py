@@ -34,6 +34,8 @@ class TestRAGQuery:
         assert len(result["sources"]) == 1
         assert result["sources"][0]["article"] == "公告事項"
         assert result["sources"][0]["filename"] == "fee.txt"
+        assert result["sources"][0]["section"] == "公告事項"
+        assert "score" in result["sources"][0]
         
         mock_store.query.assert_called_once_with("碳費一般費率是多少？", n_results=5)
 
@@ -71,17 +73,18 @@ class TestRAGQuery:
         assert len(messages) == 2
         assert messages[0]["role"] == "system"
         
-        # System prompt should include Taiwan context and Traditional Chinese requirement
+        # System prompt should include Taiwan context, same-language behavior, and citation guidance
         sys_prompt = messages[0]["content"].lower()
         assert "taiwan" in sys_prompt or "台灣" in sys_prompt
-        assert "traditional chinese" in sys_prompt or "繁體中文" in sys_prompt
+        assert "same language" in sys_prompt or "相同語言" in sys_prompt
+        assert "[1][2]" in messages[1]["content"]
         
         # Check that context chunks and query are included in the user message
         user_msg = messages[1]["content"]
+        assert "[1] 碳費公告 (section: 一般費率" in user_msg
+        assert "[2] 碳費公告 (section: 優惠費率" in user_msg
         assert "台灣碳費一般費率為300元。" in user_msg
         assert "優惠費率A為50元。" in user_msg
-        assert "碳費公告" in user_msg      # Checking filename inclusion
-        assert "一般費率" in user_msg      # Checking article metadata inclusion
         assert "碳費是多少？" in user_msg
 
     @pytest.mark.skipif(not os.getenv("GEMINI_API_KEY"), reason="GEMINI_API_KEY not found in environment.")

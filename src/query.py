@@ -7,7 +7,7 @@ class RAGQuery:
     to an LLM via LiteLLM.
     """
     
-    def __init__(self, vector_store, model: str = "gemini/gemini-2.5-flash"):
+    def __init__(self, vector_store, model: str = "gemini-2.5-flash"):
         """
         Initialize the RAGQuery engine.
         
@@ -21,12 +21,24 @@ class RAGQuery:
         self.system_prompt = (
             "You are a professional AI assistant specialized in Taiwan's regulatory guidelines, "
             "carbon market policies, greenhouse gas inventories, and related subjects. "
-            "Answer the user's question accurately and thoroughly based strictly on the provided context. "
+            "Answer the user's question in the same language as the question, based strictly on the provided context. "
             "If the answer is not contained in the context, clearly summarize what is provided "
             "and state that the complete answer cannot be determined from the available context. "
             "Do not hallucinate any information. "
-            "Always respond in Traditional Chinese (繁體中文)."
+            "When you use retrieved context, cite supporting sources with [1][2] notation."
         )
+
+    @staticmethod
+    def _format_score(distance: Any) -> Any:
+        if distance is None:
+            return None
+
+        try:
+            score = 1 - float(distance)
+        except (TypeError, ValueError):
+            return None
+
+        return round(score, 4)
 
     def query(self, question: str, n_results: int = 5, use_mock: bool = False) -> Dict[str, Any]:
         """
@@ -41,7 +53,7 @@ class RAGQuery:
             A dictionary containing the generated answer and a list of sources:
             {
                 "answer": str,
-                "sources": [{"filename": str, "article": str}, ...]
+                "sources": [{"filename": str, "section": str, "article": str, "score": float}, ...]
             }
         """
         # 1. Retrieve chunks
@@ -50,20 +62,26 @@ class RAGQuery:
         # 2. Build context string and extract sources
         context_parts = []
         sources = []
-        seen_sources = set()
         
-        for res in results:
+        for index, res in enumerate(results, start=1):
             text = res.get('text', '')
             meta = res.get('metadata', {})
-            article = meta.get('article', 'Unknown Article')
+            section = meta.get('section', meta.get('article', 'Unknown Section'))
+            article = meta.get('article', section)
             filename = meta.get('filename', 'Unknown File')
+            score = self._format_score(res.get('distance'))
             
-            source_key = f"{filename}::{article}"
-            if source_key not in seen_sources:
-                sources.append({"filename": filename, "article": article})
-                seen_sources.add(source_key)
-                
-            context_parts.append(f"Source: {filename} [{article}]\n{text}")
+            sources.append({
+                "filename": filename,
+                "section": section,
+                "article": article,
+                "score": score,
+            })
+
+            score_text = score if score is not None else "n/a"
+            context_parts.append(
+                f"[{index}] {filename} (section: {section}, score: {score_text})\n{text}"
+            )
             
         context_text = "\n\n---\n\n".join(context_parts)
         
@@ -72,7 +90,15 @@ class RAGQuery:
             context_text = "No relevant context found."
             
         # 3. Construct messages
-        user_prompt = f"Context Information:\n{context_text}\n\nQuestion:\n{question}"
+        user_prompt = (
+            "Context Information:\n"
+            f"{context_text}\n\n"
+            "Instructions:\n"
+            "- Answer in the same language as the question.\n"
+            "- Use only the provided context.\n"
+            "- Cite supporting sources with [1][2] notation when relevant.\n\n"
+            f"Question:\n{question}"
+        )
         
         messages = [
             {"role": "system", "content": self.system_prompt},

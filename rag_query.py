@@ -25,10 +25,29 @@ def format_citations(sources: list) -> str:
     citation_lines = [f"{Colors.YELLOW}{Colors.BOLD}Citations:{Colors.RESET}"]
     for i, source in enumerate(sources, 1):
         filename = source.get("filename", "Unknown File")
-        article = source.get("article", "Unknown Article")
-        citation_lines.append(f"{Colors.YELLOW}  [{i}] {filename} -> {article}{Colors.RESET}")
+        section = source.get("section", source.get("article", "Unknown Section"))
+        score = source.get("score")
+        score_text = f"{score:.4f}" if isinstance(score, (int, float)) else "n/a"
+        citation_lines.append(
+            f"{Colors.YELLOW}  [{i}] {filename} -> {section} (score: {score_text}){Colors.RESET}"
+        )
     
     return "\n".join(citation_lines)
+
+
+def format_cli_sources(sources: list) -> str:
+    if not sources:
+        return "Sources:\nNone"
+
+    lines = ["Sources:"]
+    for index, source in enumerate(sources, 1):
+        filename = source.get("filename", "Unknown File")
+        section = source.get("section", source.get("article", "Unknown Section"))
+        score = source.get("score")
+        score_text = f"{score:.4f}" if isinstance(score, (int, float)) else "n/a"
+        lines.append(f"[{index}] {filename}  (section: {section}, score: {score_text})")
+
+    return "\n".join(lines)
 
 def interactive_loop(query_engine, n_results: int):
     """Runs the interactive QA loop."""
@@ -73,11 +92,24 @@ def interactive_loop(query_engine, n_results: int):
         except Exception as e:
             logger.error(f"An error occurred: {e}")
 
+
+def run_single_query(query_engine, question: str, n_results: int):
+    result = query_engine.query(
+        question=question,
+        n_results=n_results
+    )
+
+    print("Answer:")
+    print(result["answer"])
+    print()
+    print(format_cli_sources(result["sources"]))
+
 def main():
-    parser = argparse.ArgumentParser(description="Taiwan Carbon Market RAG Interactive CLI")
+    parser = argparse.ArgumentParser(description="Taiwan Carbon Market RAG CLI")
     parser.add_argument("--db-path", type=str, default="./db/chroma", help="Path to ChromaDB directory")
-    parser.add_argument("--model", type=str, default="gemini/gemini-2.5-flash", help="LiteLLM model string to use")
+    parser.add_argument("--model", type=str, default="gemini-2.5-flash", help="LiteLLM model string to use")
     parser.add_argument("--top-k", type=int, default=5, help="Number of chunks to retrieve per query")
+    parser.add_argument("--query", type=str, default=None, help="Run a single query and exit")
     
     args = parser.parse_args()
     
@@ -95,7 +127,15 @@ def main():
         sys.exit(1)
         
     query_engine = RAGQuery(vector_store=vector_store, model=args.model)
-    
+
+    if args.query:
+        run_single_query(
+            query_engine=query_engine,
+            question=args.query,
+            n_results=args.top_k
+        )
+        return
+
     interactive_loop(
         query_engine=query_engine,
         n_results=args.top_k
