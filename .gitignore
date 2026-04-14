@@ -4,3 +4,4 @@ instructions_output.json
 model_cache/
 db/
 .env
+.vscode/
