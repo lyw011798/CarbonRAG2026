@@ -197,6 +197,35 @@ class VectorStore:
             
         return formatted_results
 
+    def get_source_count(self) -> int:
+        """
+        Returns the number of unique documents indexed.
+        """
+        return len(self.get_unique_sources())
+
+    def get_unique_sources(self) -> List[str]:
+        """
+        Returns a list of unique filenames (or source paths) present in the collection.
+        """
+        unique_sources = set()
+        
+        # From BM25 cache if available (fastest)
+        if self.bm25_metadatas:
+            for meta in self.bm25_metadatas:
+                src = meta.get("filename") or meta.get("source")
+                if src:
+                    unique_sources.add(src)
+        else:
+            # Fallback to ChromaDB query
+            results = self.collection.get(include=["metadatas"])
+            if results and 'metadatas' in results:
+                for meta in results['metadatas']:
+                    src = meta.get("filename") or meta.get("source")
+                    if src:
+                        unique_sources.add(src)
+        
+        return sorted(list(unique_sources))
+
     def reset_collection(self):
         """
         Clears all items in the current collection.

@@ -23,11 +23,11 @@
 
 ```mermaid
 graph TD
-    subgraph Data Layer
+    subgraph "Data Layer"
         A[data/raw] -->|Extractor| B[data/processed]
     end
     
-    subgraph Ingestion Pipeline (data_update.py)
+    subgraph "Ingestion Pipeline (data_update.py)"
         B --> C{Chunking Strategy}
         C -->|Multi-strategy| D[Document Chunks]
         D -->|Multilingual-E5| E[Embeddings]
@@ -36,7 +36,7 @@ graph TD
         F --> G
     end
     
-    subgraph Query Engine (rag_query.py)
+    subgraph "Query Engine (rag_query.py)"
         H[User Query] --> I[Dual Retrieval]
         I -->|Semantic| G
         I -->|Keyword| G
@@ -46,7 +46,7 @@ graph TD
         L --> M[Structured Answer with Citations]
     end
     
-    subgraph Knowledge Extraction
+    subgraph "Knowledge Extraction"
         M --> N[skill_builder.py]
         N --> O[skill.md]
     end
