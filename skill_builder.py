@@ -1,7 +1,11 @@
 import argparse
 import sys
 import logging
+import warnings
 from pathlib import Path
+
+# Suppress the deprecated pkg_resources warning from jieba
+warnings.filterwarnings("ignore", category=UserWarning, module="jieba")
 from dotenv import load_dotenv
 
 from src.store import VectorStore

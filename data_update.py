@@ -15,8 +15,12 @@ import sys
 import argparse
 import json
 import hashlib
+import warnings
 from pathlib import Path
 from typing import Dict, List
+
+# Suppress the deprecated pkg_resources warning from jieba
+warnings.filterwarnings("ignore", category=UserWarning, module="jieba")
 
 
 try:

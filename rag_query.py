@@ -1,6 +1,10 @@
 import argparse
 import sys
 import logging
+import warnings
+
+# Suppress the deprecated pkg_resources warning from jieba
+warnings.filterwarnings("ignore", category=UserWarning, module="jieba")
 
 # Setup basic logging
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
