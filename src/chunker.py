@@ -15,7 +15,7 @@ class ChunkStrategy:
     5. Fallback paragraph chunking with overlap
     """
     
-    def __init__(self, max_chunk_size: int = 2000, overlap_lines: int = 1):
+    def __init__(self, max_chunk_size: int = 250, overlap_lines: int = 2):
         self.max_chunk_size = max_chunk_size
         self.overlap_lines = overlap_lines
         
@@ -62,7 +62,7 @@ class ChunkStrategy:
         outline_matches = list(self.chinese_outline_pattern.finditer(text))
         
         # Priority 1: Taiwan legal articles (most specific)
-        if len(legal_matches) >= 1:
+        if len(legal_matches) >= 3:
             return 'legal'
         
         # Priority 2: EU regulation articles

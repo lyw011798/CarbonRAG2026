@@ -107,7 +107,7 @@ def run_single_query(query_engine, question: str, n_results: int):
 def main():
     parser = argparse.ArgumentParser(description="Taiwan Carbon Market RAG CLI")
     parser.add_argument("--db-path", type=str, default="./db/chroma", help="Path to ChromaDB directory")
-    parser.add_argument("--model", type=str, default="gemini-2.5-flash", help="LiteLLM model string to use")
+    parser.add_argument("--model", type=str, default="gemini/gemini-2.5-flash", help="LiteLLM model string to use")
     parser.add_argument("--top-k", type=int, default=5, help="Number of chunks to retrieve per query")
     parser.add_argument("--query", type=str, default=None, help="Run a single query and exit")
     

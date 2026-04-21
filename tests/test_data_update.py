@@ -226,7 +226,7 @@ class TestRunIngestionPipeline:
         processed_dir = tmp_path / "processed"
         processed_dir.mkdir()
         (processed_dir / "law.txt").write_text(
-            "第一條 本法為碳交易管理之基本法。\n第二條 主管機關為環境部。",
+            "第一條 本法為碳交易管理之基本法。\n第二條 主管機關為環境部。\n第三條 碳費收取方式。",
             encoding="utf-8",
         )
         mock_store = MagicMock()

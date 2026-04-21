@@ -20,6 +20,7 @@ class TestRAGQuery:
         mock_store.query.return_value = [
             {"text": "碳費徵收費率為一般費率300元", "metadata": {"article": "公告事項", "filename": "fee.txt"}}
         ]
+        mock_store.query_bm25 = Mock(return_value=[])
         query_engine = RAGQuery(vector_store=mock_store)
         
         # Act
@@ -37,7 +38,7 @@ class TestRAGQuery:
         assert result["sources"][0]["section"] == "公告事項"
         assert "score" in result["sources"][0]
         
-        mock_store.query.assert_called_once_with("碳費一般費率是多少？", n_results=5)
+        mock_store.query.assert_called_once_with("碳費一般費率是多少？", n_results=10)
 
     @patch("src.query.completion")
     def test_rag_query_constructs_prompt_correctly(self, mock_completion):
@@ -45,9 +46,10 @@ class TestRAGQuery:
         # Arrange
         mock_store = Mock()
         mock_store.query.return_value = [
-            {"text": "台灣碳費一般費率為300元。", "metadata": {"article": "一般費率", "filename": "碳費公告"}},
-            {"text": "優惠費率A為50元。", "metadata": {"article": "優惠費率", "filename": "碳費公告"}}
+            {"id": "doc1", "text": "台灣碳費一般費率為300元。", "metadata": {"article": "一般費率", "filename": "碳費公告"}},
+            {"id": "doc2", "text": "優惠費率A為50元。", "metadata": {"article": "優惠費率", "filename": "碳費公告"}}
         ]
+        mock_store.query_bm25 = Mock(return_value=[])
         
         mock_completion.return_value = Mock(
             choices=[Mock(message=Mock(content="API Answer based on context."))]
@@ -93,8 +95,9 @@ class TestRAGQuery:
         # Arrange
         mock_store = Mock()
         mock_store.query.return_value = [
-            {"text": "台灣的碳費一般費率訂為每公噸二氧化碳當量300元新台幣。", "metadata": {"article": "一般費率", "filename": "測試文件.txt"}}
+            {"id": "1", "text": "台灣的碳費一般費率訂為每公噸二氧化碳當量300元新台幣。", "metadata": {"article": "一般費率", "filename": "測試文件.txt"}}
         ]
+        mock_store.query_bm25 = Mock(return_value=[])
         
         query_engine = RAGQuery(vector_store=mock_store, model="gemini/gemini-2.5-flash")
         

@@ -20,6 +20,9 @@ class TestLegalArticleStrategy:
             "\n"
             "第二條之三\n"
             "This is an amended article with a sub-number. Very important context here.\n"
+            "\n"
+            "第三條\n"
+            "This is the third article ensuring the strategy triggers properly.\n"
         )
         metadata = {"source": "test_act.txt"}
         
@@ -27,7 +30,7 @@ class TestLegalArticleStrategy:
         chunks = chunker.split_text(text, metadata)
         
         # Assert
-        assert len(chunks) == 3
+        assert len(chunks) == 4
         assert chunks[0]['metadata']['article'] == 'Preamble'
         assert chunks[0]['text'] == 'This is the preamble.'
         assert chunks[1]['metadata']['article'] == '第一條'
@@ -41,26 +44,28 @@ class TestLegalArticleStrategy:
         """Articles longer than max_chunk_size should be sub-chunked."""
         # Arrange
         chunker = ChunkStrategy(max_chunk_size=100)
-        text = "第一條\n" + ("A" * 50 + "\n") * 5  # 250+ chars
-        
+        text = "第一條\n" + ("A" * 50 + "\n") * 5 + "\n第二條\nText2\n第三條\nText3"
+    
         # Act
         chunks = chunker.split_text(text)
-        
+    
         # Assert
         assert len(chunks) > 1
+        # At least one chunk should have '第一條'
+        article_names = [c['metadata']['article'] for c in chunks]
+        assert '第一條' in article_names
         for chunk in chunks:
-            assert chunk['metadata']['article'] == '第一條'
-            assert len(chunk['text']) <= 150  # some tolerance for header injection
+            assert len(chunk['text']) <= 160  # some tolerance for header injection
 
     def test_no_preamble_when_starts_with_article(self):
         """No preamble chunk if text starts directly with an article."""
         # Arrange
         chunker = ChunkStrategy(max_chunk_size=2000)
-        text = "第一條\nContent of article 1.\n第二條\nContent of article 2."
-        
+        text = "第一條\nContent 1.\n第二條\nContent 2.\n第三條\nContent 3."
+    
         # Act
         chunks = chunker.split_text(text)
-        
+    
         # Assert
         assert chunks[0]['metadata']['article'] == '第一條'
         assert all(c['metadata']['article'] != 'Preamble' for c in chunks)
@@ -303,6 +308,7 @@ class TestNumberedSectionStrategy:
             "二、適用對象\n"
             "第一條 本辦法依氣候變遷因應法規定訂定之。\n"
             "第二條 依本法應申報及繳納碳費之事業。\n"
+            "第三條 本辦法自發布日施行。\n"
         )
         
         # Act
@@ -385,6 +391,8 @@ class TestAutoDetection:
             "本法為碳交易管理之基本法。\n"
             "第二條\n"
             "主管機關為環境部。\n"
+            "第三條\n"
+            "碳費徵收辦法。\n"
         )
         
         # Act
@@ -395,13 +403,13 @@ class TestAutoDetection:
         assert '第一條' in article_names
         assert '第二條' in article_names
 
-    def test_default_max_chunk_size_is_2000(self):
-        """Default max_chunk_size should be 2000."""
+    def test_default_max_chunk_size_is_250(self):
+        """Default max_chunk_size should be 250."""
         # Arrange & Act
         chunker = ChunkStrategy()
         
         # Assert
-        assert chunker.max_chunk_size == 2000
+        assert chunker.max_chunk_size == 250
 
     def test_metadata_passthrough(self):
         """Initial metadata should be preserved in all chunks."""

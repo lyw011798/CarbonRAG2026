@@ -1,6 +1,9 @@
 import os
 import uuid
+import pickle
+import jieba
 import chromadb
+from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Any, Optional
 
@@ -14,8 +17,10 @@ class VectorStore:
         self, 
         db_path: str = "./db/chroma", 
         collection_name: str = "taiwan_carbon_market",
-        model_name: str = "paraphrase-multilingual-MiniLM-L12-v2"
+        model_name: str = "intfloat/multilingual-e5-small"
     ):
+        self.db_path = db_path
+        self.model_name = model_name
         # Initialize embedding model locally
         self.model = SentenceTransformer(model_name)
         
@@ -27,6 +32,36 @@ class VectorStore:
             name=collection_name,
             metadata={"hnsw:space": "cosine"}
         )
+        
+        self.bm25 = None
+        self.bm25_ids = []
+        self.bm25_metadatas = []
+        self.bm25_texts = []
+        self.bm25_tokenized = []
+        self._load_bm25()
+
+    def _load_bm25(self):
+        bm25_path = os.path.join(self.db_path, "bm25.pkl")
+        if os.path.exists(bm25_path):
+            with open(bm25_path, 'rb') as f:
+                data = pickle.load(f)
+                self.bm25_ids = data.get('ids', [])
+                self.bm25_metadatas = data.get('metadatas', [])
+                self.bm25_texts = data.get('texts', [])
+                self.bm25_tokenized = data.get('tokenized', [])
+            if self.bm25_tokenized:
+                self.bm25 = BM25Okapi(self.bm25_tokenized)
+                
+    def _save_bm25(self):
+        os.makedirs(self.db_path, exist_ok=True)
+        bm25_path = os.path.join(self.db_path, "bm25.pkl")
+        with open(bm25_path, 'wb') as f:
+            pickle.dump({
+                'ids': self.bm25_ids,
+                'metadatas': self.bm25_metadatas,
+                'texts': self.bm25_texts,
+                'tokenized': self.bm25_tokenized
+            }, f)
         
     def add_documents(self, chunks: List[Dict[str, Any]]):
         """
@@ -77,7 +112,12 @@ class VectorStore:
             return
 
         # Calculate embeddings locally
-        embeddings = self.model.encode(new_texts).tolist()
+        if "e5" in self.model_name.lower():
+            texts_to_embed = ["passage: " + t for t in new_texts]
+        else:
+            texts_to_embed = new_texts
+            
+        embeddings = self.model.encode(texts_to_embed).tolist()
         
         # Upsert into ChromaDB
         self.collection.add(
@@ -86,12 +126,28 @@ class VectorStore:
             metadatas=new_metadatas,
             ids=new_ids
         )
+        
+        # Update BM25
+        self.bm25_texts.extend(new_texts)
+        self.bm25_metadatas.extend(new_metadatas)
+        self.bm25_ids.extend(new_ids)
+        new_tokenized = [list(jieba.cut(doc)) for doc in new_texts]
+        self.bm25_tokenized.extend(new_tokenized)
+        
+        if self.bm25_tokenized:
+            self.bm25 = BM25Okapi(self.bm25_tokenized)
+        self._save_bm25()
 
     def query(self, query_text: str, n_results: int = 5) -> List[Dict[str, Any]]:
         """
         Performs semantic search for the given query text.
         """
-        query_embedding = self.model.encode([query_text]).tolist()
+        if "e5" in self.model_name.lower():
+            query_to_embed = "query: " + query_text
+        else:
+            query_to_embed = query_text
+            
+        query_embedding = self.model.encode([query_to_embed]).tolist()
         
         results = self.collection.query(
             query_embeddings=query_embedding,
@@ -100,14 +156,45 @@ class VectorStore:
         
         # Format results into a cleaner list
         formatted_results = []
-        if results['documents']:
+        if results['documents'] and len(results['documents']) > 0:
             for i in range(len(results['documents'][0])):
                 formatted_results.append({
+                    "id": results['ids'][0][i] if 'ids' in results else None,
                     "text": results['documents'][0][i],
                     "metadata": results['metadatas'][0][i],
                     "distance": results['distances'][0][i] if 'distances' in results else None
                 })
                 
+        return formatted_results
+
+    def query_bm25(self, query_text: str, n_results: int = 5) -> List[Dict[str, Any]]:
+        """
+        Retrieves top K chunks using BM25 sparse token scoring.
+        """
+        if not self.bm25:
+            return []
+            
+        tokenized_query = list(jieba.cut(query_text))
+        scores = self.bm25.get_scores(tokenized_query)
+        
+        top_n = min(n_results, len(scores))
+        if top_n == 0:
+            return []
+            
+        top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_n]
+        
+        formatted_results = []
+        for idx in top_indices:
+            score = float(scores[idx])
+            if score <= 0:
+                continue
+            formatted_results.append({
+                "id": self.bm25_ids[idx],
+                "text": self.bm25_texts[idx],
+                "metadata": self.bm25_metadatas[idx],
+                "bm25_score": score
+            })
+            
         return formatted_results
 
     def reset_collection(self):
@@ -116,3 +203,13 @@ class VectorStore:
         """
         self.client.delete_collection(self.collection.name)
         self.collection = self.client.get_or_create_collection(name=self.collection.name)
+        
+        # Reset BM25
+        self.bm25 = None
+        self.bm25_ids = []
+        self.bm25_metadatas = []
+        self.bm25_texts = []
+        self.bm25_tokenized = []
+        bm25_path = os.path.join(self.db_path, "bm25.pkl")
+        if os.path.exists(bm25_path):
+            os.remove(bm25_path)

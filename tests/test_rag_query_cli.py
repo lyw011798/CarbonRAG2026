@@ -17,7 +17,7 @@ def test_main_defaults_to_interactive_loop(monkeypatch):
         rag_query.main()
 
     mock_store_cls.assert_called_once_with(db_path="/tmp/test-db")
-    mock_query_cls.assert_called_once_with(vector_store=mock_store, model="gemini-2.5-flash")
+    mock_query_cls.assert_called_once_with(vector_store=mock_store, model="gemini/gemini-2.5-flash")
     interactive_loop.assert_called_once_with(query_engine=mock_query_engine, n_results=5)
 
 

@@ -56,8 +56,33 @@ class RAGQuery:
                 "sources": [{"filename": str, "section": str, "article": str, "score": float}, ...]
             }
         """
-        # 1. Retrieve chunks
-        results = self.vector_store.query(question, n_results=n_results)
+        # 1. Retrieve chunks via Dual Retrieval & Reciprocal Rank Fusion (RRF)
+        dense_results = self.vector_store.query(question, n_results=n_results * 2)
+        sparse_results = []
+        if hasattr(self.vector_store, 'query_bm25'):
+            sparse_results = self.vector_store.query_bm25(question, n_results=n_results * 2)
+            
+        combined_scores = {}
+        items = {}
+        
+        # RRF k constant 
+        rrf_k = 60
+        
+        for rank, item in enumerate(dense_results, start=1):
+            doc_id = item.get('id', str(rank))
+            combined_scores[doc_id] = combined_scores.get(doc_id, 0) + (1.0 / (rrf_k + rank))
+            items[doc_id] = item
+            
+        for rank, item in enumerate(sparse_results, start=1):
+            doc_id = item.get('id', str(rank))
+            combined_scores[doc_id] = combined_scores.get(doc_id, 0) + (1.0 / (rrf_k + rank))
+            items[doc_id] = item
+            
+        sorted_ids = sorted(combined_scores.keys(), key=lambda x: combined_scores[x], reverse=True)
+        results = [items[doc_id] for doc_id in sorted_ids[:n_results]]
+        
+        for doc_id in sorted_ids[:n_results]:
+            items[doc_id]['_rrf_score'] = combined_scores[doc_id]
         
         # 2. Build context string and extract sources
         context_parts = []
@@ -69,7 +94,13 @@ class RAGQuery:
             section = meta.get('section', meta.get('article', 'Unknown Section'))
             article = meta.get('article', section)
             filename = meta.get('filename', 'Unknown File')
-            score = self._format_score(res.get('distance'))
+            
+            if '_rrf_score' in res:
+                score = round(res['_rrf_score'], 5)
+            elif 'distance' in res:
+                score = self._format_score(res.get('distance'))
+            else:
+                score = round(res.get('bm25_score', 0), 4)
             
             sources.append({
                 "filename": filename,
