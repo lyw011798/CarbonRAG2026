@@ -17,7 +17,7 @@ class VectorStore:
         self, 
         db_path: str = "./db/chroma", 
         collection_name: str = "taiwan_carbon_market",
-        model_name: str = "intfloat/multilingual-e5-small"
+        model_name: str = "BAAI/bge-m3"
     ):
         self.db_path = db_path
         self.model_name = model_name
