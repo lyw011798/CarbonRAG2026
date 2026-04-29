@@ -1,0 +1,4 @@
+carbonId,projectNo,title,companyName,status,priceType,startDate,endDate,minPrice,maxPrice,totalStockAmount,totalSaleAmount,quotaCount
+14,B00198,漢寶農業可再生能源專案,漢寶農畜產企業股份有限公司,LAUNCHED,FIXED,2025-12-22,2027-12-31,3000,3000,487,498,1
+13,B00199,漢寶農畜產第三期污水場沼氣發電計畫,漢寶農畜產企業股份有限公司,LAUNCHED,FIXED,2025-12-22,2027-12-31,4000,4000,249,249,1
+12,B00200,IEM液鹼蒸發罐更新,華夏海灣塑膠股份有限公司,LAUNCHED,FIXED,2025-10-13,2026-10-31,3000,3000,4335,4335,1
