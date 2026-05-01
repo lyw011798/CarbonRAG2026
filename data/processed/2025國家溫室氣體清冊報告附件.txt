@@ -61,9 +61,9 @@ PFC-91-18 C F 2,000.0 5,390 7,190
 說明：
 1. 現行UNFCCC規範，使用IPCC AR5中GWP百年平均值，作為計算溫室氣體當量之基礎。
 2. 詳細資料請參考IPCC AR5，如下網址：
-https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf
+$https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf$
 3. UNFCCC規範，請參閱第決議文decision 18/CMA.1附件，如下網址：
-https://unfccc.int/sites/default/files/resource/cma2018_3_add2_new_advance.pdf#page=25
+$https://unfccc.int/sites/default/files/resource/cma2018_3_add2_new_advance.pdf#page=25$
 化學名稱
 （縮寫或通稱） | 化學式 | 生命週期(年) | GWP(20 年平均) | GWP(100年平均)
 Carbon dioxide | CO
