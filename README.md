@@ -1,141 +1,129 @@
 # 臺灣碳費與歐盟 CBAM 規範問答系統 (Taiwan Carbon Market RAG)
 
-本專案建立了一個專業的 RAG (Retrieval-Augmented Generation) 系統，旨在提供精確的臺灣碳費徵收機制、自主減量計畫以及歐盟 CBAM (碳邊境調整機制) 規範的資訊查詢。
+本專案建立了一個面向臺灣碳費、溫室氣體清冊、自主減量計畫與歐盟 CBAM 規範的 RAG (Retrieval-Augmented Generation) 系統，讓使用者能以自然語言查詢法規與政策內容，並取得可追溯來源的答案。
 
 ## 1. 專案簡介
 
-- **知識主題**：臺灣碳費政策、溫室氣體排放趨勢、自主減量計畫指引及歐盟 CBAM 規範。選擇此主題是因為隨著全球淨零轉型，碳費與 CBAM 已成為企業與政策制定者最關心的法律合規議題。
-- **資料來源**：
-  - 臺灣 2025 國家溫室氣體清冊報告（包含能源、工業、農業、廢棄物等各部門）。
-  - 臺灣碳費子法系列（徵收費率、收費辦法、自主減量計畫管理辦法等）。
-  - 氣候變遷因應法條文。
-  - 歐盟 CBAM 法規文件及臺灣碳權市場趨勢報告。
-  - 總量約 20+ 份文件，涵蓋 PDF、TXT、HTML 格式。
-- **技術選型**：
-  - **Embedding**: `intfloat/multilingual-e5-small` (本地運行)
-  - **Vector DB**: ChromaDB (本地持久化)
-  - **Retrieval**: Hybrid Search (Dense Vector + BM25) + Reciprocal Rank Fusion (RRF)
-  - **LLM**: Gemini 2.5 Flash (經由 LiteLLM)
-
----
+- **知識主題**：臺灣碳費政策、溫室氣體排放清冊、碳費與自主減量配套文件、歐盟 CBAM 規範，以及少量補充研究資料。
+- **資料規模**：目前原始資料共 **68 份**，包含 **63 份 PDF、3 份 TXT、2 份 HTML**；處理後會統一轉成 `data/processed/` 下的純文字檔供檢索使用。
+- **資料來源類型**：政府公開報告、法規條文、行政規則、官方問答/指引、EU 官方公開文件與少量公開研究資料。
+- **系統定位**：重點不是生成式聊天，而是把法規與報告內容整理成可檢索、可引用、可重現的知識庫。
 
 ## 2. 系統架構說明
 
 ```mermaid
-graph TD
-    subgraph "Data Layer"
-        A[data/raw] -->|Extractor| B[data/processed]
-    end
-    
-    subgraph "Ingestion Pipeline (data_update.py)"
-        B --> C{Chunking Strategy}
-        C -->|Multi-strategy| D[Document Chunks]
-        D -->|Multilingual-E5| E[Embeddings]
-        D -->|Jieba| F[BM25 Index]
-        E --> G[(ChromaDB)]
-        F --> G
-    end
-    
-    subgraph "Query Engine (rag_query.py)"
-        H[User Query] --> I[Dual Retrieval]
-        I -->|Semantic| G
-        I -->|Keyword| G
-        G --> J[RRF Fusion]
-        J --> K[Context-Augmented Prompt]
-        K --> L[LiteLLM / Gemini]
-        L --> M[Structured Answer with Citations]
-    end
-    
-    subgraph "Knowledge Extraction"
-        M --> N[skill_builder.py]
-        N --> O[skill.md]
-    end
+graph LR
+    A[data/raw] --> B[data_update.py]
+    B --> C[data/processed]
+    C --> D{ChunkStrategy}
+    D --> E[SentenceTransformer\nBAAI/bge-m3]
+    D --> F[BM25\njieba + rank_bm25]
+    E --> G[(ChromaDB)]
+    F --> G
+    G --> H[rag_query.py\nRRF Retrieval]
+    H --> I[LiteLLM / Gemini]
+    I --> J[Answer with citations]
+    H --> K[skill_builder.py]
+    K --> L[skill.md]
 ```
-
----
 
 ## 3. 設計決策說明 (Design Decisions)
 
 - **Chunking 策略**：
-  - **多策略切分 (Multi-strategy)**：系統會自動偵測文件結構。對於臺灣法規，依「第 X 條」切分；對於歐盟法規，依「Article X」切分；對於統計報告，依數位/中文大綱層級切分。
-  - ** Context Injection**：在每個 Chunk 開頭注入該章節的標題（例如 `[第十二條] ...`），確保檢索出的片段帶有完整的語境。
-  - **Overlap 設定**：Fallback 模式下設定 2 行 Overlap，確保跨片段的文意流暢。
+  - `src/chunker.py` 會先自動偵測文件型態，優先辨識臺灣法規條文（`第 X 條`）、EU `Article X`、表格/附表、數字章節（`1.1`）與中文大綱（`一、`）等結構。
+  - 若能辨識結構，就以該結構切段；若無法辨識，才退回段落式切分。
+  - 預設 `max_chunk_size = 250`，`overlap_lines = 2`，並在 chunk 開頭注入章節/條文標題，讓檢索結果保留語境。
 - **Embedding 模型選擇**：
-  - 選用 **`intfloat/multilingual-e5-small`**。
-  - **理由**：相較於一般的模型，E5 在中英文混合語境下表現極佳；且此為 Instruct-based 模型，在檢索時加上 `query: ` 與 `passage: ` 前綴能大幅提升匹配精準度。選用 `small` 版本是為了在本地環境下保持高效能。
-- **Vector DB 選型**：選用 **ChromaDB**。理由是其完全本地化、部署簡單，且原生支持 Embedding 與 Metadata 儲存，非常適合現階段的開發與複現需求。
+  - 使用本地 Hugging Face 模型 **`BAAI/bge-m3`**。
+  - 這個模型適合中英文混合的法規與政策文本，且不依賴外部 embedding API，方便離線重建與重複執行。
+  - 目前向量化流程在寫入 ChromaDB 前直接本地執行，減少外部服務依賴。
+- **Vector DB 選型**：
+  - 使用 **ChromaDB**，原因是安裝簡單、可本地持久化、適合本專案的中小型知識庫。
+  - 同時搭配 BM25 快取檔 `db/chroma/bm25.pkl`，避免每次查詢都重建稀疏索引。
 - **Retrieval 策略**：
-  - **Hybrid Search + RRF**：結合了語意檢索 (Dense) 與關鍵字檢索 (BM25)。對於專有名詞（如「自主減量計畫」）關鍵字檢索極強，而對於概念性問題則由語意檢索補足。使用 **Reciprocal Rank Fusion (RRF, k=60)** 將兩者結果融合，取 top-5。
+  - 採用 **Dense Retrieval + BM25** 的混合檢索。
+  - `rag_query.py` 會把兩種結果做 **Reciprocal Rank Fusion (RRF, k=60)**，再取前 `top-k` 筆送入 LLM。
+  - 預設 `top-k = 5`，兼顧上下文完整性與 prompt 長度。
 - **Prompt Engineering**：
-  - 設定 AI 角色為「臺灣法規與碳市場專家」。
-  - 強制 LLM **「嚴格遵守提供的 Context」**，若無法從 Context 得知答案則誠實說明，避免幻覺。
-  - 要求以 `[1][2]` 標註來源，並自動在結果下方列出詳細的引用清單（含文件名與具體條次）。
+  - 系統提示要求模型以與問題相同的語言回答，並且只能依據提供的 context 作答。
+  - 若 context 不足，模型必須明確說明無法判定，而不是補作推測。
+  - 回答時要求附上 `[1][2]` 形式的來源標記，讓前端與使用者都能追溯引用段落。
 - **Idempotency 設計**：
-  - `data_update.py` 使用 **SHA256 文件雜湊值**。系統會記錄已處理文件的雜湊於 `.hashes.json`，若原始文件未變動則跳過提取階段，節省資源。
+  - `data_update.py` 會對 raw 檔案計算 SHA256，並將雜湊寫入 `data/processed/.hashes.json`。
+  - 若 raw 檔未變動且對應的 processed `.txt` 已存在，就會跳過提取，避免重複處理。
+  - `--rebuild` 會先清除舊的 processed artifacts，再重新跑 extraction / cleaning / ingestion。
 - **skill_builder.py 問題設計**：
-  - 設計了涵蓋「徵收機制」、「優惠費率條件」、「歐盟 CBAM 計算」與「國家清冊主辦單位」四大範疇的問題。目的是確保產出的 `skill.md` 能作為系統核心知識的摘要，並驗證 RAG 的檢索涵蓋率。
-
----
+  - `skill_builder.py` 會從同一批知識庫資料萃取領域摘要，最後輸出為 `skill.md`。
+  - 問題設計涵蓋碳費、優惠費率、自主減量、CBAM 與清冊主責單位等核心主題，讓 `skill.md` 成為這個 RAG 的高層摘要與測試輸出。
 
 ## 4. 環境設定與執行方式
 
 ### 4-1. Python 版本與虛擬環境
 
-本專案要求 **Python 3.10+** (開發環境為 `3.10.20`)。
+本專案要求 **Python 3.10 以上**；開發與驗證環境為 **Python 3.10.20**。
 
 ```bash
-# Step 1：建立虛擬環境
+python3 --version
 python3 -m venv .venv
-
-# Step 2：啟動虛擬環境
 source .venv/bin/activate
-
-# Step 3：安裝套件
 pip install -r requirements.txt
 ```
 
 ### 4-2. 環境變數設定
 
-請複製範例設定檔並填入您的 API Key：
+本專案已提供 `.env.example`，請複製成 `.env` 後填入可用的 API key。
 
 ```bash
 cp .env.example .env
-# 請編輯 .env 填入 GEMINI_API_KEY
 ```
+
+若你直接使用 Gemini，至少需要設定：
+
+- `GEMINI_API_KEY`
+
+若你透過 LiteLLM proxy，也可改用：
+
+- `LITELLM_API_KEY`
+- `LITELLM_BASE_URL`
 
 ### 4-3. 完整執行流程
 
-請確保您已完成上述環境設定，接著按順序執行以下指令：
-
 ```bash
-# ① 全量重建索引（含 text 提取、清洗、切分與 Embedding 入庫）
+# ① 建立虛擬環境並安裝依賴
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# ② 設定環境變數
+cp .env.example .env
+
+# ③ 全量重建索引（raw → processed → ChromaDB）
 python data_update.py --rebuild
 
-# ② 執行交互式問答 (或單次查詢)
-# 交互式問答：
-python rag_query.py
-# 單次查詢示例：
+# ④ 查詢 RAG
 python rag_query.py --query "哪些事業需要繳交碳費？" --top-k 5
 
-# ③ 生成領域知識摘要 Skill 文件
+# ⑤ 生成領域知識摘要
 python skill_builder.py --output skill.md
 ```
 
----
+### 4-4. 重要補充
+
+- `data_update.py` 的預設 raw 目錄是 `data/raw`，也可以明確指定：`python data_update.py data/raw --rebuild`。
+- 本專案使用 **ChromaDB 本地持久化**，不需要另外啟動 `docker-compose`。
+- `rag_query.py` 會先載入 `.env`，再初始化 `VectorStore` 與 `RAGQuery`。
 
 ## 5. 資料來源聲明 (Data Sources Statement)
 
 | 來源名稱 | 類型 | 授權 / 合規依據 | 數量 |
-2025 國家溫室氣體清冊報告 | PDF/TXT | 臺灣政府公開資訊 | 8 份 |
-碳費子法系列 (徵收辦法、費率等) | PDF | 臺灣環境部公告 | 6 份 |
-歐盟 CBAM 規範文件 | HTML | EU Official Journal (Open Access) | 2 份 |
-氣候變遷因應法 | TXT | 臺灣全國法規資料庫 | 1 份 |
-臺灣碳權市場趨勢報告 | TXT | 台灣碳權交易所/公開研究 | 1 份 |
+|---|---|---|---:|
+| 臺灣政府公開文件（2025 國家溫室氣體清冊報告、碳費與自主減量相關文件） | PDF / TXT | 臺灣政府公開資訊與法規資料庫 | 66 份 |
+| 歐盟公開文件（CBAM / Official Journal / EU 公報） | HTML | EU Official Journal Open Access | 2 份 |
 
----
+> 補充說明：目前 raw 資料總數為 68 份，格式分布為 63 PDF、3 TXT、2 HTML。
 
 ## 6. 系統限制與未來改進
 
-1. **PDF 解析精度**：目前的 PDF 解析器對於表格與公式的提取仍有改進空間。未來可引入視覺導向的解析器 (如 Layout-aware parsers)。
-2. **Reranking 缺失**：目前的 RRF 混合檢索效果不錯，但若能在最後階段引入 Cross-Encoder 進行 Reranking，精準度會更高。
-3. **動態更新機制**：目前入庫為手動全量或增量，未來可發展 API 介面自動監測政府公報進行實時更新。
+1. **PDF 解析仍有表格/版面雜訊**：部分 PDF 在轉成純文字時仍會出現表格重排、欄位斷裂或編號碎片，後續可再加強版面感知的解析流程。
+2. **未加入 reranker**：目前是 Dense + BM25 + RRF，若再加 Cross-Encoder reranking，答案對條文/數字題通常會更穩。
+3. **更新仍以批次為主**：目前是手動或半自動重建索引，若未來要接近即時更新，可再做 API 或排程整合。
