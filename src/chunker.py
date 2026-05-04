@@ -81,7 +81,7 @@ class ChunkStrategy:
         
         return 'fallback'
     
-    def split_text(self, text: str, initial_metadata: Dict[str, Any] = None) -> List[Dict[str, Any]]:
+    def split_text(self, text: str, initial_metadata: Dict[str, Any] | None = None) -> List[Dict[str, Any]]:
         """
         Splits text into chunks using auto-detected strategy.
         """

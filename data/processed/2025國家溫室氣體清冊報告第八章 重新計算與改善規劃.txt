@@ -4497,7 +4497,7 @@ CH Methane 甲烷
 CRT Common Reporting Tables 共同報告表格
 EF Emission factor 排放係數
 ETF Enhanced transparency framework 增強透明度架構
-Gg Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) 十億克；千公噸
+$Gg Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) 十億克；千公噸$
 GHG Greenhouse gas 溫室氣體
 GWP Global Warming Potential 全球暖化潛勢
 HFCs Hydrofluorocarbons 氫氟碳化物
@@ -4545,7 +4545,7 @@ CH Methane 甲烷
 CRT Common Reporting Tables 共同報告表格
 EF Emission factor 排放係數
 ETF Enhanced transparency framework 增強透明度架構
-Gg Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) 十億克；千公噸
+$Gg Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) 十億克；千公噸$
 GHG Greenhouse gas 溫室氣體
 GWP Global Warming Potential 全球暖化潛勢
 HFCs Hydrofluorocarbons 氫氟碳化物
@@ -4590,7 +4590,7 @@ CH
 CRT | Common Reporting Tables | 共同報告表格
 EF | Emission factor | 排放係數
 ETF | Enhanced transparency framework | 增強透明度架構
-Gg | Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) | 十億克；千公噸
+$Gg | Giga gram;(1 gigagram=109 g=1 kilotonne (kt)) | 十億克；千公噸$
 GHG | Greenhouse gas | 溫室氣體
 GWP | Global Warming Potential | 全球暖化潛勢
 HFCs | Hydrofluorocarbons | 氫氟碳化物

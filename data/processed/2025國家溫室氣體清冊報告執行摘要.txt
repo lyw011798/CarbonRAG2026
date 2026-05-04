@@ -65,10 +65,12 @@ IPCC指南)，於2015年起採用2006 IPCC指南統計方法遞 年平均成長�
 National Greenhouse Gas Inventories，以下簡稱 2019
 2005年二氧化碳排放量為266,888千公噸二氧化碳當量，
 1 UNFCCC, ST/AI/189/ADD.9/REV.2, 1987.
+$$
 2 UNFCCC, FCCC/CP/2015/10/Add.1, 2015.
 3 UNFCCC, FCCC/CP/2002/8, 2002.
 4 UNFCCC, FCCC/PA/CMA/2018/3/Add.2, 2018.
-5 UNFCCC, FCCC/CP/2011/9/Add.2, 2011.
+$$
+$5 UNFCCC, FCCC/CP/2011/9/Add.2, 2011.$
 ES-1
 中華2025 國家溫室氣體排放
 民國 清冊報告 | 執行摘要
@@ -132,10 +134,12 @@ IPCC指南)，於2015年起採用2006 IPCC指南統計方法遞 年平均成長�
 National Greenhouse Gas Inventories，以下簡稱 2019
 2005年二氧化碳排放量為266,888千公噸二氧化碳當量，
 1 UNFCCC, ST/AI/189/ADD.9/REV.2, 1987.
+$$
 2 UNFCCC, FCCC/CP/2015/10/Add.1, 2015.
 3 UNFCCC, FCCC/CP/2002/8, 2002.
 4 UNFCCC, FCCC/PA/CMA/2018/3/Add.2, 2018.
-5 UNFCCC, FCCC/CP/2011/9/Add.2, 2011.
+$$
+$5 UNFCCC, FCCC/CP/2011/9/Add.2, 2011.$
 ES-1
 中華2025 國家溫室氣體排放
 民國 清冊報告

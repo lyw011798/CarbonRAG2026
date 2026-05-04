@@ -14,6 +14,7 @@ except ImportError:
 
 from .base import DocumentProcessor
 from .factory import ProcessorFactory
+from .formula_utils import convert_corrupted_formulas_in_pdf
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +48,9 @@ class PDFProcessor(DocumentProcessor):
             full_text = "\n".join(extracted_text)
             if not full_text.strip():
                 raise ValueError("pdfplumber extracted empty content.")
+            
+            # Convert corrupted mathematical formulas to LaTeX
+            full_text = convert_corrupted_formulas_in_pdf(full_text)
                 
             return full_text
 
@@ -61,7 +65,13 @@ class PDFProcessor(DocumentProcessor):
                 text = page.get_text()
                 if text:
                     extracted_text.append(text)
-        return "\n".join(extracted_text)
+        
+        full_text = "\n".join(extracted_text)
+        
+        # Convert corrupted mathematical formulas to LaTeX
+        full_text = convert_corrupted_formulas_in_pdf(full_text)
+        
+        return full_text
 
 # Register automatically upon import
 ProcessorFactory.register(".pdf", PDFProcessor)

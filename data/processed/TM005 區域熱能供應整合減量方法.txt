@@ -1,0 +1,1784 @@
+TM005
+大規模減量方法
+區域熱能供應整合減量方法
+版本 01.0
+範疇別：01 能源工業(含再生能源及非再生能源)類別
+V 1.0
+目錄
+I. 減量方法提案緣起及背景 ....................................................................................... 1
+II. 既有減量方法差異說明 ......................................................................................... 2
+III. 減量方法計算式設計概念 .................................................................................... 6
+IV. 大規模減量方法 .................................................................................................... 9
+1. 介紹 ............................................................................................................................. 9
+2. 範疇、適用條件及生效日 ......................................................................................... 9
+3. 名詞定義 ................................................................................................................... 12
+4. 專案邊界 ................................................................................................................... 13
+5. 基線情境選擇與外加性論述 ................................................................................... 15
+6. 基線排放、專案排放、洩漏排放設計要點 ........................................................... 15
+7. 減量 ........................................................................................................................... 21
+8. 監測方法 ................................................................................................................... 24
+V 1.0
+表目錄
+表 1、本減量方法與既有減量方法差異比較表 ........................................................ 2
+表 2、本減量方法計算式設計概念 ............................................................................ 6
+表 3、減量方法重要特性 ............................................................................................ 9
+表 4、專案熱能供應端為既設或新設設施 .............................................................. 10
+表 5、包含或排除於專案邊界的排放源 .................................................................. 14
+表 6、新設/既設供應端情境說明 ............................................................................. 17
+表 7、數據與參數表(1) .............................................................................................. 22
+表 8、數據與參數表(2) .............................................................................................. 22
+表 9、數據與參數表(3) .............................................................................................. 22
+表 10、數據與參數表(4) ............................................................................................ 23
+表 11、數據與參數表(5) ............................................................................................ 23
+表 12、數據與參數表(6) ............................................................................................ 24
+表 13、數據與參數表(7) ............................................................................................ 24
+表 14、數據與參數表(8) ............................................................................................ 25
+表 15、數據與參數表(9) ............................................................................................ 25
+表 16、數據與參數表(10) .......................................................................................... 26
+表 17、數據與參數表(11) .......................................................................................... 26
+表 18、數據與參數表(12) .......................................................................................... 27
+表 19、數據與參數表(13) .......................................................................................... 27
+表 20、數據與參數表(14) .......................................................................................... 28
+表 21、數據與參數表(15) .......................................................................................... 28
+表 22、數據與參數表(16) .......................................................................................... 29
+V 1.0
+圖目錄
+圖 1、專案邊界示意圖 .............................................................................................. 13
+I. 減量方法提案緣起及背景
+經濟部工業局自 98 年至今（108）年持續推動區域能資源整合計畫，
+協助產業將能資源跨廠區進行循環再利用，以提高能源利用效率並減少
+廢棄物產生量，降低區域能源總用量減少溫室氣體排放，計畫已針對 24
+座工業區及 8 處重點產業聚落媒合多項能源及資源鏈結。
+國內產業取得碳權（排放額度）之制度已行之有年，包括先期專案
+與抵換專案兩者；然先期專案於溫室氣體減量與管理法通過後已截止申
+請（後續轉換為效能標準獎勵）；抵換專案則參考 CDM 減量方法學作
+為環保署認可之廠商減量計畫計算依據。然目前環保署認可之各項溫室
+氣體減量方法尚無適用於國內區域能源整合專案者，因此，本年度「區
+域能資源整合暨效能提升輔導應用計畫」，以區域能源整合之減量效益
+為主軸，研擬我國產業適用之本土化減量方法，未來通過審核後可協助
+廠商申請抵換專案並取得排放額度，以因應國際溫室氣體減量趨勢及國
+內溫室氣體總量管制法規之衝擊。
+1
+V 1.0
+II. 既有減量方法差異說明
+表 1、本減量方法與既有減量方法差異比較表
+AM0048 AMS-I.C
+差異說 本減量方法 New cogeneration project activities Thermal energy production with or
+明 區域熱能供應整合減量方法 supplying electricity and heat to without electricity --- (v.21)
+multiple costumers(v.5.0)
+出處 CDM Methodology CDM Methodology
+區域熱能整合供應，以高效能或低碳 Fossil-fuel-fired cogeneration project Thermal energy production using renewable
+supplying heat and electricity to multiple energy sources including biomass-based
+涉及之
+密集度的蒸汽取代其他廠商，鏈結數
+project customers. cogeneration and/or trigeneration. Projects
+減量措
+量至少一家。 that seek to retrofit or modify existing
+施
+facilities for renewable energy generation
+are also applicable.
+(1) 涵蓋高效能或低碳密集度的蒸汽 •Cogeneration of heat and electricity and This methodology comprises renewable
+取代之減量措施，且專案實施前邊界 supply to multiple users who did not energy technologies that supply users i.e.
+previously co-generate; residential, industrial or commercial
+內不涉及生質燃料及廢棄物衍生燃料
+(1)適用 •Equipment displaced by the project is to facilities with thermal energy that displaces
+（Refuse Derived Fuel, RDF）使用。
+條件 be scrapped, unless it is kept as fossil fuel use.
+(2)本方法不適用於廢能（廢燃氣/廢熱 back-up to the project activity; 以可再生能源技術取代其他用戶（即住
+/餘壓）之減量措施。 •既有廢能利用設施提高蒸汽產生效 宅，工業或商業設施）熱能
+詳參 2.2適用條件 率，蒸汽供應可為一對多。
+專案邊界包含熱能供應端及接收端， The spatial extent of the project boundary (a) All plants generating electricity and/or
+既設供應端若涉及發電（含國家/區域 encompasses the project facility. thermal energy located at the project site,
+whether fired with biomass, fossil fuels or a
+併網及供應特定對象）則納入電力排
+(2)專案 combination of both;
+放計算，電力輸送應納入邊界。此外，
+邊界 (b) All power plants connected physically to
+生質燃料前處理程序（如清洗、乾燥）
+the electricity system (grid) that the project
+與運輸屬洩漏排放。 plant is connected to;
+(c) Industrial, commercial or residential
+2
+差異說
+明 | 本減量方法
+區域熱能供應整合減量方法 | AM0048 | AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+New cogeneration project activities
+supplying electricity and heat to
+multiple costumers(v.5.0)
+出處 | CDM Methodology | CDM Methodology
+涉及之
+減量措
+施 | 區域熱能整合供應，以高效能或低碳
+密集度的蒸汽取代其他廠商，鏈結數
+量至少一家。 | Fossil-fuel-fired cogeneration project
+supplying heat and electricity to multiple
+project customers. | Thermal energy production using renewable
+energy sources including biomass-based
+cogeneration and/or trigeneration. Projects
+that seek to retrofit or modify existing
+facilities for renewable energy generation
+are also applicable.
+(1)適用
+條件 | (1) 涵蓋高效能或低碳密集度的蒸汽
+取代之減量措施，且專案實施前邊界
+內不涉及生質燃料及廢棄物衍生燃料
+（Refuse Derived Fuel, RDF）使用。
+(2)本方法不適用於廢能（廢燃氣/廢熱
+/餘壓）之減量措施。
+詳參 2.2適用條件 | •Cogeneration of heat and electricity and
+supply to multiple users who did not
+previously co-generate;
+•Equipment displaced by the project is to
+be scrapped, unless it is kept as
+back-up to the project activity;
+•既有廢能利用設施提高蒸汽產生效
+率，蒸汽供應可為一對多。 | This methodology comprises renewable
+energy technologies that supply users i.e.
+residential, industrial or commercial
+facilities with thermal energy that displaces
+fossil fuel use.
+以可再生能源技術取代其他用戶（即住
+宅，工業或商業設施）熱能
+(2)專案
+邊界 | 專案邊界包含熱能供應端及接收端，
+既設供應端若涉及發電（含國家/區域
+併網及供應特定對象）則納入電力排
+放計算，電力輸送應納入邊界。此外，
+生質燃料前處理程序（如清洗、乾燥）
+與運輸屬洩漏排放。 | The spatial extent of the project boundary
+encompasses the project facility. | (a) All plants generating electricity and/or
+thermal energy located at the project site,
+whether fired with biomass, fossil fuels or a
+combination of both;
+(b) All power plants connected physically to
+the electricity system (grid) that the project
+plant is connected to;
+(c) Industrial, commercial or residential
+AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+差異說
+明
+本減量方法
+區域熱能供應整合減量方法
+V 1.0
+AM0048 AMS-I.C
+差異說 本減量方法 New cogeneration project activities Thermal energy production with or
+明 區域熱能供應整合減量方法 supplying electricity and heat to without electricity --- (v.21)
+multiple costumers(v.5.0)
+facility, or facilities, consuming energy
+generated by the system and the processes
+or equipment affected by the project
+activity;
+(d) The processing plant of biomass
+residues, for project activities using solid
+biomass fuel (e.g. briquette), unless all
+associated emissions are accounted for as
+leakage emissions or are part of an
+independently registered CDM project;
+(e) The transportation itineraries, if the
+biomass is transported over distances greater
+than 200 kilometres, unless all associated
+emissions are accounted for as leakage
+emissions;
+(f) The site of the anaerobic digester in the
+case of project activity that recovers and
+utilizes biogas for producing electricity
+and/or thermal energy and applies this
+methodology on a sta
+(3)基線 Separate heat and electricity production. 請 參 考 AMS-I.C Thermal energy
+$$
+排放 BE y = BE HT,y +BE EL,y production with or without electricity內容
+(含基 BE HT,y =Σ(SC PJ,y SFF BL,i ）
+線排 SFF = EF ／η
+$$
+BL,i H,CO2,i H,ref,i
+×
+放計
+BE =Σ（EL EFF ）
+EL,y PJ,y BL,i
+算式)
+(4)專案 PE =Σ[( Q E × F )+ The parameter PE y corresponds to PE FC,j,y 請 參 考 AMS-I.C Thermal energy
+y PJ,ST,y ST,cap,y
+×
+3
+差異說
+明 | 本減量方法
+區域熱能供應整合減量方法 | AM0048 | AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+New cogeneration project activities
+supplying electricity and heat to
+multiple costumers(v.5.0)
+facility, or facilities, consuming energy
+generated by the system and the processes
+or equipment affected by the project
+activity;
+(d) The processing plant of biomass
+residues, for project activities using solid
+biomass fuel (e.g. briquette), unless all
+associated emissions are accounted for as
+leakage emissions or are part of an
+independently registered CDM project;
+(e) The transportation itineraries, if the
+biomass is transported over distances greater
+than 200 kilometres, unless all associated
+emissions are accounted for as leakage
+emissions;
+(f) The site of the anaerobic digester in the
+case of project activity that recovers and
+utilizes biogas for producing electricity
+and/or thermal energy and applies this
+methodology on a sta
+(3)基線
+排放
+(含基
+線排
+放計
+$算式) | BE = BE +BE$
+y HT,y EL,y
+BE =Σ(SC SFF ）
+HT,y PJ,y BL,i
+$$
+SFF = EF ／η
+BL,i H,CO2,i H,ref,i
+\times
+$$
+BE =Σ（EL EFF ）
+EL,y PJ,y BL,i | Separate heat and electricity production. | 請 參 考 AMS-I.C Thermal energy
+production with or without electricity內容
+(4)專案 | ×
+PE =Σ[( Q EF )+
+y PJ,ST,y ST,cap,y | The parameter PE corresponds to PE
+y FC,j,y | 請 參 考 AMS-I.C Thermal energy
+AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+差異說
+明
+本減量方法
+區域熱能供應整合減量方法
+V 1.0
+AM0048 AMS-I.C
+差異說 本減量方法 New cogeneration project activities Thermal energy production with or
+明 區域熱能供應整合減量方法 supplying electricity and heat to without electricity --- (v.21)
+multiple costumers(v.5.0)
+排放 in the tool, where j are the processes that production with or without electricity內容
+(EL EF )]
+PJ,y EL,cap,y
+(含專 fire fossil-fuels attributable to the project
+$案排 PE y =E \timesFF,T,y = activity.$
+放計
+Σ(FC NCV EF )
+PJ,y,i FF,PJ,y,i FF,CO2,PJ,i
+算式)
+PE =Σ[ E （SC ／SC ）]
+y FF,T,y PJ,y,i T,y
+× ×
+E =[(H /e )/H ]×E
+HT,T,y c,y ×H T,y FF,T,y
+PE =Σ[ E （SC ／SC ）]
+y HT,T,y PJ,y,i T,y
+×
+監測項目包含供應端供應之熱、電力 • Electricity emission factor; 請參考AMS-I.C Thermal energy
+與專案情境燃料使用相關資料等；接 • Quantity of electricity consumed by production with or without electricity內容
+收端接收之熱、電力與基線情境燃料 each project customer, from the project
+使用相關資料，其間測設備校正與頻 and from self-generation;
+率詳參8.監測方法。 •Quantity, temperature, specific enthalpy
+(5)監測 and pressure of steam or energy of hot
+方法/ water, comsumed by each project
+參數 customer, from the project and from
+self-generation;
+• Quantity of electricity supplied to the
+grid;
+• Quantity of fuel consumed by the
+project.
+4
+差異說
+明 | 本減量方法
+區域熱能供應整合減量方法 | AM0048 | AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+New cogeneration project activities
+supplying electricity and heat to
+multiple costumers(v.5.0)
+排放
+(含專
+案排
+放計
+算式) | (EL EF )]
+PJ,y EL,cap,y
+$$
+PE =E =
+y \timesFF,T,y
+$$
+Σ(FC NCV EF )
+PJ,y,i FF,PJ,y,i FF,CO2,PJ,i
+PE =Σ[ E （SC ／SC ）]
+y FF,T,y PJ,y,i T,y
+× ×
+E =[(H /e )/H ]×E
+HT,T,y c,y ×H T,y FF,T,y
+PE =Σ[ E （SC ／SC ）]
+y HT,T,y PJ,y,i T,y
+× | in the tool, where j are the processes that
+fire fossil-fuels attributable to the project
+activity. | production with or without electricity內容
+(5)監測
+方法/
+參數 | 監測項目包含供應端供應之熱、電力
+與專案情境燃料使用相關資料等；接
+收端接收之熱、電力與基線情境燃料
+使用相關資料，其間測設備校正與頻
+率詳參8.監測方法。 | • Electricity emission factor;
+• Quantity of electricity consumed by
+each project customer, from the project
+and from self-generation;
+•Quantity, temperature, specific enthalpy
+and pressure of steam or energy of hot
+water, comsumed by each project
+customer, from the project and from
+self-generation;
+• Quantity of electricity supplied to the
+grid;
+• Quantity of fuel consumed by the
+project. | 請參考AMS-I.C Thermal energy
+production with or without electricity內容
+AMS-I.C
+Thermal energy production with or
+without electricity --- (v.21)
+差異說
+明
+本減量方法
+區域熱能供應整合減量方法
+V 1.0
+5
+V 1.0
+III. 減量方法計算式設計概念
+表 2、本減量方法計算式設計概念
+計算式 設計概念
+基線排放計算公式：公式 1~4
+基線 基線排放量（BE ，tCO /y）為接收端熱能（BE ，tCO /y）及電
+y 2 HT,y 2
+$排放 BE y = BE HT,y +BE EL,y (式 1) 力（BE EL,y ，tCO 2 /y）生產排放，若無電力鏈結電力排放則不須計$
+算。
+熱能基線排放（BE ，tCO /y）為 y年專案熱能（SC ，TJ/y）
+HT,y 2 PJ,y
+BE =Σ(SC SFF ） (式 2) 乘以基線熱能排放係數（SFF ，tCO /TJ）計算而得，各熱能接
+HT,y PJ,y BL,i BL,i 2
+收端均須計算。
+×
+基線熱能排放係數（SFF ，tCO /TJ）依各接收端基線燃料排放
+BL,i 2
+$$
+SFF = EF ／η (式 3) 係數（EF ，tCO /TJ）及能源轉換效率（η ，ratio）計算，
+BL,i H,CO2,i H,ref,i H,CO2,i 2 H,ref,i
+$$
+各熱能接收端均須計算。
+電力基線排放（BE ，tCO /MWh），為 y 年接收端供被取代之
+EL,y 2
+電量(EL MW/y)乘上接收端基線電力排放係數(EFF ，
+BE =Σ(EL EFF ） (式 4) PJ,y， BL,i
+EL,y PJ,y BL,i
+tCO /MWh)。若接收端（含併網）基線電力來自於國家電網，則為
+2
+× 當年度最新國家公告電力排放係數；若為區域電網或特定供應者，
+6
+計算式 | 設計概念
+基線排放計算公式：公式 1~4
+基線
+$排放 | BE = BE +BE$
+y HT,y EL,y | (式 1) | 基線排放量（BE ，tCO /y）為接收端熱能（BE ，tCO /y）及電
+y 2 HT,y 2
+力（BE ，tCO /y）生產排放，若無電力鏈結電力排放則不須計
+EL,y 2
+算。
+BE =Σ(SC SFF ）
+HT,y PJ,y BL,i | (式 2) | 熱能基線排放（BE ，tCO /y）為 y年專案熱能（SC ，TJ/y）
+HT,y 2 PJ,y
+乘以基線熱能排放係數（SFF ，tCO /TJ）計算而得，各熱能接
+BL,i 2
+收端均須計算。
+$$
+\times
+SFF = EF ／η
+BL,i H,CO2,i H,ref,i | (式 3) | 基線熱能排放係數（SFF ，tCO /TJ）依各接收端基線燃料排放
+$$
+BL,i 2
+係數（EF ，tCO /TJ）及能源轉換效率（η ，ratio）計算，
+H,CO2,i 2 H,ref,i
+各熱能接收端均須計算。
+BE =Σ(EL EFF ）
+EL,y PJ,y BL,i
+× | (式 4) | 電力基線排放（BE ，tCO /MWh），為 y 年接收端供被取代之
+EL,y 2
+電量(EL MW/y)乘上接收端基線電力排放係數(EFF ，
+PJ,y， BL,i
+tCO /MWh)。若接收端（含併網）基線電力來自於國家電網，則為
+2
+當年度最新國家公告電力排放係數；若為區域電網或特定供應者，
+V 1.0
+計算式 設計概念
+則依據 CDM 最新“ Tool to calculate the emission factor for an
+electricity system ”計算，各電力接收端（含併網）均須計算。
+專案 專案排放計算公式：
+排放 (1)供應端已取得第三方查驗係數：公式 5；
+(2)供應端為非汽電共生廠：公式 6、7 ；
+(3)供應端為汽電共生廠：公式 6、8、9
+專案排放量（PE ，tCO /y），將以合格第三方查驗機構確認之熱
+y 2
+能及電力排放係數進行計算：以 y年各接收端接收來自專案輸入之
+熱能 (Q ，mass or volume unit/y)乘上供應端之熱能排放係數
+PJ,ST,y
+PE y =Σ[( Q PJ,ST,y EF ST,cap,y )+ (EL PJ,y EF EL,cap,y )] (式 5) (EF ST,cap,y ，tCO 2 e /mass or volume unit)及 y年各接收端（含併網）
+接收來自專案發電量(EL ，kwh / y)乘上供應端之電力排放係數
+PJ,y
+× ×
+(EF ，tCO e/kwh)進行計算。已於計算中考量因專案活動新增
+EL,cap,y 2
+之電力排放。
+專案排放量（PE ，tCO /y），為供應端提供專案熱能及電力使用
+y 2
+燃料產生之排放量(E ，tCO /y)，含多重燃料混燒。以 y年專案
+FF,T,y 2
+設施燃料i 用量(FC ，mass or volume unit/y)乘上 y年燃料i 熱值
+PJ,y,i
+$$
+PE =E =Σ(FC NCV EF ） (式 6)
+y FF,T,y PJ,y,i FF,PJ,y,i FF,CO2,PJ,i (NCV TJ/ mass or volume unit)再乘上燃料排放係數
+$$
+FF,PJ,y,i，
+× × (EF ，tCO e/TJ)。
+FF,CO2,PJ,i 2
+另須考量因專案活動新增之電力洩漏，詳參公式10。
+PE y =Σ[(E FF,T,y （SC PJ,y,i ／SC T,y ）] (式 7) 供應端為提供專案熱能使用化石燃料產生之排放量（PE y ，
+×
+7
+計算式 | 設計概念
+則依據 CDM 最新“ Tool to calculate the emission factor for an
+electricity system ”計算，各電力接收端（含併網）均須計算。
+專案
+排放 | 專案排放計算公式：
+(1)供應端已取得第三方查驗係數：公式 5；
+(2)供應端為非汽電共生廠：公式 6、7 ；
+(3)供應端為汽電共生廠：公式 6、8、9
+PE =Σ[( Q EF )+ (EL EF )]
+y PJ,ST,y ST,cap,y PJ,y EL,cap,y
+× × | (式 5) | 專案排放量（PE ，tCO /y），將以合格第三方查驗機構確認之熱
+y 2
+能及電力排放係數進行計算：以 y年各接收端接收來自專案輸入之
+熱能 (Q ，mass or volume unit/y)乘上供應端之熱能排放係數
+PJ,ST,y
+(EF ，tCO e /mass or volume unit)及 y年各接收端（含併網）
+ST,cap,y 2
+接收來自專案發電量(EL ，kwh / y)乘上供應端之電力排放係數
+PJ,y
+(EF ，tCO e/kwh)進行計算。已於計算中考量因專案活動新增
+EL,cap,y 2
+之電力排放。
+$$
+PE =E =Σ(FC NCV EF ）
+y FF,T,y PJ,y,i FF,PJ,y,i FF,CO2,PJ,i
+\times \times | (式 6) | 專案排放量（PE ，tCO /y），為供應端提供專案熱能及電力使用
+$$
+y 2
+燃料產生之排放量(E ，tCO /y)，含多重燃料混燒。以 y年專案
+FF,T,y 2
+設施燃料i 用量(FC ，mass or volume unit/y)乘上 y年燃料i 熱值
+PJ,y,i
+(NCV TJ/ mass or volume unit)再乘上燃料排放係數
+FF,PJ,y,i，
+(EF ，tCO e/TJ)。
+FF,CO2,PJ,i 2
+另須考量因專案活動新增之電力洩漏，詳參公式10。
+PE =Σ[(E （SC ／SC ）]
+y FF,T,y PJ,y,i T,y | (式 7) | 供應端為提供專案熱能使用化石燃料產生之排放量（PE ，
+y
+V 1.0
+計算式 設計概念
+tCO /y），若專案設施產生之熱能非全數供應專案接收端，其
+2
+排放量將以專案設施化石使用總排放(E ，tCO e/y) 乘上
+FF,T,y 2
+專案熱能佔總熱能比例計算。其中熱能比例計算為專案熱能
+（SC ，TJ/y）除以總熱能(SC ，TJ/y）。
+PJ,y,i T,y
+若既設供應端為汽電共生廠，依據能源局汽電共生先熱後電分配
+原則，熱能輸出總排放量（E ，tCO /y）為 y 年專案設施汽電
+HT,T,y 2
+E HT,T,y =[(H c,y /e H )/H T,y ]×E FF,T,y (式 8) 共生廠燃料燃燒之排放量(E FF,T,y ，tCO 2 e/y)乘上 y 年專案設施有效
+熱能產出淨熱值(H ，TJ/y)除以鍋爐生產蒸汽之效率(e ，%)再除
+c,y H
+以 y年專案設施汽電共生廠燃料總投入淨熱值(H ，TJ/y)
+T,y
+既設汽電共生廠專案排放量（PE ，tCO /y），將熱能輸出總排放
+y 2
+量（E ，tCO /y）乘以專案熱能比例計算。其中熱能比例計算
+HT,T,y 2
+PE =Σ[E （SC ／SC ）] (式 9)
+y HT,T,y PJ,y,i T,y 為專案熱能（SC ，TJ/y）除以總熱能(SC ，TJ/y）。
+PJ,y,i T,y
+× 另須考量因專案活動新增之電力洩漏，詳參公式10。
+洩漏排放計算公式：
+因專案活動造成之接收端電力新增(LE
+EC,y
+，tCO
+2
+/y）、邊界外化石
+$LE y =LE EC,y + LE FC,y +LE BC,y (式 10) 燃料使用之排放 (LE FC,y ，tCO 2 /y）及生質然料使用與運輸排放$
+(LE ，tCO /y）。其中運輸距離若超過200 km 則須納入計算。
+BC,y 2
+減量計算：
+$ER = BE - PE - LE (式 11) 減量=基線排放-專案排放-洩漏排放$
+y y y y
+8
+計算式 | 設計概念
+tCO /y），若專案設施產生之熱能非全數供應專案接收端，其
+2
+排放量將以專案設施化石使用總排放(E ，tCO e/y) 乘上
+FF,T,y 2
+專案熱能佔總熱能比例計算。其中熱能比例計算為專案熱能
+（SC ，TJ/y）除以總熱能(SC ，TJ/y）。
+PJ,y,i T,y
+E =[(H /e )/H ]×E
+HT,T,y c,y H T,y FF,T,y | (式 8) | 若既設供應端為汽電共生廠，依據能源局汽電共生先熱後電分配
+原則，熱能輸出總排放量（E ，tCO /y）為 y 年專案設施汽電
+HT,T,y 2
+共生廠燃料燃燒之排放量(E ，tCO e/y)乘上 y 年專案設施有效
+FF,T,y 2
+熱能產出淨熱值(H ，TJ/y)除以鍋爐生產蒸汽之效率(e ，%)再除
+c,y H
+以 y年專案設施汽電共生廠燃料總投入淨熱值(H ，TJ/y)
+T,y
+PE =Σ[E （SC ／SC ）]
+y HT,T,y PJ,y,i T,y
+× | (式 9) | 既設汽電共生廠專案排放量（PE ，tCO /y），將熱能輸出總排放
+y 2
+量（E ，tCO /y）乘以專案熱能比例計算。其中熱能比例計算
+HT,T,y 2
+為專案熱能（SC ，TJ/y）除以總熱能(SC ，TJ/y）。
+PJ,y,i T,y
+另須考量因專案活動新增之電力洩漏，詳參公式10。
+洩漏排放計算公式：
+$LE =LE + LE +LE$
+y EC,y FC,y BC,y | (式 10) | 因專案活動造成之接收端電力新增(LE ，tCO /y）、邊界外化石
+EC,y 2
+燃料使用之排放 (LE ，tCO /y）及生質然料使用與運輸排放
+FC,y 2
+(LE ，tCO /y）。其中運輸距離若超過200 km 則須納入計算。
+BC,y 2
+減量計算：
+$ER = BE - PE - LE$
+y y y y | (式 11) | 減量=基線排放-專案排放-洩漏排放
+V 1.0
+IV. 大規模減量方法
+1. 介紹
+本減量方法的重要特性說明如表 3：
+表 3、減量方法重要特性
+ 區域熱能整合供應，以高效能或低碳密集度的蒸汽取代
+減量專案 鄰近廠商廠內所須熱能，鏈結數量至少一家。
+一般用法  本減量方法於專案實施後可使用生質燃料與廢棄物衍
+生燃料（Refuse Derived Fuel, RDF）。
+溫室氣體
+CO
+減量類型 2
+2. 範疇、適用條件及生效日
+2.1 範疇
+1. 本方法適用專案涵蓋熱能供應端為既設或新設設施；接收端需為既設，既
+設與新設專案執行情況如表4、特定名詞請見章節3.名詞定義。關鍵減量
+措施說明如下：
+(1) 若供應端設施為新設，設置後將熱能供應其他工廠使用；
+(2) 供應端設施為既設，若透過翻新(retrofit)、修改(modify)或擴增(increase)
+容量，以提高熱能生產並供應其他工廠（不含基線既有接收端）使用；
+(3) 接收端不可為新設設施；
+(4) 若接收端設施為既設，若無專案則熱能來自廠內既設熱能設備，專案實
+施後熱能須求由供應端提供（原廠內熱能設備轉為停用或備用）。
+9
+減量專案
+一般用法 |  區域熱能整合供應，以高效能或低碳密集度的蒸汽取代
+鄰近廠商廠內所須熱能，鏈結數量至少一家。
+ 本減量方法於專案實施後可使用生質燃料與廢棄物衍
+生燃料（Refuse Derived Fuel, RDF）。
+溫室氣體 | CO
+2
+減量類型
+減量專案
+一般用法
+V 1.0
+表 4、專案熱能供應端為既設或新設設施
+供應端
+新設 既設
+接
+既
+收 設
+端
+10
+ 供應端設施為新設，設置後  若供應端設施為既設，將生產
+將熱能及電力供應其他工廠 熱能及電力供應其他工廠使
+使用，若無電力鏈結電力排 用，若無電力鏈結電力排放則
+放則不須計算。 不須計算。
+ 接收端設施為既設，若無專  接收端設施為既設，若無專案
+案則熱能來自廠內既設熱能 則熱能來自廠內既設熱能設
+設備，電來自電網或其他供 備，電來自電網或其他供應；
+應；專案實施後熱能及電力 專案實施後熱能及電力須求
+須求由供應端提供（原廠內 由供應端提供（原廠內設備與
+設備與電力轉為停用或備 電力轉為停用或備用）。
+用）。
+2.2 適用條件
+2.本減量方法之適用條件如下：
+(1) 本方法適用接收端與供應端之區域整合熱能供應，涵蓋高效能或低碳密
+集度的蒸汽取代之減量措施，且專案實施前邊界內不涉及生質燃料與廢
+棄物衍生燃料（Refuse Derived Fuel, RDF）使用。
+(2) 本方法不適用於廢能（廢燃氣/廢熱/餘壓）之減量措施，廢能類型專案可
+參考 CDM 減量方法 ACM0012、AMS-III.Q.或本土化減量方法
+TMS-III.003。
+(3) 專案新設供應端，專案申請者須確認至少有一鄰近廠家(接收端)具有熱
+能鏈結意願，且該接收端須具有至少1年歷史操作紀錄。
+(4) 供應端設施為既設，若透過翻新、修改或擴增設備提高熱能生產並供應
+其他工廠使用，擴增的設施須為全新添購設備。
+(5) 接收端不可為新設廠或新設蒸汽生產設備。
+(6) 既有之熱能設備若是因故障或老舊，而須汰換者，不適用於本減量方法。
+若專案接收端為既設，原設備須符合 CDM 壽齡評估工具“ Tool to
+determine the remaining lifetime of equipment＂最新版次之要求。
+供應端
+新設 | 既設
+既
+設 |  供應端設施為新設，設置後
+將熱能及電力供應其他工廠
+使用，若無電力鏈結電力排
+放則不須計算。
+ 接收端設施為既設，若無專
+案則熱能來自廠內既設熱能
+設備，電來自電網或其他供
+應；專案實施後熱能及電力
+須求由供應端提供（原廠內
+設備與電力轉為停用或備
+用）。 |  若供應端設施為既設，將生產
+熱能及電力供應其他工廠使
+用，若無電力鏈結電力排放則
+不須計算。
+ 接收端設施為既設，若無專案
+則熱能來自廠內既設熱能設
+備，電來自電網或其他供應；
+專案實施後熱能及電力須求
+由供應端提供（原廠內設備與
+電力轉為停用或備用）。
+接
+收
+端
+V 1.0
+(7) 專案熱能供應不應大於供應端設備翻新、修改或擴增之最大熱能產量 1，
+專案執行期間供應端可隨須求調整專案熱能供應對象及供應量，透過監
+測熱能供應/接收量進行減量計算。若供應端為新設，供應上限應為熱能
+產生設備之最大熱能產量。
+(8)本減量方法僅限供應端進行減量申請。
+2.3 生效日
+3.生效日係以 108 年 12 月 3 日「溫室氣體減量成效認可審議會第 14 次會議」
+決議審核通過為準。
+1“最大熱能產量＂依據製造商、施工廠商、設備規格或工程評估報告等相關資料佐證。
+11
+V 1.0
+3. 名詞定義
+4.本減量方法相關名詞定義如下：
+(1) 熱能（thermal energy）：熱能包含蒸汽、熱水及熱空氣。
+(2) 混燒（co-fired system）：單一鍋爐同時使用多種化石燃料及/或再生燃
+料及/或廢棄物衍生燃料，如再生燃料及/或廢棄物衍生燃料不足時則以化
+石燃料替代。
+(3) 供應端（supplier）：專案供應端提供熱能予接收端，伴隨產生之電力可
+供應特定對象或併入區域/國家電網。
+(4) 接收端（recipient）：專案接收端使用供應端提供之熱能或/及電能。
+(5) 既設設施（existing facilities）：專案起始日前，設施已操作至少1年且
+具紀錄者。
+(6) 新設設施（Greenfield）：專案起始日前，設施無操作紀錄或記錄少於 1
+年者。
+(7) 生物質殘留物（biomass residue）：來自於農業、林業及相關工業之生物
+質副產物、殘留物及廢棄物。
+12
+V 1.0
+4. 專案邊界
+接收端
+電網/其他
+A廠 B廠 C廠
+蒸汽 蒸汽 蒸汽
+化石 製程 化石 製程 化石 製程
+鍋爐 設備 鍋爐 設備 鍋爐 設備
+基線情境
+接收端
+電網/其他
+A廠 B廠 C廠
+化石 製程 化石 製程 化石 製程
+鍋爐 設備 鍋爐 設備 鍋爐 設備
+基線情境
+未有電力鏈結
+供應端
+廠內 產汽 發電 電網
+新增
+電力
+能源產生設備
+專案情境
+圖 1、專案邊界示意圖
+13
+接收端
+電網/其他
+B廠
+蒸汽
+化石 製程
+鍋爐 設備 | C廠
+蒸汽
+化石 製程
+鍋爐 設備
+接收端
+電網/其他
+基線情境
+未有電力鏈結
+V 1.0
+5. 專案邊界包含熱能供應端及接收端，既設供應端若涉及發電（含國家/區
+域併網及供應特定對象）則納入電力排放計算，電力輸送應納入邊界。此
+外，生質燃料前處理程序（如清洗、乾燥）與運輸屬洩漏排放。(表5)
+表 5、包含或排除於專案邊界的排放源
+來源 溫室氣體 是否納入 說明/解釋
+CO 是 化石燃料主要排放源
+2
+熱能生產之化
+CH 否 估計排放量極小，故簡
+石燃料使用 4
+N O 否 化忽略不計
+2
+生物質殘留物不造成
+CO 否
+2 碳庫(carbon pool)改變
+不可控燃燒或 申請者可視基線情境
+由申請者
+基線 生物質殘留物 CH 鑑別結果是否使用生
+4 決定
+衰變 物質殘留物而定
+估計排放量極小，故
+N O 否
+2 簡化忽略不計
+CO 是 化石燃料主要排放源
+2
+電力生產之化
+CH 否 估計排放量極小，故簡
+石燃料使用 4
+N O 否 化忽略不計
+2
+CO 是 化石燃料主要排放源
+2
+熱能生產之化
+CH 否 估計排放量極小，故簡
+石燃料使用 4
+N O 否 化忽略不計
+2
+生物質殘留物不造成
+CO 否
+2 碳庫(carbon pool)改變
+若申請者決定納入不
+專案 生物質殘留物 由申請者
+CH 可控燃燒或生物質殘
+活動 燃燒生產熱能 4 決定
+留物衰變，則須計算
+估計排放量極小，故
+N O 否
+2 簡化忽略不計
+CO 是 化石燃料主要排放源
+2
+電力生產之化
+CH 否 估計排放量極小，故簡
+石燃料使用 4
+N O 否 化忽略不計
+2
+14
+來源 | 溫室氣體 | 是否納入 | 說明/解釋
+基線 | 熱能生產之化
+石燃料使用 | CO
+2 | 是 | 化石燃料主要排放源
+CH
+4 | 否 | 估計排放量極小，故簡
+化忽略不計
+N O
+2 | 否
+不可控燃燒或
+生物質殘留物
+衰變 | CO
+2 | 否 | 生物質殘留物不造成
+碳庫(carbon pool)改變
+CH
+4 | 由申請者
+決定 | 申請者可視基線情境
+鑑別結果是否使用生
+物質殘留物而定
+N O
+2 | 否 | 估計排放量極小，故
+簡化忽略不計
+電力生產之化
+石燃料使用 | CO
+2 | 是 | 化石燃料主要排放源
+CH
+4 | 否 | 估計排放量極小，故簡
+化忽略不計
+N O
+2 | 否
+專案
+活動 | 熱能生產之化
+石燃料使用 | CO
+2 | 是 | 化石燃料主要排放源
+CH
+4 | 否 | 估計排放量極小，故簡
+化忽略不計
+N O
+2 | 否
+生物質殘留物
+燃燒生產熱能 | CO
+2 | 否 | 生物質殘留物不造成
+碳庫(carbon pool)改變
+CH
+4 | 由申請者
+決定 | 若申請者決定納入不
+可控燃燒或生物質殘
+留物衰變，則須計算
+N O
+2 | 否 | 估計排放量極小，故
+簡化忽略不計
+電力生產之化
+石燃料使用 | CO
+2 | 是 | 化石燃料主要排放源
+CH
+4 | 否 | 估計排放量極小，故簡
+化忽略不計
+N O
+2 | 否
+V 1.0
+5. 基線情境選擇與外加性論述
+5.1 基線情境的鑑別
+6. 本方法基線情境鑑別可參照CDM 「Combined tool to identify the baseline
+scenario and demonstrate additionality」進行，熱能供輸一般情況說明如下：
+(1) 在無抵換專案情況下，供應端自行設置、翻新（retrofit）、修改（modify）
+或擴增（increase）設施提高熱能生產，並與接收端進行熱能鏈結，取代
+他廠效率較低或高排放化石燃料使用。
+(2) 在無抵換專案情況下， 供應端自行設置、翻新、修改或擴增設備提高熱
+能生產，但未供應接收端）使用。
+(3) 在無抵換專案情況下，無論有無供應端，接收端均維持使用化石燃料
+以生產熱能，供應廠內製程使用。
+(4) 若有其他情境應於專案計畫書中進行鑑別與說明。
+7. 若供應端涉及電力輸出，基線情境可以財務分析（標竿分析、成本效益分
+析或分析能源成本）進行鑑別，情境假設應包含：
+(1) 在無專案下，接收端自行設置新電廠。
+(2) 在無專案下，接收端向既設供應端（專案供應端）提出供電要求。
+(3) 在無專案下，接收端向其他供應端（非專案供應端）提出供電要求。
+(4) 在無專案下，接收端使用國家/區域電網電力。
+(5) 若有其他情境應於專案計畫書中進行鑑別與說明。
+5.2 外加性
+9. 依循「溫室氣體減量及管理法」及「溫室氣體抵換專案管理辦法」之大規
+模減量方法外加性規範內容，進行論證。
+10. 專案實施過程中所涉及之能量供應及設備變動，須符合電業法、能源管理
+法及汽電共生系統實施辦法等相關管制規範。
+11. 採行投資外加性分析原則須包含供應端及接收端，投資項目包括新設施設
+置成本、翻新、修改或擴增設施成本及熱能輸送等成本（如管線設置等）。
+6. 基線排放、專案排放、洩漏排放設計要點
+15
+V 1.0
+12. 新設供應端情境下，專案實施前(基線情境)接收端電力來自於國家/區域電
+網及/或特定供應者，接收端熱能來自於廠內化石燃料熱能生產設備；專
+案實施後(專案情境)供應端提供熱能予接收端，若伴隨發電其電力產生之
+排放均須納入邊界計算(包含併網或特定對象輸送)，接收端廠內原熱能設
+備或電力轉為停用或備用；
+13. 既設供應端情境下，專案實施前(基線情境)接收端電力來自於國家/區域電
+網及/特定供應者或來自供應端，接收端熱能來自於廠內化石燃料熱能生
+產設備；專案實施後(專案情境)供應端提供熱能及電力至接收端，若無電
+力鏈結電力排放則不須計算。接收端廠內原熱能設備或電力轉為停用或備
+用。
+16
+V 1.0
+表 6、新設/既設供應端情境說明
+情境 新設供應端 既設供應端
+專案活動前，供應端與接收端無 專案活動前，供應端與接收端可能有
+電/熱能鏈結 或無電力鏈結，無熱能鏈結。
+ 供應端：無供應端。  供應端：生產電力提供併網或輸
+ 接收端：電力來自台電或其 送專案接收端(若有)；生產熱能
+基線
+他特定電力生產者；熱能由 僅供廠內自用。
+情境
+各工廠以化石燃料生產。  接收端：電力來自台電或其他特
+定電力生產者或專案接收端(若
+有)；熱能由各工廠以化石燃料生
+產。
+專案實施後，供應端與接收端進 專案實施後，供應端與接收端進行電
+行電/熱能鏈結 /熱能鏈結
+ 供應端：生產電力提供併網  供應端：生產電力提供併網或輸
+或輸送予接收端(若有)；生 送予接收端(若有)；生產熱能供
+產熱能供應接收端與自廠 應予接收端與自廠使用。
+專案
+使用。  接收端：原來自台電或其他特定
+情境
+ 接收端：原來自台電或其他 之電力可能停用或轉為備載；廠
+特定之電力可能停用或轉 內化石燃料熱力生產設備可能
+為備載；廠內化石燃料熱力 停用或轉為備載。
+生產設備可能停用或轉為
+備載。
+6.1 基線排放
+6.1.1 基線排放
+14. 基線排放量BE（tCO /y）為接收端無專案情境下之熱能及電力生產排放，
+y 2
+若無電力鏈結電力排放則不須計算。
+$BE = BE +BE (式 1)$
+y HT,y EL,y
+參數 定義 單位
+基線排放量，y年無專案情境下接收端之熱能及
+BEy tCO e/y
+電力排放量，若無電力鏈結電力排放則不須計算。 2
+熱能基線排放，y年無專案情境下接收端之熱能
+BE tCO e/y
+HT,y 排放量。 2
+電力基線排放，y年無專案情境下接收端之電力
+BE tCO e/y
+EL,y 排放量，若未涉及電力則BE =0。 2
+EL,y
+17
+情境 | 新設供應端 | 既設供應端
+基線
+情境 | 專案活動前，供應端與接收端無
+電/熱能鏈結
+ 供應端：無供應端。
+ 接收端：電力來自台電或其
+他特定電力生產者；熱能由
+各工廠以化石燃料生產。 | 專案活動前，供應端與接收端可能有
+或無電力鏈結，無熱能鏈結。
+ 供應端：生產電力提供併網或輸
+送專案接收端(若有)；生產熱能
+僅供廠內自用。
+ 接收端：電力來自台電或其他特
+定電力生產者或專案接收端(若
+有)；熱能由各工廠以化石燃料生
+產。
+專案
+情境 | 專案實施後，供應端與接收端進
+行電/熱能鏈結
+ 供應端：生產電力提供併網
+或輸送予接收端(若有)；生
+產熱能供應接收端與自廠
+使用。
+ 接收端：原來自台電或其他
+特定之電力可能停用或轉
+為備載；廠內化石燃料熱力
+生產設備可能停用或轉為
+備載。 | 專案實施後，供應端與接收端進行電
+/熱能鏈結
+ 供應端：生產電力提供併網或輸
+送予接收端(若有)；生產熱能供
+應予接收端與自廠使用。
+ 接收端：原來自台電或其他特定
+之電力可能停用或轉為備載；廠
+內化石燃料熱力生產設備可能
+停用或轉為備載。
+參數 | 定義 | 單位
+BEy | 基線排放量，y年無專案情境下接收端之熱能及
+電力排放量，若無電力鏈結電力排放則不須計算。 | tCO e/y
+2
+BE
+HT,y | 熱能基線排放，y年無專案情境下接收端之熱能
+排放量。 | tCO e/y
+2
+BE
+EL,y | 電力基線排放，y年無專案情境下接收端之電力
+排放量，若未涉及電力則BE =0。
+EL,y | tCO e/y
+2
+V 1.0
+15.熱能基線排放（BE ，tCO /y）為 y年專案熱能 2（SC ，TJ/y）乘以基
+HT,y 2 PJ,y
+線熱能排放係數（SFF ，tCO /TJ）計算而得，各熱能接收端均須計算。
+BL,i 2
+BE = Σ(SC SFF ） (式 2)
+HT,y PJ,y BL,i
+參數 × 定義 單位
+熱能基線排放，y 年無專案情境下接收端之熱能
+BE tCO e/y
+HT,y 排放量。 2
+SC 接收端於 y年接收自供應端熱能淨熱值 TJ/y
+PJ,y
+SFF 基線情境使用燃料i 之熱能排放係數 tCO e/TJ
+BL,i 2
+16. 基線熱能排放係數（SFF ，tCO /TJ）依各接收端基線情境使用之燃料
+BL,i 2
+排放係數（EF ，tCO /TJ）除以能源轉換效率（η ，ratio）計算，
+H,CO2,i 2 H,ref,i
+各熱能接收端均須計算。
+$$
+SFF = EF / η (式 3)
+BL,i H,CO2,i H,ref,i
+$$
+參數 定義 單位
+SFF 基線情境使用之燃料i 熱能排放係數 tCO e/TJ
+BL,i 2
+EF 接收端基線情境燃料i 之公告排放係數 tCO e/TJ
+H,CO2,i 2
+基線情境使用之燃料i能源轉換效率，以最高蒸汽
+η ratio
+H,ref,i 轉換效率計算或假設為100%（保守性計算）
+17. 電力排放係數（EFF ，tCO /MWh），若接收端（含併網）基線情境電
+BL 2
+力來自於國家電網，則為當年度最新國家公告電力排放係數；若為區域電
+網或特定供應者，則依據CDM 最新“ Tool to calculate the emission factor
+for an electricity system ”計算，各電力接收端（含併網）均須計算。
+BE =Σ(EL EFF ） (式 4)
+EL,y PJ,y BL,i
+×
+參數 定義 單位
+電力基線排放，y年無專案情境下接收端之電
+BE tCO e/y
+EL,y 力排放量，若未涉及電力則BE =0。 2
+EL,y
+EL y年各接收端（含併網）接收來自專案發電量 MWh/y
+PJ,y
+EFF 各接收端（含併網）基線情境下電力排放係數 tCO e/MWh
+BL,i 2
+6.2 專案排放
+2 建議以最大熱能產量(註1)估算專案熱能，盡可能納入所有熱能鏈結量或以未知接收端保守估
+算減量效益，如由已知鏈結對象中採其保守參數(如設備效率及燃料種類)進行估算。
+18
+參數 | × 定義 | 單位
+BE
+HT,y | 熱能基線排放，y 年無專案情境下接收端之熱能
+排放量。 | tCO e/y
+2
+SC
+PJ,y | 接收端於 y年接收自供應端熱能淨熱值 | TJ/y
+SFF
+BL,i | 基線情境使用燃料i 之熱能排放係數 | tCO e/TJ
+2
+參數 | 定義 | 單位
+SFF
+BL,i | 基線情境使用之燃料i 熱能排放係數 | tCO e/TJ
+2
+EF
+H,CO2,i | 接收端基線情境燃料i 之公告排放係數 | tCO e/TJ
+2
+η
+H,ref,i | 基線情境使用之燃料i能源轉換效率，以最高蒸汽
+轉換效率計算或假設為100%（保守性計算） | ratio
+參數 | ×
+定義 | 單位
+BE
+EL,y | 電力基線排放，y年無專案情境下接收端之電
+力排放量，若未涉及電力則BE =0。
+EL,y | tCO e/y
+2
+EL
+PJ,y | y年各接收端（含併網）接收來自專案發電量 | MWh/y
+EFF
+BL,i | 各接收端（含併網）基線情境下電力排放係數 | tCO e/MWh
+2
+V 1.0
+專案排放量（PE ，tCO /y），供應端為提供專案熱能及/或電力使用化
+y 2
+石燃料產生之排放量，可採用下列公式計算：
+6.2.1 已取得第三方查驗之熱能及/或電力排放係數
+18. 以合格第三方查驗機構確認之熱能及/或電力排放係數進行計算，如公式5。
+已於計算中考量因專案活動新增之電力排放。
+PE =Σ[( Q EF )+ (EL EF )] (式 5)
+y PJ,ST,y ST,cap,y PJ,y EL,cap,y
+參數 × 定義 × 單位
+Q y年各接收端接收來自專案之總熱能 mass or volume unit/y
+PJ,ST,y
+tCO e /mass or
+EF y年供應端經查驗之熱能排放係數 2
+ST,cap,y
+volume unit
+y年各接收端（含併網）接收來自專
+EL MWh/y
+PJ,y 案發電量
+EF y年供應端經查驗之電力排放係數 tCO e/kwh
+EL,cap,y 2
+6.2.2 供應端為非汽電共生專案排放
+19. 專案排放量（PE ，tCO /y），供應端為提供專案熱能及/或電力使用化石
+y 2
+燃料產生之排放量，若為混燒系統使用多種化石燃料，各燃料使用之排放
+量均應依公式6進行計算及加總。須另考量因專案活動新增之電力洩漏。
+$$
+PE =E =Σ(FC NCV EF ） (式 6)
+y FF,T,y PJ,y,i FF,PJ,y,i FF,CO2,PJ,i
+參數 \times 定義\times 單位
+$$
+E y年專案設施之總排放量 tCO e/y
+FF,T,y 2
+mass or
+FC y年專案設施使用燃料 i 之用量
+PJ,y,i
+volume unit/y
+TJ/ mass or
+NCV
+y年燃料i 熱值
+FF,PJ,y,i
+volume unit
+EF 燃料i 排放係數 tCO e/TJ
+FF,CO2,PJ,i 2
+20. 若專案設施產生之熱能非全數供應接收端，其排放量則依接收端熱
+能佔總熱能比例進行計算。
+PE =Σ[ E （SC /SC ）] (式 7)
+y FF,T,y PJ,y,i T,y
+參數 × 定義 單位
+19
+參數 | × 定義 × | 單位
+Q
+PJ,ST,y | y年各接收端接收來自專案之總熱能 | mass or volume unit/y
+EF
+ST,cap,y | y年供應端經查驗之熱能排放係數 | tCO e /mass or
+2
+volume unit
+EL
+PJ,y | y年各接收端（含併網）接收來自專
+案發電量 | MWh/y
+EF
+EL,cap,y | y年供應端經查驗之電力排放係數 | tCO e/kwh
+2
+參數 | × 定義× | 單位
+E
+FF,T,y | y年專案設施之總排放量 | tCO e/y
+2
+FC
+PJ,y,i | y年專案設施使用燃料 i 之用量 | mass or
+volume unit/y
+NCV
+FF,PJ,y,i | y年燃料i 熱值 | TJ/ mass or
+volume unit
+EF
+FF,CO2,PJ,i | 燃料i 排放係數 | tCO e/TJ
+2
+參數 | × 定義 | 單位
+V 1.0
+PE y年專案情境熱能生產之燃料使用排放 tCO e/y
+,y 2
+E y年專案設施之總排放量 tCO e/y
+FF,T,y 2
+SC y年專案情境燃料i之熱能 TJ/y
+PJ,y,i
+SC y年專案情境之專案設施各燃料熱能總和 TJ/y
+T,y
+6.2.3 供應端為汽電共生專案排放
+21. 汽電共生廠專案排放量，為專案熱能生產之排放。依循能源局現行
+公告之「先熱後電法」原則描述，參照公式 6 與公式 8，先估算生產
+熱能（製程蒸汽）所須燃料，其餘燃料投入則歸為生產電能投入進
+行排放計算，熱能與電能分攤公式如下。須另考量因專案活動新增
+之電力洩漏。
+E =[(H /e )/H ]×E (式
+HT,T,y c,y H T,y FF,T,y
+8)
+參數 定義 單位
+EHT,T,y y年專案設施分攤至熱能之排放量 tCO 2 e/y
+H
+c,y
+y年專案設施有效熱能產出淨熱值 TJ/y
+e
+H
+鍋爐生產蒸汽之效率 ratio
+H y年專案設施汽電共生廠燃料投入淨熱值 TJ/y
+T,y
+E FF,T,y y年專案設施汽電共生廠燃料燃燒之排放量 tCO 2 e/y
+22. 若專案汽電共生產生之熱能非全數供應接收端，其排放量則依接收
+端熱能佔總熱能比例進行計算。
+PE = [E (SC /SC ) ] (式 9)
+y HT,T,y PJ,y,i T,y
+參數𝚺𝚺 × 定義 單位
+PE y年專案情境熱能生產之燃料使用排放 tCO e/y
+y 2
+E y年專案設施分攤至熱能之排放量 tCO e/y
+HT,T,y 2
+SC y年專案情境燃料i之熱能 TJ/y
+PJ,y,i
+SC y年專案情境之專案設施各燃料熱能總和 TJ/y
+T,y
+20
+PE
+,y | y年專案情境熱能生產之燃料使用排放 | tCO e/y
+2
+E
+FF,T,y | y年專案設施之總排放量 | tCO e/y
+2
+SC
+PJ,y,i | y年專案情境燃料i之熱能 | TJ/y
+SC
+T,y | y年專案情境之專案設施各燃料熱能總和 | TJ/y
+參數 | 定義 | 單位
+EHT,T,y | y年專案設施分攤至熱能之排放量 | tCO e/y
+2
+H
+c,y | y年專案設施有效熱能產出淨熱值 | TJ/y
+e
+H | 鍋爐生產蒸汽之效率 | ratio
+H
+T,y | y年專案設施汽電共生廠燃料投入淨熱值 | TJ/y
+E
+FF,T,y | y年專案設施汽電共生廠燃料燃燒之排放量 | tCO e/y
+2
+參數𝚺𝚺 | × 定義 | 單位
+PE
+y | y年專案情境熱能生產之燃料使用排放 | tCO e/y
+2
+E
+HT,T,y | y年專案設施分攤至熱能之排放量 | tCO e/y
+2
+SC
+PJ,y,i | y年專案情境燃料i之熱能 | TJ/y
+SC
+T,y | y年專案情境之專案設施各燃料熱能總和 | TJ/y
+V 1.0
+6.3. 洩漏
+6.3.1 專案之洩漏排放
+23. 因專案活動而造成之電力增加或邊界外之化石燃料及使用生質燃料，
+均須納入洩漏計算。排放包含生質燃料製程(process)及運輸，其中
+運輸距離若超過 200 km 則須納入計算，如公式 10 計算。
+$LE =LE +LE +LE (式 10)$
+y EC,y FC,y BC,y
+參數 定義 單位
+LE y年專案洩漏排放 tCO e/y
+y 2
+LE EC,y
+y年來自於電能耗用之洩漏排放
+tCO 2 e/y
+LE FC,y
+y年來自於化石燃料耗用之洩漏排放
+tCO 2 e/y
+LE BC,y
+y年來自於生物質之洩漏排放
+tCO 2 e/y
+24. 電能耗用排放（LE ，tCO /y）依據 CDM “Tool to calculate project
+EC,y 2
+or leakage CO emissions from fossil fuel combustion” ；化石燃料耗
+2
+用排放（LE ，tCO /y）“Tool to calculate baseline, project and/or
+FC,y 2
+leakage emissions from electricity consumption”進行計算。
+25. 生物質排放（LE ，tCO /y），包含生質物之製造與運輸，其中運
+BC,y 2
+輸排放依據“Project and leakage emissions from transportation of
+freight” 計算，若運輸距離小於 200 km 則忽略不計。
+26. 若專案生物質來源為種植者，涉及土壤管理、能源耗用、生物質燃
+燒及運輸，則依據 CDM 最新“Project and leakage emissions from
+biomass”計算。
+7. 減量
+27.計入期間 y 年之減量計算如下：
+$ER = BE - PE - LE (式 11)$
+y y y y
+參數 定義 單位
+ER y
+y年排放減量
+tCO 2 e
+BE y
+y年基線排放量
+tCO 2 e
+PE y
+y年專案排放量
+tCO 2 e
+LE y
+y年洩漏排放量
+tCO 2 e
+21
+參數 | 定義 | 單位
+LE
+y | y年專案洩漏排放 | tCO e/y
+2
+LE
+EC,y | y年來自於電能耗用之洩漏排放 | tCO e/y
+2
+LE
+FC,y | y年來自於化石燃料耗用之洩漏排放 | tCO e/y
+2
+LE
+BC,y | y年來自於生物質之洩漏排放 | tCO e/y
+2
+參數 | 定義 | 單位
+ER
+y | y年排放減量 | tCO e
+2
+BE
+y | y年基線排放量 | tCO e
+2
+PE
+y | y年專案排放量 | tCO e
+2
+LE
+y | y年洩漏排放量 | tCO e
+2
+V 1.0
+7.1 涉及計入期展延(第二、第三計入期)須調整之要求
+28. 第二、第三計入期，專案蒸汽接收端數量增減及須 求量變化應於計
+畫書中明確說明。
+7.2 預設數據與參數說明
+29. 下表所列之數據和參數於計畫書撰寫階段確認數值或引用來源，計
+畫執行期間將不被監測。
+表 7、數據與參數表(1)
+數據/參數
+EF
+H,CO2,i
+數據單位 tCO e/TJ
+2
+接收端基線情境燃料i之公告排放係
+描述
+數。
+數值採用優先順序如下:
+數據來源 1. 最新國家公告排放係數
+2. 2006 IPCC Guideline default values
+量測程序(若適用) 無
+備註 無
+表 8、數據與參數表(2)
+數據/參數
+EFF
+BL,i
+數據單位 tCO e/MWh
+2
+各接收端（含併網）基線情境下電力
+描述
+排放係數
+1.引用最新國家公告電力排放係數
+2.依據 CDM “Tool to calculate the
+數據來源
+emission factor for an electricity
+system＂計算
+量測程序(若適用) 無
+監測頻率 每年檢視與計算
+QA/QC 程序 無
+備註 無
+表 9、數據與參數表(3)
+22
+數據/參數 | EF
+H,CO2,i
+數據單位 | tCO e/TJ
+2
+描述 | 接收端基線情境燃料i之公告排放係
+數。
+數據來源 | 數值採用優先順序如下:
+1. 最新國家公告排放係數
+2. 2006 IPCC Guideline default values
+量測程序(若適用) | 無
+備註 | 無
+數據/參數 | EFF
+BL,i
+數據單位 | tCO e/MWh
+2
+描述 | 各接收端（含併網）基線情境下電力
+排放係數
+數據來源 | 1.引用最新國家公告電力排放係數
+2.依據 CDM “Tool to calculate the
+emission factor for an electricity
+system＂計算
+量測程序(若適用) | 無
+監測頻率 | 每年檢視與計算
+QA/QC 程序 | 無
+備註 | 無
+V 1.0
+數據/參數
+EF
+FF,CO2,PJ,i
+數據單位 tCO e/TJ
+2
+描述 燃料i 排放係數
+數值採用優先順序如下:
+數據來源 1. 最新國家公告排放係數
+2. 2006 IPCC Guideline default values
+量測程序(若適用) 無
+備註 無
+表 10、數據與參數表(4)
+數據/參數
+e
+H
+數據單位 ratio
+描述 鍋爐生產蒸汽產熱效率
+鍋爐效率需符合我國能源局能源管
+理法之「鍋爐能源效率標準」規定。
+數值採用優先順序如下:
+1. 量測計算值採專案執行前 1 年度
+數值計算：鍋爐效率
+數據來源 ＝
+鍋爐產生主蒸汽總熱量
+× 100%
+燃料總熱量
+2. 設備供應商或維護保養廠商提供
+之檢測數值
+3. 我國能源局能源管理法之「鍋爐
+能源效率標準」規定。
+量測程序(若適用) 無
+備註 無
+表 11、數據與參數表(5)
+23
+數據/參數 | EF
+FF,CO2,PJ,i
+數據單位 | tCO e/TJ
+2
+描述 | 燃料i 排放係數
+數據來源 | 數值採用優先順序如下:
+1. 最新國家公告排放係數
+2. 2006 IPCC Guideline default values
+量測程序(若適用) | 無
+備註 | 無
+數據/參數 | e
+H
+數據單位 | ratio
+描述 | 鍋爐生產蒸汽產熱效率
+數據來源 | 鍋爐效率需符合我國能源局能源管
+理法之「鍋爐能源效率標準」規定。
+數值採用優先順序如下:
+1. 量測計算值採專案執行前 1 年度
+數值計算：鍋爐效率
+鍋爐產生主蒸汽總熱量
+＝ × 100%
+燃料總熱量
+2. 設備供應商或維護保養廠商提供
+之檢測數值
+3. 我國能源局能源管理法之「鍋爐
+能源效率標準」規定。
+量測程序(若適用) | 無
+備註 | 無
+V 1.0
+數據/參數
+η
+H,ref,i
+數據單位 ratio
+描述 基線情境使用之燃料i能源轉換效率
+量測計算值採基線情境執行前 1 年
+數據來源 度之最高蒸汽轉換效率計算或假設
+為100%（保守性計算）。
+量測程序(若適用) 無
+備註 無
+8. 監測方法
+30. 所有相關資料應予以文件化並保存至最終計入期結束後至少兩年。
+8.1 應監測之數據與參數
+31. 下列參數應於專案執行期間進行監測作業。
+表 12、數據與參數表(6)
+數據/參數
+SC
+PJ,y
+數據單位 TJ/y
+接收端於 y 年接收自供應端熱能淨
+描述
+熱值
+數值採用優先順序如下:
+1. 供應端（流量、溫度及壓力）
+數據來源
+2. 接收端（流量、溫度及壓力）
+3. 買賣單據
+現地監測，如流量計、溫度計及相關
+量測程序(若適用)
+操作紀錄
+監測頻率 連續監測，至少每月紀錄一次
+相關量測設備應定期校正，供應端與
+QA/QC 程序 接收端量測記錄應進行交叉比對確
+認。
+備註 -
+表 13、數據與參數表(7)
+24
+數據/參數 | η
+H,ref,i
+數據單位 | ratio
+描述 | 基線情境使用之燃料i能源轉換效率
+數據來源 | 量測計算值採基線情境執行前 1 年
+度之最高蒸汽轉換效率計算或假設
+為100%（保守性計算）。
+量測程序(若適用) | 無
+備註 | 無
+數據/參數 | SC
+PJ,y
+數據單位 | TJ/y
+描述 | 接收端於 y 年接收自供應端熱能淨
+熱值
+數據來源 | 數值採用優先順序如下:
+1. 供應端（流量、溫度及壓力）
+2. 接收端（流量、溫度及壓力）
+3. 買賣單據
+量測程序(若適用) | 現地監測，如流量計、溫度計及相關
+操作紀錄
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 相關量測設備應定期校正，供應端與
+接收端量測記錄應進行交叉比對確
+認。
+備註 | -
+V 1.0
+數據/參數
+EL
+PJ,y
+數據單位 MWh
+y年各接收端（含併網）接收來自專
+描述
+案發電量
+數據來源 現地量測
+量測程序(若適用) 電錶量測
+監測頻率 連續監測，至少每月紀錄一次
+使用電錶進行量測，電錶符合台電校
+QA/QC 程序 正程序或每3年校正一次，量測結果
+與售電紀錄交叉核對
+備註 無
+表 14、數據與參數表(8)
+數據/參數
+Q
+PJ,ST,y
+數據單位 mass or volume unit/y
+描述 各接收端接收來自專案之熱能
+數據來源 流量計量測與紀錄
+量測程序(若適用) 現場量測設備操作紀錄
+監測頻率 連續監測或批次量測
+量測設備應定期校正，符合國家規範
+QA/QC 程序 或至少每3年校正1次，用量紀錄應
+進行交叉比對確認。
+備註
+表 15、數據與參數表(9)
+25
+數據/參數 | EL
+PJ,y
+數據單位 | MWh
+描述 | y年各接收端（含併網）接收來自專
+案發電量
+數據來源 | 現地量測
+量測程序(若適用) | 電錶量測
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 使用電錶進行量測，電錶符合台電校
+正程序或每3年校正一次，量測結果
+與售電紀錄交叉核對
+備註 | 無
+數據/參數 | Q
+PJ,ST,y
+數據單位 | mass or volume unit/y
+描述 | 各接收端接收來自專案之熱能
+數據來源 | 流量計量測與紀錄
+量測程序(若適用) | 現場量測設備操作紀錄
+監測頻率 | 連續監測或批次量測
+QA/QC 程序 | 量測設備應定期校正，符合國家規範
+或至少每3年校正1次，用量紀錄應
+進行交叉比對確認。
+備註
+V 1.0
+數據/參數
+EF
+ST,cap,y
+數據單位 tCO e /mass or volume unit
+2
+描述 y年供應端經查驗之熱能排放係數
+經合格第三方驗證機構查驗完成之
+數據來源
+排放係數
+量測程序(若適用) 查驗報告書
+監測頻率 每年更新查驗
+QA/QC 程序
+備註
+表 16、數據與參數表(10)
+數據/參數
+EF
+EL,cap,y
+數據單位 tCO e/kwh
+2
+描述 y年供應端經查驗之電力排放係數
+經合格第三方驗證機構查驗完成之
+數據來源
+排放係數
+量測程序(若適用) 查驗報告書
+監測頻率 每年更新查驗
+QA/QC 程序
+備註
+表 17、數據與參數表(11)
+26
+數據/參數 | EF
+ST,cap,y
+數據單位 | tCO e /mass or volume unit
+2
+描述 | y年供應端經查驗之熱能排放係數
+數據來源 | 經合格第三方驗證機構查驗完成之
+排放係數
+量測程序(若適用) | 查驗報告書
+監測頻率 | 每年更新查驗
+QA/QC 程序
+備註
+數據/參數 | EF
+EL,cap,y
+數據單位 | tCO e/kwh
+2
+描述 | y年供應端經查驗之電力排放係數
+數據來源 | 經合格第三方驗證機構查驗完成之
+排放係數
+量測程序(若適用) | 查驗報告書
+監測頻率 | 每年更新查驗
+QA/QC 程序
+備註
+V 1.0
+數據/參數
+FC
+PJ,y,i
+數據單位 mass or volume unit/y
+描述 y年專案設施使用燃料 i 之用量
+數值採用優先順序如下:
+1. 現場用量或投入量量測設備紀錄
+數據來源 值(佐證)
+2. 燃料領料量紀錄(可以購買量及庫
+存量計算)
+量測程序(若適用) 現場量測設備操作紀錄
+監測頻率 連續監測或批次量測
+量測設備應定期校正，符合國家規範
+QA/QC 程序 或至少每3年校正1次，用量紀錄應
+進行交叉比對確認。
+備註
+表 18、數據與參數表(12)
+數據/參數
+NCV
+FF,PJ,y,i
+數據單位 TJ/ mass or volume unit
+描述 y年燃料i 熱值
+數值採用優先順序如下:
+1.燃料供應廠商提供資料
+數據來源 2.檢測數值
+3.最新國家公告熱值
+4.2006 IPCC Guidelinedefault values
+依國家公告方法執行量測或採國家
+量測程序(若適用)
+公告數值
+監測頻率 至少每年1次量測或確認
+QA/QC 程序 無
+備註 無
+表 19、數據與參數表(13)
+27
+數據/參數 | FC
+PJ,y,i
+數據單位 | mass or volume unit/y
+描述 | y年專案設施使用燃料 i 之用量
+數據來源 | 數值採用優先順序如下:
+1. 現場用量或投入量量測設備紀錄
+值(佐證)
+2. 燃料領料量紀錄(可以購買量及庫
+存量計算)
+量測程序(若適用) | 現場量測設備操作紀錄
+監測頻率 | 連續監測或批次量測
+QA/QC 程序 | 量測設備應定期校正，符合國家規範
+或至少每3年校正1次，用量紀錄應
+進行交叉比對確認。
+備註
+數據/參數 | NCV
+FF,PJ,y,i
+數據單位 | TJ/ mass or volume unit
+描述 | y年燃料i 熱值
+數據來源 | 數值採用優先順序如下:
+1.燃料供應廠商提供資料
+2.檢測數值
+3.最新國家公告熱值
+4.2006 IPCC Guidelinedefault values
+量測程序(若適用) | 依國家公告方法執行量測或採國家
+公告數值
+監測頻率 | 至少每年1次量測或確認
+QA/QC 程序 | 無
+備註 | 無
+V 1.0
+數據/參數
+SC
+PJ,y,i
+數據單位 TJ/y
+描述 y年專案情境燃料i之熱能
+數據來源 現場量測
+現地監測，如流量計、溫度計及相關
+量測程序(若適用)
+操作紀錄
+監測頻率 連續監測，至少每月紀錄一次
+相關量測設備應定期校正，若可行相
+QA/QC 程序
+關量測記錄應進行交叉比對確認。
+備註 -
+表 20、數據與參數表(14)
+數據/參數
+SC
+T,y
+數據單位 TJ/y
+專案設施熱能總輸出量(如蒸汽、熱
+描述
+水或熱空氣)
+數據來源 現場量測
+現地監測，如流量計、溫度計及相關
+量測程序(若適用)
+操作紀錄
+監測頻率 連續監測，至少每月紀錄一次
+相關量測設備應定期校正，若可行相
+QA/QC 程序
+關量測記錄應進行交叉比對確認。
+備註 -
+表 21、數據與參數表(15)
+28
+數據/參數 | SC
+PJ,y,i
+數據單位 | TJ/y
+描述 | y年專案情境燃料i之熱能
+數據來源 | 現場量測
+量測程序(若適用) | 現地監測，如流量計、溫度計及相關
+操作紀錄
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 相關量測設備應定期校正，若可行相
+關量測記錄應進行交叉比對確認。
+備註 | -
+數據/參數 | SC
+T,y
+數據單位 | TJ/y
+描述 | 專案設施熱能總輸出量(如蒸汽、熱
+水或熱空氣)
+數據來源 | 現場量測
+量測程序(若適用) | 現地監測，如流量計、溫度計及相關
+操作紀錄
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 相關量測設備應定期校正，若可行相
+關量測記錄應進行交叉比對確認。
+備註 | -
+V 1.0
+數據/參數
+H
+c,y
+數據單位 TJ/y
+描述 y年專案設施有效熱能產出淨熱值
+數據來源 現場量測
+現地監測，如流量計、溫度計及相關
+量測程序(若適用)
+操作紀錄
+監測頻率 連續監測，至少每月紀錄一次
+相關量測設備應定期校正，若可行相
+QA/QC 程序
+關量測記錄應進行交叉比對確認。
+備註 -
+表 22、數據與參數表(16)
+數據/參數
+H
+T,y
+數據單位 TJ/y
+y年專案設施汽電共生廠燃料總投入
+描述
+淨熱值
+數據來源 現場量測
+現地監測，如流量計、溫度計及相關
+量測程序(若適用)
+操作紀錄
+監測頻率 連續監測，至少每月紀錄一次
+相關量測設備應定期校正，若可行相
+QA/QC 程序
+關量測記錄應進行交叉比對確認。
+備註 -
+29
+數據/參數 | H
+c,y
+數據單位 | TJ/y
+描述 | y年專案設施有效熱能產出淨熱值
+數據來源 | 現場量測
+量測程序(若適用) | 現地監測，如流量計、溫度計及相關
+操作紀錄
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 相關量測設備應定期校正，若可行相
+關量測記錄應進行交叉比對確認。
+備註 | -
+數據/參數 | H
+T,y
+數據單位 | TJ/y
+描述 | y年專案設施汽電共生廠燃料總投入
+淨熱值
+數據來源 | 現場量測
+量測程序(若適用) | 現地監測，如流量計、溫度計及相關
+操作紀錄
+監測頻率 | 連續監測，至少每月紀錄一次
+QA/QC 程序 | 相關量測設備應定期校正，若可行相
+關量測記錄應進行交叉比對確認。
+備註 | -
+V 1.0
+減量方法資料
+版次 日期 修訂記錄
+01.0 年月日 「溫室氣體減量成效認可審議會第□次會議」決議
+審核通過。...
+30
