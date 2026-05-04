@@ -38,8 +38,10 @@ const getErrorMessage = (error: unknown): string => {
   return 'An unexpected chat error occurred. Please try again.'
 }
 
-export const useChat = (): UseChatResult => {
-  const [messages, setMessages] = useState<ChatMessage[]>([])
+export const useChat = (options?: {
+  messages?: ChatMessage[]
+  onMessagesChange?: (messages: ChatMessage[]) => void
+}): UseChatResult => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(false)
 
@@ -56,16 +58,22 @@ export const useChat = (): UseChatResult => {
       }
 
       const userMessage = createMessage('user', trimmedContent)
-      const nextMessages = [...messages, userMessage]
+      const nextMessages = [...(options?.messages ?? []), userMessage]
 
-      setMessages(nextMessages)
+      options?.onMessagesChange?.(nextMessages)
       setErrorMessage(null)
       setIsLoading(true)
 
       try {
-        const assistantMessage = await sendChatMessage(nextMessages.map(toApiMessage))
+        const assistantMessage = await sendChatMessage(
+          nextMessages.map(toApiMessage),
+        )
 
-        setMessages([...nextMessages, createMessage('assistant', assistantMessage.content.trim())])
+        const finalMessages = [
+          ...nextMessages,
+          createMessage('assistant', assistantMessage.content.trim()),
+        ]
+        options?.onMessagesChange?.(finalMessages)
         return true
       } catch (error) {
         setErrorMessage(getErrorMessage(error))
@@ -74,11 +82,11 @@ export const useChat = (): UseChatResult => {
         setIsLoading(false)
       }
     },
-    [isLoading, messages],
+    [isLoading, options],
   )
 
   return {
-    messages,
+    messages: options?.messages ?? [],
     errorMessage,
     isLoading,
     submitMessage,
