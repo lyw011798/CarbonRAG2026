@@ -140,7 +140,6 @@ cp .env.example .env
 首次啟動聊天前，請先建立 ChromaDB 索引：
 
 ```bash
-docker compose build backend
 docker compose run --rm indexer
 ```
 
