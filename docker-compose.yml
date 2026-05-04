@@ -1,0 +1,85 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: carbonrag-backend:latest
+    env_file:
+      - .env
+    environment:
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_PORT: 8000
+      CHROMA_PERSIST_DIR: /app/db/chroma
+      HF_HOME: /app/model_cache
+      TRANSFORMERS_CACHE: /app/model_cache
+      RAG_MODEL: ${RAG_MODEL:-gemini/gemini-2.5-flash}
+      RAG_TOP_K: ${RAG_TOP_K:-5}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - ./data/processed:/app/data/processed
+      - ./db/chroma:/app/db/chroma
+      - model-cache:/app/model_cache
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5).read()",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: carbonrag-frontend:latest
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/health >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  indexer:
+    image: carbonrag-backend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    profiles:
+      - index
+    env_file:
+      - .env
+    environment:
+      CHROMA_PERSIST_DIR: /app/db/chroma
+      HF_HOME: /app/model_cache
+      TRANSFORMERS_CACHE: /app/model_cache
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - ./data/processed:/app/data/processed
+      - ./db/chroma:/app/db/chroma
+      - model-cache:/app/model_cache
+    command:
+      [
+        "python",
+        "data_update.py",
+        "/app/data/raw",
+        "--processed-dir",
+        "/app/data/processed",
+        "--db-path",
+        "/app/db/chroma",
+        "--rebuild",
+      ]
+
+volumes:
+  model-cache:

@@ -1,0 +1,20 @@
+# CPU-oriented Docker dependency set.
+# The local requirements.txt was generated from a GPU environment and includes
+# NVIDIA packages that are not portable across Docker hosts.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+beautifulsoup4==4.14.3
+chromadb==1.5.7
+jieba
+litellm==1.83.4
+lxml==6.0.3
+numpy==2.2.6
+pdfplumber==0.11.9
+PyMuPDF==1.27.2.2
+python-dotenv==1.0.1
+rank_bm25
+requests==2.33.1
+scikit-learn==1.7.2
+sentence-transformers==5.4.0
+torch
+transformers==5.5.3
