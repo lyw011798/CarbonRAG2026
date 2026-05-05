@@ -107,7 +107,101 @@ python rag_query.py --query "哪些事業需要繳交碳費？" --top-k 5
 python skill_builder.py --output skill.md
 ```
 
-### 4-4. 重要補充
+### 4-4. Docker 部署方式
+
+本專案提供 Docker Compose 部署方案，包含：
+
+- `backend`：Python RAG API，提供 `GET /health` 與 `POST /chat`
+- `frontend`：React/Vite 前端，以 Nginx 服務靜態檔案並代理 `/chat` 到後端
+- `indexer`：背景索引工作，用於執行資料提取、切分、Embedding 與 ChromaDB 入庫
+
+Docker 方案預設使用 `requirements-docker.txt` 的 CPU-oriented 依賴，避免 Windows 或非 GPU 主機安裝 `nvidia-*` wheel 時失敗。若要使用 CUDA/GPU，請另外建立對應 Linux/CUDA 的依賴檔與映像。
+
+#### 環境變數
+
+先建立 `.env` 並填入必要金鑰：
+
+```bash
+cp .env.example .env
+```
+
+重要變數：
+
+- `GEMINI_API_KEY`：使用 Gemini 模型時必填
+- `LITELLM_API_KEY` / `LITELLM_BASE_URL`：使用 LiteLLM gateway 時設定
+- `CHROMA_PERSIST_DIR`：本機執行使用的 ChromaDB 路徑；Docker 內部會使用 `/app/db/chroma`
+- `RAG_MODEL`：後端查詢模型，預設 `gemini/gemini-2.5-flash`
+- `RAG_TOP_K`：每次查詢取回的片段數
+- `BACKEND_PORT`：本機映射後端 port，預設 `8000`
+- `FRONTEND_PORT`：本機映射前端 port，預設 `5173`
+
+#### 建立索引
+
+首次啟動聊天前，請先建立 ChromaDB 索引：
+
+```bash
+docker compose run --rm indexer
+```
+
+`indexer` 會讀取掛載的 `data/raw`，輸出 `data/processed`，並將 ChromaDB 與 BM25 快取寫入 `db/chroma`。現有 `.pdf`、`.txt`、`.md`、`.html` 處理流程維持不變。
+
+若只想驗證 Docker 內的文件處理器可用：
+
+```bash
+docker compose run --rm backend python scripts/verify_processors.py --raw-dir /app/data/raw
+```
+
+#### 啟動服務
+
+```bash
+docker compose up --build
+```
+
+啟動後可開啟：
+
+- 前端介面：`http://localhost:5173`
+- 後端健康檢查：`http://localhost:8000/health`
+
+也可以在背景執行：
+
+```bash
+docker compose up --build -d
+```
+
+#### 驗證
+
+```bash
+curl http://localhost:8000/health
+curl -X POST http://localhost:8000/chat \
+  -H "Content-Type: application/json" \
+  -d '{"messages":[{"role":"user","content":"哪些事業需要繳交碳費？"}]}'
+```
+
+若索引尚未建立或 API key 缺失，後端會回傳描述性錯誤，說明需要補齊 `.env` 或先執行 `indexer`。
+
+#### 停止與清理
+
+停止服務：
+
+```bash
+docker compose down
+```
+
+清理容器與命名 volume（包含模型快取）：
+
+```bash
+docker compose down -v
+```
+
+可安全重新產生的資料：
+
+- `data/processed`
+- `db/chroma`
+- Docker volume `model-cache`
+
+請勿提交 `.env`、`db/chroma`、模型快取或本機產生的資料庫檔案。
+
+---
 
 - `data_update.py` 的預設 raw 目錄是 `data/raw`，也可以明確指定：`python data_update.py data/raw --rebuild`。
 - 本專案使用 **ChromaDB 本地持久化**，不需要另外啟動 `docker-compose`。
