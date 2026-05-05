@@ -5,21 +5,25 @@ import { ConversationItem } from './conversation-item'
 interface ConversationSidebarProps {
   conversations: Conversation[]
   activeConversationId: string | null
+  summarizingId: string | null
   onSelectConversation: (id: string) => void
   onCreateConversation: () => void
   onClearAllHistory: () => void
   onDeleteConversation: (id: string) => void
   onRenameConversation: (id: string, newTitle: string) => void
+  onSummaryConversation: (id: string) => void
 }
 
 export const ConversationSidebar = ({
   conversations,
   activeConversationId,
+  summarizingId,
   onSelectConversation,
   onCreateConversation,
   onClearAllHistory,
   onDeleteConversation,
   onRenameConversation,
+  onSummaryConversation,
 }: ConversationSidebarProps) => {
   const [searchQuery, setSearchQuery] = useState('')
 
@@ -90,9 +94,11 @@ export const ConversationSidebar = ({
                 key={conversation.id}
                 conversation={conversation}
                 isActive={conversation.id === activeConversationId}
+                isSummarizing={conversation.id === summarizingId}
                 onSelect={onSelectConversation}
                 onDelete={onDeleteConversation}
                 onRename={onRenameConversation}
+                onSummary={onSummaryConversation}
               />
             ))}
           </div>

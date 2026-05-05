@@ -1,103 +1,162 @@
-import type { ApiChatMessage, ChatRequest, ChatResponse } from '../types/chat'
+import type { ApiChatMessage, ChatRequest, ChatResponse } from "../types/chat";
 
-const CHAT_PATH = '/chat'
+const CHAT_PATH = "/chat";
+const SKILL_PATH = "/skill";
 
 export class ChatApiError extends Error {
-  readonly status?: number
+  readonly status?: number;
 
   constructor(message: string, status?: number) {
-    super(message)
-    this.name = 'ChatApiError'
-    this.status = status
+    super(message);
+    this.name = "ChatApiError";
+    this.status = status;
   }
 }
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
-  typeof value === 'object' && value !== null
+  typeof value === "object" && value !== null;
 
 const isApiChatMessage = (value: unknown): value is ApiChatMessage =>
   isRecord(value) &&
-  (value.role === 'assistant' || value.role === 'user') &&
-  typeof value.content === 'string' &&
-  value.content.trim().length > 0
+  (value.role === "assistant" || value.role === "user") &&
+  typeof value.content === "string" &&
+  value.content.trim().length > 0;
 
-const getChatEndpoint = (): string => {
-  const apiBaseUrl = import.meta.env.VITE_CHAT_API_BASE_URL?.trim()
+const getEndpoint = (API_PATH: string): string => {
+  const apiBaseUrl = import.meta.env.VITE_CHAT_API_BASE_URL?.trim();
 
   if (!apiBaseUrl) {
-    return CHAT_PATH
+    return API_PATH;
   }
 
-  return `${apiBaseUrl.replace(/\/+$/, '')}${CHAT_PATH}`
-}
+  return `${apiBaseUrl.replace(/\/+$/, "")}${API_PATH}`;
+};
 
 const readErrorDetail = async (response: Response): Promise<string> => {
   try {
-    const body = await response.json()
+    const body = await response.json();
 
-    if (isRecord(body) && typeof body.error === 'string' && body.error.trim()) {
-      return body.error.trim()
+    if (isRecord(body) && typeof body.error === "string" && body.error.trim()) {
+      return body.error.trim();
     }
 
-    if (isRecord(body) && typeof body.message === 'string' && body.message.trim()) {
-      return body.message.trim()
+    if (
+      isRecord(body) &&
+      typeof body.message === "string" &&
+      body.message.trim()
+    ) {
+      return body.message.trim();
     }
   } catch (error) {
     if (error instanceof SyntaxError) {
-      return response.statusText || 'The server returned an unreadable error response.'
+      return (
+        response.statusText ||
+        "The server returned an unreadable error response."
+      );
     }
 
-    throw new ChatApiError('The chat error response could not be read.')
+    throw new ChatApiError("The chat error response could not be read.");
   }
 
-  return response.statusText || 'The server returned an error response.'
-}
+  return response.statusText || "The server returned an error response.";
+};
 
 export const sendChatMessage = async (
   messages: ApiChatMessage[],
   signal?: AbortSignal,
 ): Promise<ApiChatMessage> => {
-  const requestBody: ChatRequest = { messages }
+  const requestBody: ChatRequest = { messages };
 
   try {
-    const response = await fetch(getChatEndpoint(), {
-      method: 'POST',
+    const response = await fetch(getEndpoint(CHAT_PATH), {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(requestBody),
       signal,
-    })
+    });
 
     if (!response.ok) {
-      const detail = await readErrorDetail(response)
-      throw new ChatApiError(`Chat request failed (${response.status}): ${detail}`, response.status)
+      const detail = await readErrorDetail(response);
+      throw new ChatApiError(
+        `Chat request failed (${response.status}): ${detail}`,
+        response.status,
+      );
     }
 
-    const body: unknown = await response.json()
+    const body: unknown = await response.json();
 
     if (!isRecord(body) || !isApiChatMessage(body.message)) {
       throw new ChatApiError(
-        'The chat response could not be read because it did not include a valid assistant message.',
-      )
+        "The chat response could not be read because it did not include a valid assistant message.",
+      );
     }
 
-    const chatResponse: ChatResponse = { message: body.message }
+    const chatResponse: ChatResponse = { message: body.message };
 
-    if (chatResponse.message.role !== 'assistant') {
-      throw new ChatApiError('The chat response could not be read because the returned role was not assistant.')
+    if (chatResponse.message.role !== "assistant") {
+      throw new ChatApiError(
+        "The chat response could not be read because the returned role was not assistant.",
+      );
     }
 
-    return chatResponse.message
+    return chatResponse.message;
   } catch (error) {
     if (error instanceof ChatApiError) {
-      throw error
+      throw error;
     }
 
-    if (error instanceof DOMException && error.name === 'AbortError') {
-      throw new ChatApiError('The chat request was cancelled before it completed.')
+    if (error instanceof DOMException && error.name === "AbortError") {
+      throw new ChatApiError(
+        "The chat request was cancelled before it completed.",
+      );
     }
 
-    throw new ChatApiError('Unable to reach the chat API. Check your connection and try again.')
+    throw new ChatApiError(
+      "Unable to reach the chat API. Check your connection and try again.",
+    );
   }
-}
+};
+
+export const summarizeConversation = async (
+  messages: ApiChatMessage[],
+  signal?: AbortSignal,
+): Promise<void> => {
+  const requestBody: ChatRequest = { messages };
+
+  const response = await fetch(getEndpoint(SKILL_PATH), {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(requestBody),
+    signal,
+  });
+
+  if (!response.ok) {
+    throw new Error(`Summary request failed with status: ${response.status}`);
+  }
+
+  const blob = await response.blob();
+
+  const contentType = response.headers.get("Content-Type");
+  let extension = ".md";
+  if (contentType === "application/pdf") {
+    extension = ".pdf";
+  }
+
+  const filename = `summary-${Date.now()}${extension}`;
+
+  const url = window.URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.style.display = "none";
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+
+  link.click();
+
+  window.URL.revokeObjectURL(url);
+  document.body.removeChild(link);
+};

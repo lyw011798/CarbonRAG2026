@@ -10,7 +10,6 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_HOST = "0.0.0.0"
 DEFAULT_PORT = 8000
@@ -46,6 +45,7 @@ class BackendState:
     def __init__(self) -> None:
         self.queryEngine: Any | None = None
         self.dbPath: Path | None = None
+        self.skillBuilder: Any | None = None
 
     @staticmethod
     def get_db_path() -> Path:
@@ -83,10 +83,14 @@ class BackendState:
         usesGemini = modelName.startswith("gemini/")
 
         if hasLiteLlmGateway and not hasLiteLlmKey:
-            raise RuntimeError("LITELLM_API_KEY is required when LITELLM_BASE_URL is configured.")
+            raise RuntimeError(
+                "LITELLM_API_KEY is required when LITELLM_BASE_URL is configured."
+            )
 
         if usesGemini and not os.getenv("GEMINI_API_KEY") and not hasLiteLlmKey:
-            raise RuntimeError("GEMINI_API_KEY or LITELLM_API_KEY is required for Gemini chat models.")
+            raise RuntimeError(
+                "GEMINI_API_KEY or LITELLM_API_KEY is required for Gemini chat models."
+            )
 
     @staticmethod
     def is_db_ready(dbPath: Path) -> bool:
@@ -120,22 +124,60 @@ class BackendState:
 
         try:
             vectorStore = VectorStore(db_path=str(dbPath))
-            self.queryEngine = RAGQuery(vector_store=vectorStore, model=self.get_model_name())
+            self.queryEngine = RAGQuery(
+                vector_store=vectorStore, model=self.get_model_name()
+            )
             self.dbPath = dbPath
         except Exception as error:
-            raise RuntimeError(f"Failed to initialize the RAG engine: {error}") from error
+            raise RuntimeError(
+                f"Failed to initialize the RAG engine: {error}"
+            ) from error
 
         return self.queryEngine
+
+    def get_skill_builder(self) -> Any:
+        if self.skillBuilder is not None:
+            return self.skillBuilder
+
+        query_engine = self.get_query_engine()
+        try:
+            from src.builder import SkillBuilder
+
+            self.skillBuilder = SkillBuilder(query_engine=query_engine)
+        except Exception as error:
+            raise RuntimeError(
+                f"Failed to initialize the Skill Builder: {error}"
+            ) from error
+
+        return self.skillBuilder
 
 
 state = BackendState()
 
 
-def make_json_response(handler: BaseHTTPRequestHandler, status: HTTPStatus, payload: dict[str, Any]) -> None:
+def make_json_response(
+    handler: BaseHTTPRequestHandler, status: HTTPStatus, payload: dict[str, Any]
+) -> None:
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     handler.send_response(status.value)
     handler.send_header("Content-Type", "application/json; charset=utf-8")
     handler.send_header("Content-Length", str(len(body)))
+    handler.send_header("Access-Control-Allow-Origin", "*")
+    handler.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+    handler.send_header("Access-Control-Allow-Headers", "Content-Type")
+    handler.end_headers()
+    handler.wfile.write(body)
+
+
+def make_file_download_response(
+    handler: BaseHTTPRequestHandler, status: HTTPStatus, content: str, filename: str
+) -> None:
+    """Return a plain text or markdown file as a download stream."""
+    body = content.encode("utf-8")
+    handler.send_response(status.value)
+    handler.send_header("Content-Type", "text/markdown; charset=utf-8")
+    handler.send_header("Content-Length", str(len(body)))
+    handler.send_header("Content-Disposition", f'attachment; filename="{filename}"')
     handler.send_header("Access-Control-Allow-Origin", "*")
     handler.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
     handler.send_header("Access-Control-Allow-Headers", "Content-Type")
@@ -163,7 +205,9 @@ def parse_chat_request(payload: Any) -> str:
             break
 
     if latestUserMessage is None:
-        raise ValueError("Request messages must include at least one non-empty user message.")
+        raise ValueError(
+            "Request messages must include at least one non-empty user message."
+        )
 
     return latestUserMessage
 
@@ -181,7 +225,9 @@ class ChatRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self) -> None:
         if self.path != "/health":
-            make_json_response(self, HTTPStatus.NOT_FOUND, {"error": "Route not found."})
+            make_json_response(
+                self, HTTPStatus.NOT_FOUND, {"error": "Route not found."}
+            )
             return
 
         dbPath = state.get_db_path()
@@ -207,38 +253,110 @@ class ChatRequestHandler(BaseHTTPRequestHandler):
         )
 
     def do_POST(self) -> None:
-        if self.path != "/chat":
-            make_json_response(self, HTTPStatus.NOT_FOUND, {"error": "Route not found."})
+        allowed_paths = {"/chat", "/skill"}
+        if self.path not in allowed_paths:
+            make_json_response(
+                self, HTTPStatus.NOT_FOUND, {"error": f"Route {self.path} not found."}
+            )
             return
 
         try:
             contentLength = int(self.headers.get("Content-Length", "0"))
             rawBody = self.rfile.read(contentLength)
             payload = json.loads(rawBody.decode("utf-8"))
-            question = parse_chat_request(payload)
         except json.JSONDecodeError:
-            make_json_response(self, HTTPStatus.BAD_REQUEST, {"error": "Request body must be valid JSON."})
+            make_json_response(
+                self,
+                HTTPStatus.BAD_REQUEST,
+                {"error": "Request body must be valid JSON."},
+            )
             return
         except ValueError as error:
             make_json_response(self, HTTPStatus.BAD_REQUEST, {"error": str(error)})
             return
 
-        try:
-            queryEngine = state.get_query_engine()
-            result = queryEngine.query(question=question, n_results=state.get_top_k())
-            answer = str(result.get("answer", "")).strip()
-        except RuntimeError as error:
-            make_json_response(self, HTTPStatus.SERVICE_UNAVAILABLE, {"error": str(error)})
-            return
-        except Exception as error:
-            make_json_response(self, HTTPStatus.INTERNAL_SERVER_ERROR, {"error": f"Chat query failed: {error}"})
-            return
+        # /chat
+        if self.path == "/chat":
+            try:
+                question = parse_chat_request(payload)
+            except ValueError as error:
+                make_json_response(self, HTTPStatus.BAD_REQUEST, {"error": str(error)})
+                return
 
-        if not answer:
-            make_json_response(self, HTTPStatus.INTERNAL_SERVER_ERROR, {"error": "Chat query returned an empty answer."})
-            return
+            try:
+                queryEngine = state.get_query_engine()
+                result = queryEngine.query(
+                    question=question, n_results=state.get_top_k()
+                )
+                answer = str(result.get("answer", "")).strip()
 
-        make_json_response(self, HTTPStatus.OK, {"message": {"role": "assistant", "content": answer}})
+                if not answer:
+                    make_json_response(
+                        self,
+                        HTTPStatus.INTERNAL_SERVER_ERROR,
+                        {"error": "The chat query returned an empty answer."},
+                    )
+                    return
+
+                make_json_response(
+                    self,
+                    HTTPStatus.OK,
+                    {"message": {"role": "assistant", "content": answer}},
+                )
+            except Exception as error:
+                make_json_response(
+                    self,
+                    HTTPStatus.INTERNAL_SERVER_ERROR,
+                    {"error": f"Request failed: {error}"},
+                )
+
+        # /skill
+        elif self.path == "/skill":
+            messages = payload.get("messages", [])
+            if not isinstance(messages, list) or not messages:
+                make_json_response(
+                    self,
+                    HTTPStatus.BAD_REQUEST,
+                    {
+                        "error": "Request body must include a non-empty `messages` array."
+                    },
+                )
+                return
+
+            try:
+                formatted_dialogue = "以下是使用者的歷史對話紀錄：\n\n"
+                for msg in messages:
+                    if not isinstance(msg, dict):
+                        continue
+                    role = "使用者" if msg.get("role") == "user" else "AI 助理"
+                    content = msg.get("content", "")
+                    formatted_dialogue += f"【{role}】: {content}\n\n"
+
+                skillBuilder = state.get_skill_builder()
+
+                markdown_content = skillBuilder.build_conversation_summary(
+                    context=formatted_dialogue,
+                    n_results=state.get_top_k(),
+                    use_mock=False,
+                )
+
+                if not markdown_content:
+                    make_json_response(
+                        self,
+                        HTTPStatus.INTERNAL_SERVER_ERROR,
+                        {"error": "Failed to generate skill content."},
+                    )
+                    return
+
+                make_file_download_response(
+                    self, HTTPStatus.OK, markdown_content, "summary.md"
+                )
+            except Exception as error:
+                make_json_response(
+                    self,
+                    HTTPStatus.INTERNAL_SERVER_ERROR,
+                    {"error": f"Request failed: {error}"},
+                )
 
 
 def main() -> None:
@@ -251,6 +369,7 @@ def main() -> None:
     print(f"Carbon RAG backend running at http://{host}:{port}")
     print("Health check: GET /health")
     print("Chat endpoint: POST /chat")
+    print("Skill endpoint: POST /skill")
     server.serve_forever()
 
 

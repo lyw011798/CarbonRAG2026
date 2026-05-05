@@ -11,11 +11,13 @@ export const ChatApp = () => {
     conversations,
     activeConversationId,
     activeConversation,
+    summarizingId,
     createConversation,
     clearAllHistory,
     updateConversation,
     deleteConversation,
     renameConversation,
+    summaryConversation,
     setActiveConversation,
   } = useConversationHistory()
 
@@ -39,11 +41,13 @@ export const ChatApp = () => {
       <ConversationSidebar
         conversations={conversations}
         activeConversationId={activeConversationId}
+        summarizingId={summarizingId}
         onSelectConversation={setActiveConversation}
         onCreateConversation={createConversation}
         onClearAllHistory={clearAllHistory}
         onDeleteConversation={deleteConversation}
         onRenameConversation={renameConversation}
+        onSummaryConversation={summaryConversation}
       />
 
       {/* Main Chat Area */}

@@ -81,3 +81,46 @@ class SkillBuilder:
             lines.append(f"- {s}")
             
         return "\n".join(lines)
+    
+    def build_conversation_summary(self, context: str, n_results: int = 3, use_mock: bool = False) -> str:
+        """
+        Synthesizes the provided conversation history into a structured summary.
+        """
+        if not context or not context.strip():
+            raise ValueError("傳入的對話紀錄 (context) 為空，無法生成總結。")
+
+        today = datetime.date.today().strftime("%Y-%m-%d")
+        
+        summary_prompt = f"""你現在是一個專業的知識總結助理。
+        請根據以下提供的「歷史對話紀錄」，整理出一份結構化的 Markdown 總結報告。
+
+        報告請包含以下區塊：
+        ## 1. 核心探討議題
+        (簡述使用者主要詢問了哪些問題或領域)
+
+        ## 2. 關鍵解答與資料依據
+        (條列對話中提供的具體解答，並務必保留或標示原對話中出現的資料來源、出處或 [引用標籤])
+
+        ## 3. 資訊缺口或限制
+        (指出對話中 AI 表示無法完整回答、資料不足、或是尚待釐清的部分。若無，請簡短說明「無明顯資訊缺口」)
+
+        請不要虛構對話中未提及的資訊。
+
+        【歷史對話紀錄】：
+        {context}
+        """
+        
+        result = self.query_engine.query(
+            question=summary_prompt, 
+            n_results=n_results, 
+            use_mock=use_mock
+        )
+        
+        lines = []
+        lines.append("# 對話重點與依據總結 (Conversation Summary)\n")
+        lines.append(f"- **生成日期**：{today}")
+        lines.append(f"- **來源**：歷史對話紀錄萃取\n")
+        lines.append("---\n")
+        lines.append(result.get("answer", "無法生成總結內容。"))
+            
+        return "\n".join(lines)
