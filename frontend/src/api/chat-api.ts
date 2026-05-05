@@ -22,6 +22,20 @@ const isApiChatMessage = (value: unknown): value is ApiChatMessage =>
   typeof value.content === "string" &&
   value.content.trim().length > 0;
 
+type SkillResponse = {
+  filename: string;
+  contentType: string;
+  content: string;
+};
+
+const isSkillResponse = (value: unknown): value is SkillResponse =>
+  isRecord(value) &&
+  typeof value.filename === "string" &&
+  value.filename.trim().length > 0 &&
+  typeof value.contentType === "string" &&
+  value.contentType.trim().length > 0 &&
+  typeof value.content === "string";
+
 const getEndpoint = (API_PATH: string): string => {
   const apiBaseUrl = import.meta.env.VITE_CHAT_API_BASE_URL?.trim();
 
@@ -125,38 +139,57 @@ export const summarizeConversation = async (
 ): Promise<void> => {
   const requestBody: ChatRequest = { messages };
 
-  const response = await fetch(getEndpoint(SKILL_PATH), {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(requestBody),
-    signal,
-  });
+  try {
+    const response = await fetch(getEndpoint(SKILL_PATH), {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(requestBody),
+      signal,
+    });
 
-  if (!response.ok) {
-    throw new Error(`Summary request failed with status: ${response.status}`);
+    if (!response.ok) {
+      const detail = await readErrorDetail(response);
+      throw new ChatApiError(
+        `Summary request failed (${response.status}): ${detail}`,
+        response.status,
+      );
+    }
+
+    const body: unknown = await response.json();
+
+    if (!isSkillResponse(body)) {
+      throw new ChatApiError(
+        "The summary response could not be read because it did not include a valid downloadable payload.",
+      );
+    }
+
+    const blob = new Blob([body.content], { type: body.contentType });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.style.display = "none";
+    link.href = url;
+    link.download = body.filename;
+    document.body.appendChild(link);
+
+    link.click();
+
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(link);
+  } catch (error) {
+    if (error instanceof ChatApiError) {
+      throw error;
+    }
+
+    if (error instanceof DOMException && error.name === "AbortError") {
+      throw new ChatApiError(
+        "The summary request was cancelled before it completed.",
+      );
+    }
+
+    throw new ChatApiError(
+      "Unable to reach the summary API. Check your connection and try again.",
+    );
   }
-
-  const blob = await response.blob();
-
-  const contentType = response.headers.get("Content-Type");
-  let extension = ".md";
-  if (contentType === "application/pdf") {
-    extension = ".pdf";
-  }
-
-  const filename = `summary-${Date.now()}${extension}`;
-
-  const url = window.URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.style.display = "none";
-  link.href = url;
-  link.download = filename;
-  document.body.appendChild(link);
-
-  link.click();
-
-  window.URL.revokeObjectURL(url);
-  document.body.removeChild(link);
 };

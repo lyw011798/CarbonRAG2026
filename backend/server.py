@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -323,7 +324,10 @@ class ChatRequestHandler(BaseHTTPRequestHandler):
                 )
                 return
 
+            start_time = time.time()
             try:
+                sys.stderr.write(f"[/skill] Starting conversation summary generation...\n")
+                
                 formatted_dialogue = "以下是使用者的歷史對話紀錄：\n\n"
                 for msg in messages:
                     if not isinstance(msg, dict):
@@ -339,6 +343,9 @@ class ChatRequestHandler(BaseHTTPRequestHandler):
                     n_results=state.get_top_k(),
                     use_mock=False,
                 )
+                
+                elapsed = time.time() - start_time
+                sys.stderr.write(f"[/skill] Summary generated in {elapsed:.2f}s\n")
 
                 if not markdown_content:
                     make_json_response(
@@ -348,10 +355,18 @@ class ChatRequestHandler(BaseHTTPRequestHandler):
                     )
                     return
 
-                make_file_download_response(
-                    self, HTTPStatus.OK, markdown_content, "summary.md"
+                make_json_response(
+                    self,
+                    HTTPStatus.OK,
+                    {
+                        "filename": "summary.md",
+                        "contentType": "text/markdown; charset=utf-8",
+                        "content": markdown_content,
+                    },
                 )
             except Exception as error:
+                elapsed = time.time() - start_time
+                sys.stderr.write(f"[/skill] Error after {elapsed:.2f}s: {error}\n")
                 make_json_response(
                     self,
                     HTTPStatus.INTERNAL_SERVER_ERROR,
