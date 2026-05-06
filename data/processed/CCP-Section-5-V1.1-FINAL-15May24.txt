@@ -1,0 +1,263 @@
+5
+SECTION
+DEFINITIONS
+January 2024, Version 1.1
+5
+SECTION
+DEFINITIONS
+January 2024, Version 1.1
+5
+SECTION
+DEFINITIONS
+January 2024, Version 1.1
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+DEFINITIONS
+The following definitions are applicable to the Core Carbon Principles, the Summary for Decision
+Makers, the Assessment Framework and the Assessment Procedure and may be revised or
+updated from time to time.
+APPLICATION
+A detailed Application containing appropriate supporting information, documentation and
+evidence by the applicant carbon-crediting program submitted through the Assessment Platform.
+ASSESSMENT PLATFORM
+The secure online Application and Assessment Platform for Program-level requirements as
+referred to in the Assessment Procedure.
+ASSESSMENT REPORT
+The document prepared by the Integrity Council on the basis of the Application from the carbon-
+crediting program containing, at a minimum, summary information about the applicant carbon-
+crediting program, and an assessment of whether the carbon-crediting program satisfies the
+requirements set out in the CCPs and the Assessment Framework, including agreed remedial
+actions, if any.
+BASELINE SCENARIO
+A description of the situation and the outcome that is predicted or assumed to occur in the
+absence of the incentives created by the carbon credits and their associated mitigation activities,
+while holding all other factors constant.
+CANCELLATION
+The permanent removal of a carbon credit in an electronic registry without claiming the
+associated emission reductions or removals towards any voluntary or mandatory targets or
+other purposes. Cancellation may include the following purposes: compensating for reversals;
+compensation for any previous excess issuance; administrative cancellation for the purpose of
+re-issuing carbon credits for the same emission reductions or removals under a different carbon-
+crediting program. Only one single use should be associated with each cancellation and the use
+should be clearly specified.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 104
+SSEECCTTIIOONN ffiIvVeE
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+CARBON CREDIT
+A tradeable intangible instrument that is issued by a carbon-crediting program, representing a
+GHG emission reduction to, or removal from, the atmosphere equivalent to one metric tonne of
+carbon dioxide equivalent. This is calculated as the difference in GHG emissions or removals from
+a baseline scenario to the emissions or removals occurring under the mitigation activity, and any
+adjustments for leakage. The carbon credit is uniquely serialised, issued, tracked and retired or
+administratively cancelled by means of an electronic registry operated by an administrative body,
+such as a carbon-crediting program.
+CARBON-CREDITING PROGRAM
+A standard-setting program that registers mitigation activities and issues carbon credits.
+CATEGORY (OF CARBON CREDITS)
+A group of carbon credits that have the following characteristics in common: (1) the carbon credits
+are from the same type of mitigation activity as defined by the Integrity Council; (2) the mitigation
+activity is registered under the same carbon-crediting program and complementary standard as
+applicable; (3) the emission reductions or removals were quantified using the same version of the
+same quantification methodology, including any tools or modules referred to in the quantification
+methodology; and (4) the carbon credits have other common features as defined by the Integrity
+Council in its assessment of Categories of carbon credits, as necessary, such as the geographical
+location or technical features.
+CATEGORY ASSESSMENT
+An assessment by the Integrity Council of which Categories meet the relevant CCPs using the
+criteria and requirements applicable to the Category-level in the Assessment Framework.
+CCP-APPROVED
+Categories of carbon credits deemed approved pursuant to the Category-level assessment. Such
+credits may be tagged by CCP-Eligible programs.
+CCP ATTRIBUTE
+A CCP Attribute refers to a characteristic associated with a carbon credit, such as quantified
+positive SDG impacts.
+CCP-ELIGIBLE PROGRAM
+A carbon-crediting program that has satisfied the relevant CCPs and the Program-level criteria
+and requirements in Part I of the Assessment Framework and in respect of which a Decision
+approving the carbon-crediting program has been taken by the Governing Board.
+CORSIA
+The Carbon Offsetting and Reduction Scheme for International Aviation, a global GHG emissions
+reduction program developed by the International Civil Aviation Organization (ICAO) to address
+the CO2 emissions of international air travel.
+CORSIA-ELIGIBLE PROGRAM
+A carbon-crediting program that has been approved by the ICAO Council to supply CORSIA Eligible
+Emissions Units as listed on the CORSIA website.
+CREDITING PERIOD
+The period in which verified GHG emission reductions or removals attributable to a mitigation
+activity can result in the issuance of carbon credits.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 105
+SSEECCTTIIOONN ffiIvVeE
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+CWG
+A multi-stakeholder working group that operates pursuant to terms of reference that will be made
+public on the ICVCM website. The CWG will be tasked to review different categories of carbon
+credits, including their underlying methodologies, based on, inter alia, publicly available academic
+literature, information from ratings agencies and ratings organisations, and other public
+information. The CWG will review Categories of carbon credits at the highest possible level of
+aggregation across the VCM and will not review individual mitigation activities or carbon credits.
+DECISION
+Per the Assessment Procedure, a decision of the Governing Board of the ICVCM that includes
+supporting rationale.
+DOUBLE CLAIMING
+A type of double counting in which the same GHG emission reduction or removal is claimed by two
+different entities towards achieving mitigation targets or goals: once by a country, jurisdiction
+or other entity that reports lower GHG emissions or higher GHG removals for the purpose of
+demonstrating achievement of a mitigation target or goal, and once by the entity retiring the
+carbon credit for the purpose of making a GHG emission offsetting claim.
+DOUBLE COUNTING
+A situation in which a single GHG emission reduction or removal is counted more than once
+towards achieving mitigation targets or goals. Double counting can occur through double
+issuance, double use, and double claiming.
+DOUBLE ISSUANCE
+A type of double counting in which more than one carbon credit is issued for the same emission
+reduction or removal. Double issuance leads to double counting if more than one of these carbon
+credits is claimed towards achieving mitigation targets or goals.
+DOUBLE USE
+A type of double counting in which a single carbon credit is claimed twice towards achieving
+mitigation targets or goals.
+EVALUATION REPORT
+The document prepared by the Integrity Council containing, at a minimum, an assessment
+of whether the Category satisfies the relevant criteria and requirements set out in the CCPs
+and the Assessment Framework, including remedial actions agreed by the relevant carbon-
+crediting program, if any, and which may, but is not required to, include policy considerations
+and recommendations. It may also include additional information provided by the CCP-Eligible
+program, if any.
+GHG EMISSIONS REDUCTION
+A net reduction in anthropogenic greenhouse gas emissions by sources.
+GHG EMISSIONS REMOVAL
+A net enhancement of anthropogenic removals by sinks.
+GREENHOUSE GAS (GHG)
+Greenhouse gases are those gaseous constituents of the atmosphere, both natural and
+anthropogenic, that absorb and emit radiation at specific wavelengths within the spectrum of
+thermal infrared radiation emitted by the Earth’s surface, the atmosphere itself, and by clouds.
+This property causes the greenhouse effect.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 106
+SSEECCTTIIOONN ffiIvVeE
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+INDEPENDENT REVIEW
+An Independent Review is intended as a final arbitration process, as further set out in the Terms
+and Conditions for assessment.
+JURISDICTION
+The administrative unit such as a nation, state, province, region, department or district, or an
+ecoregion or other defined area, specified in the jurisdictional program description.
+JURISDICTIONAL REDD+ PROGRAM
+A type of mitigation activity which is implemented by a Jurisdictional REDD+ Program Proponent
+and for which emission reductions and removals are quantified at the scale of a national
+or sub-national jurisdiction (the REDD+ Jurisdiction). Such programs may include multiple
+mitigation actions in the forestry sector, including the sustainable management of forests and
+the conservation and enhancement of forest carbon stocks. They may include multiple actors,
+including governmental authorities and/or non-state actors.
+JURISDICTIONAL REDD+ PROGRAM PROPONENT
+A form of mitigation activity proponent that seeks the registration of a Jurisdictional REDD+
+Program with a carbon-crediting program. This is a public entity or authority. See also MITIGATION
+ACTIVITY PROPONENT.
+LEAKAGE: ACTIVITY-SHIFTING
+A type of leakage where the mitigation activity causes emissions to shift location. Mitigation
+activities can shift emissions to locations not targeted, or emissions not monitored, by the
+activity. An example is the displacement of agricultural activities from land that is afforested.
+LEAKAGE: ECOLOGICAL
+A type of leakage where a mitigation activity affects emissions indirectly in areas that are
+hydrologically connected. An example is carbon dioxide emissions from soils in a wetland if the
+water level is lowered due to the implementation of the mitigation activity.
+LEAKAGE: MARKET
+A type of leakage where mitigation activities have an impact on the supply or demand of an
+emissions-intensive product or service, thereby increasing or decreasing emissions elsewhere.
+For example, forest management or conservation activities may reduce timber harvests within
+an intervention area, leading to increased harvesting in other areas to meet demand for wood
+products.
+LEAKAGE: UPSTREAM/DOWNSTREAM EMISSIONS
+A type of leakage where emissions occur upstream or downstream of a mitigation activity and are
+impacted by the mitigation activity. An example is the emissions associated with the production
+of a fuel or feedstock used under the mitigation activity (e.g., methane emissions from natural
+gas production).
+MITIGATION ACTIVITY
+An activity that reduces anthropogenic emissions of a GHG or enhances removals by sinks relative
+to GHG emissions or removals in the activity’s baseline scenario and seeks registration and
+issuance of carbon credits under a carbon-crediting program. The term refers to activities that
+may be implemented at different scales, including projects, programmatic approaches, policies,
+jurisdictional REDD+ programs, and other interventions. They may also be implemented at one or
+more sites.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 107
+SSEECCTTIIOONN ffiIvVeE
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+MITIGATION ACTIVITY PROPONENT
+The legal entity requesting the registration of a mitigation activity and issuance of carbon credits
+under a carbon-crediting program. The mitigation activity proponent may be a public or private
+entity. See also JURISDICTIONAL REDD+ PROGRAM PROPONENT
+MITIGATION ACTIVITY WITHIN A JURISDICTIONAL REDD+ PROGRAM (PROJECT-BASED)
+Refers to a project-based mitigation activity aimed at reducing emissions and/or enhancing
+removals (e.g., reduced emissions for deforestation and forest degradation, enhancement or
+conservation of forest carbon stocks, sustainable management of forests) that is located within
+a jurisdiction covered by a registered Jurisdictional REDD+ Program and for which the accounting
+boundaries overlap with the Jurisdictional REDD+ Program.
+MULTI-STAKEHOLDER WORKING GROUPS (MSWG)
+Multi-Stakeholder Working Groups (MSWGs) that operate pursuant to terms of reference that
+will be made public on the ICVCM website. The MSWGs will be tasked to assess relevant criteria
+and requirements of specific Categories, including their underlying methodologies based on,
+inter alia, public classifications of Categories, publicly available academic literature, information
+from ratings agencies, carbon-crediting program-specific information, including information
+submitted as part of its Application, and other public information relating to Categories.
+NEW MITIGATION ACTIONS OR ENHANCED IMPLEMENTATION OF ONGOING MITIGATION
+ACTIONS
+Refers to new or enhanced implementation action taken by a Jurisdiction that is explicitly
+designed and reasonably expected to address key drivers of deforestation and degradation in
+order to reduce emissions (and where applicable to the relevant Jurisdictional REDD+ Program,
+enhance removals) and may include, inter alia, policies, laws, technical assistance programs,
+enforcement measures, regulations, legal rights frameworks and/or incentive mechanisms. See
+Criterion 8.9 of the Assessment Framework.
+PROGRAM DOCUMENTS
+The documents adopted by carbon-crediting program that specify requirements, procedures
+and administrative and operational aspects of the carbon-crediting program. These documents
+include, but are not limited to, general carbon-crediting program standards, quantification
+methodologies, procedures, provisions, manuals, guidance and forms.
+PROGRAM-LEVEL ASSESSMENT
+An assessment by the Integrity Council of whether an applicant carbon-crediting program
+satisfies the relevant principles in the CCPs using the Program-level criteria and requirements in
+Part I of the Assessment Framework.
+REMOVAL
+Removal refers to the anthropogenic removal of carbon dioxide (CO2) from the atmosphere and
+durable storage of the carbon in terrestrial or geological reservoirs or products.
+RETIREMENT
+The permanent removal of a carbon credit in a registry for the purpose of claiming the associated
+emission reductions or removals towards compliance requirements or voluntary goals. Only one
+single use should be associated with each retirement and the use should be clearly specified.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 108
+SSEECCTTIIOONN ffiIvVeE
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SSEECCTTIIOONN ffiIvVeE SECTION six JANUARY 2024 - VERSION 1.1
+START DATE
+The calendar date on which the mitigation activity proponent committed to implementing the
+mitigation activity (e.g., the date when contracts for the purchase or installation of equipment
+required for the mitigation activity were executed or the date when the first expenditures are
+incurred). In the case where a mitigation activity does not involve expenditure, it refers to the
+date when the first physical actions were taken to implement the mitigation activity (e.g., the
+discontinuation of the cultivation of land so that natural revegetation or succession may occur).
+SUSPENSION DECISION
+A Suspension Decision is a Decision by the Governing Board that, as a minimum, contains
+the grounds for the suspension, sufficient information for the carbon-crediting program to
+understand how the Integrity Council came to the view that suspension was necessary and
+proportionate, and the conditions to be satisfied by the carbon-crediting program for the program
+or Categories to be reinstated.
+TERMINATION DECISION
+A Termination Decision is a Decision by the Governing Board that, as a minimum, contains the
+grounds for the termination, and sufficient information for the carbon-crediting program to
+understand how the Integrity Council came to the view that termination was necessary and
+proportionate.
+VALIDATION
+The process of independent, third-party evaluation of a mitigation activity requesting registration
+under a carbon-crediting program by an accredited Validation and Verification Body (VVB) against
+the program provisions of the applicable carbon-crediting program.
+VALIDATION AND VERIFICATION BODY (VVB)
+An independent third-party entity that is accredited for performing validation and/or verification
+audits. Verification and validation bodies are often also referred to as auditors.
+VERIFICATION
+The process of periodic independent, third-party ex-post evaluation by a VVB of requests by a
+registered mitigation activity to issue carbon credits against the program provisions of the
+applicable carbon-crediting program.
+VINTAGE
+The calendar year in which the emission reduction or removal associated with a carbon credit
+took place. Because the verification process is conducted after the emission reductions or
+removals have occurred, carbon-crediting programs may issue carbon credits after the vintage
+year.
+WORKING DAY
+A day on which banks are open for normal business in London, United Kingdom.
+Section 5: Definitions - Core Carbon Principles - January 2024, Version 1.1 | 109
+SSEECCTTIIOONN ffiIvVeE

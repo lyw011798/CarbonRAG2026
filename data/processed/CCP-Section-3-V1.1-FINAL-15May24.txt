@@ -1,0 +1,910 @@
+3
+SECTION
+SUMMARY FOR
+DECISION MAKERS
+January 2024, Version 1.1
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+SECTION 3
+SUMMARY FOR DECISION MAKERS JULY 2023 22
+A. GOVERNANCE 25
+1 Effective governance
+2 Tracking
+3 Transparency
+4 Robust independent third-party validation and verification
+B. EMISSIONS IMPACT 31
+5 Additionality
+6 Permanence
+7 Robust quantification
+8 No double counting
+C. SUSTAINABLE DEVELOPMENT 40
+9 Sustainable development benefits and safeguards
+10 Contribution towards net zero emissions
+D. CCP ATTRIBUTES 45
+E. CONTINUOUS IMPROVEMENT OF THE ASSESSMENT FRAMEWORK 46
+Paris Alignment
+Sustainable development benefits and safeguards
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 21
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Summary for
+Decision Makers
+JULY 2023
+Introduction
+This Summary for Decision Makers (SDM) presents an overview of the Integrity Council for the
+Voluntary Carbon Market (Integrity Council or ICVCM)’s Core Carbon Principles (CCPs) and their
+implementation through the Assessment Framework. The SDM is intended to provide Decision
+Makers and stakeholders with a comprehensive understanding of the approach adopted by the
+ICVCM. It should be read in conjunction with the CCPs, the Assessment Framework, Definitions and
+the Assessment Procedure.
+The ICVCM seeks to help the voluntary carbon market (VCM) accelerate climate action by
+enabling participants in the market to more easily identify high-quality carbon credits. The VCM
+currently includes carbon-crediting programs (also known as carbon standards) that set rules for
+mitigation activities that achieve emissions reductions or removals. Those mitigation activities
+are developed and operated by mitigation activity proponents and their design is validated by
+accredited third-party Validation and Verification Bodies (VVBs). Greenhouse Gas (GHG) emission
+reductions or removals achieved by those mitigation activities are then verified by VVBs and
+issued by carbon-crediting programs in their registries as carbon credits. Each carbon credit
+should represent one tonne of CO2 equivalent emissions reduction or emissions removal. These
+carbon credits may then be acquired and used by entities, including to help manage their
+environmental commitments.
+All carbon-crediting programs have adopted requirements, procedures, and policies to address
+governance, decision making, administrative, and operational considerations for developing
+and implementing mitigation activities known as program documents. However, the quality,
+coverage, and adherence to the stipulations contained within those documents varies. The aim
+of the Integrity Council’s CCPs and Assessment Framework is to help VCM participants identify
+high-quality carbon credits and to establish and progressively raise a threshold for quality and
+integrity across the VCM that builds confidence and comparability.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 22
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+This publication replaces the CCPs, Assessment Framework and other accompanying documents
+that were published in March 2023. It comprises the complete Assessment Framework,
+including Category-level requirements that have been added to the already published Program-
+level requirements, and this publication marks the start of the processes defined within the
+Assessment Procedure. The ICVCM documents (in particular the Assessment Framework and the
+Assessment Procedure) may be subject to updating and revision from time to time, including to
+avoid unintended consequences as the Integrity Council seeks to carry out its mission through a
+principles-based approach.
+The Assessment Framework enables assessment by the Integrity Council of carbon-crediting
+programs against its criteria and requirements. As carbon-crediting programs update their
+rules in line with market best practice, these changes will help to raise the collective ambition
+of standards in the market. Carbon-crediting programs must apply for assessment through the
+Integrity Council’s Assessment Platform. Carbon-crediting programs that are assessed by the
+Integrity Council to meet the requirements will be classified as CCP-Eligible.
+The Category-level criteria and requirements address methodological and related rules of a
+carbon-crediting program to determine whether carbon credits issued under such rules have met
+the requirements of the CCPs. Where the rules meet the CCP requirements and criteria, carbon
+credits from CCP-Eligible programs will qualify for labelling as CCP-Approved. This two-level
+approach means that only CCP-Eligible programs will be able to label qualifying carbon credits as
+CCP-Approved. When applying for assessment by the Integrity Council, carbon-crediting programs
+can choose to exclude certain methodologies. Excluded methodologies will not be assessed by
+the Integrity Council and so carbon credits that have been issued using such methodologies will
+not be CCP-Approved. The Integrity Council will publish and maintain a list of any methodologies
+excluded by carbon-crediting programs.
+The Assessment Procedure establishes a collaborative process under which the ICVCM’s multi-
+stakeholder working groups will consider Categories of carbon credits (Categories) and their
+assessment against the ICVCM’s criteria and requirements under the Assessment Framework.
+The Categories Working Group (CWG) will undertake an initial analysis, using the Category-
+level criteria and requirements, relevant literature and public documentation. The CWG’s initial
+analysis will form the basis for the ICVCM Governing Board to determine which Categories of
+carbon credit are eligible for the internal assessment process, require assessment through a
+multi-stakeholder process, or are not likely to meet ICVCM requirements.
+For Categories requiring multi-stakeholder assessment, the Multi-Stakeholder Working Groups
+(MSWG) will evaluate and advise on Categories that meet the CCP requirements. The MSWG will
+provide input to the Integrity Council on Categories meeting its requirements and those that
+are unlikely to do so. As the MSWG meet and conclude their analysis, the ICVCM will prepare
+draft Evaluation Reports for the Governing Board. The Board will consider the draft Reports,
+Recommendations and other relevant information and then make decisions on the Categories for
+which the specific MSWG is tasked.
+The ICVCM will consider the existing inventory of carbon credits issued by CCP-Eligible programs
+and assess which active Categories meet the requirements of the CCPs. Where a program elects
+to exclude certain methodologies from ICVCM assessment, the ICVCM will not assess those
+methodologies and will publish the exclusion on the ICVCM website. Decisions on approval of
+Categories will also apply to future issuances of carbon credits that fall into Categories approved
+by the ICVCM, making it apparent prior to issuance whether they are CCP-Approved.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 23
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+In the Category of avoiding unplanned deforestation (AUD), the ICVCM is aware that a carbon-
+crediting program with a large number of registered AUD mitigation activities will shortly issue a
+new consolidated methodology for AUD. The carbon-crediting program should have rules requiring
+mandatory use of and transition to that consolidated methodology, including that registered
+project activities using existing methodologies for AUD under that program will be required
+to transition. In order to ensure an orderly and consistent ICVCM assessment process for this
+Category, the ICVCM will only begin assessing methodologies in the Category of AUD when that
+consolidated methodology is published in final form.
+Continuous improvement is a fundamental principle of the Integrity Council. Working with a broad
+range of stakeholders and market participants, the Integrity Council will establish work programs
+that help to share expert and stakeholder experience, including that of Indigenous Peoples and
+Local Communities (IPs & LCs), and strengthen the collective understanding of emerging best
+practice and innovation for the key issues that need to be addressed in the coming years.
+The areas covered by the work programs are set out below in section E Continuous Improvement
+of the Assessment Framework. The work programs will include relevant experts and stakeholder
+representatives and will provide opportunities for wider input. The work programs will aim to
+identify how the market needs to evolve, offer key considerations for that evolution, and, where
+possible, make recommendations for future iterations of the Assessment Framework or other
+developments to ensure a scalable high-integrity market.
+Carbon-crediting programs, experts, project developers, policymakers, IPs & LCs, and other
+stakeholders will help to shape the future iterations of the ICVCM and the concept of best practice
+on these issues. IPs & LCs play a particularly important role in raising the integrity of VCM as they
+manage and protect approximately 40% of the planet’s ecologically intact landscapes and act as
+stewards of many key carbon sinks. A high-integrity VCM would be strengthened by the traditional
+knowledge of IPs & LCs and would provide them with resources to further develop nature-based
+climate solutions. But, to deliver, it is critical that IPs & LCs have agency to continue managing
+vital ecosystem services at the local level and are included in relevant decisions around climate
+and nature-based solutions. For these reasons, the ICVCM will give particular consideration to
+IPs & LCs and will continue to consult with them, and in light of comments received, will seek
+to ensure they are consulted on activities that affect them through free, prior and informed
+consent (FPIC) processes, that IP & LC rights, interests and values are safeguarded, and they have
+appropriate support for their full and effective participation in the high-quality carbon markets
+that the ICVCM seeks to develop.
+The following sections correspond with the CCPs and the Assessment Framework and provide
+context, overview and summary rationale for each.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 24
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+A. Governance
+Governance includes four of the CCPs: Effective Governance, Tracking, Transparency, and Robust
+Independent Third-party Validation and Verification. Taken together, these CCPs identify strong
+governance provisions at the Program-level. These provisions are critical to ensuring the
+overall quality of carbon credits issued by the carbon-crediting programs and maintaining and
+strengthening an environment of trust that supports the long-term integrity and growth of the
+VCM.
+Effective governance is important for integrity because it significantly improves transparency
+and accountability and can help to grow participation in the VCM. It may also increase the
+responsiveness and engagement of the public and key stakeholders by providing increased
+relevance, reliability, comparability of reporting and improved insight into program performance.
+Tracking is accomplished through the use of registries. A registry is a secure central database for
+recording comprehensive information about carbon credits that the program issues, including
+the mitigation activity in which they were generated, their ownership, and their transaction
+history. A registry uniquely identifies each carbon credit, the associated mitigation activity,
+and any other associated attributes. Registries also provide comprehensive information about
+mitigation activity proponents and VCM participants.
+Transparency is achieved through the public availability of information. Availability of
+information enables stakeholders to understand how the GHG emission reductions or removals
+are calculated, including how additionality is assessed, GHG emissions reductions or removals
+are quantified, and the environmental and social impacts of the mitigation activity.
+Robust independent third-party validation and verification through external third-party
+auditing is a key tool for accuracy, consistency, transparency, and integrity in the VCM. Auditing
+by third-party validation and verification bodies (VVBs) provides independent confirmation that
+the mitigation activity achieves the claimed GHG emission reductions or removals. Requirements
+include rules that specify when and how validation of the design of a mitigation activity and
+verification of GHG emission reductions and removals by third-party auditors, plus verification
+of other aspects, are to occur and be implemented. The work of VVBs is essential to the
+environmental integrity of carbon-crediting and to ensuring confidence in the VCM.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 25
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+The processes listed above are all important for ensuring effective program operation. Many of
+those have also been addressed in the requirements by the Carbon Offsetting and Reduction
+Scheme for International Aviation (CORSIA), developed and adopted by the International Civil
+Aviation Organisation (ICAO). To minimise the burden on carbon-crediting programs operating
+in the VCM, the ICVCM has determined that programs already eligible under CORSIA are also
+eligible under this version of the Assessment Framework provided that they meet some additional
+requirements as set out in the Assessment Framework.
+Carbon-crediting programs will be required to meet all requirements in the Assessment
+Framework. Carbon-crediting programs that are CORSIA-eligible must provide confirmation
+of their eligibility when applying for assessment. Once CORSIA eligibility is established these
+programs will not be required to demonstrate that they meet CORSIA requirements related to
+effective governance, tracking, transparency and robust validation and verification. CORSIA-
+eligible programs will have to provide relevant information for the additional requirements
+detailed in the Assessment Framework and include it in the ICVCM Assessment Platform through
+which applicant carbon-crediting programs and Categories are assessed.
+Carbon-crediting programs that have not yet applied for CORSIA eligibility will be required to
+demonstrate to the Integrity Council that they meet all the requirements of CORSIA through their
+application to the ICVCM, as set out in the ICVCM Assessment Platform. They will also have to
+demonstrate that they meet the additional requirements detailed in the Assessment Framework
+and included in the ICVCM Assessment Platform.
+Changes in CORSIA requirements and/or changes in relation to the carbon-crediting programs
+and carbon credits listed as eligible in the CORSIA-Eligible Emission Units will be addressed, to
+the extent required and at the discretion of the ICVCM, through the Assessment Procedure.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 26
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+1 Effective Governance
+The carbon-crediting program shall have
+effective program governance to ensure
+transparency, accountability, continuous
+improvement and the overall quality of
+carbon credits.
+Effective governance is a core feature of well-operated carbon-crediting programs. Effective
+governance requirements on public availability of documents and information enables
+transparent decision-making, effective and inclusive participation, and feedback to support
+continuous improvement.
+In addition to meeting governance requirements set out in CORSIA, the carbon-crediting
+program must demonstrate effective governance through a transparent and robust corporate
+governance framework for their organisations, including reporting and disclosure, and risk
+management policies and controls such as anti-bribery and anti-corruption. The Integrity
+Council’s requirements on effective governance ensure processes are in place that support an
+organisation’s long-term resilience and provide a framework of checks and balances to guide the
+organisation’s governing body and staff.
+The criteria under this CCP requires carbon-crediting programs to have an independent board,
+publish annual reports, have robust processes relating to corporate social and environmental
+responsibility, and have effective anti-money laundering rules.
+Effective governance requires that program documents relevant to decision-making are publicly
+available, subject to compelling confidentiality constraints, including data protection and
+privacy. Program documents include standards, methodologies, procedures, tools, guidelines,
+supplementary information, and project documentation.
+Carbon-crediting programs must also have processes in place that provide for public engagement
+through local and global stakeholder consultation and for independently addressing grievances.
+In the Assessment Framework, ICVCM makes use of CORSIA rules in relation to effective
+governance and has additional requirements that ensure CCP-Eligible programs have
+comprehensively effective governance.
+See Criteria 1.1 to 1.2 for Effective Governance in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 27
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+2 Tracking
+The carbon-crediting program shall operate
+or make use of a registry to uniquely identify,
+record and track mitigation activities and
+carbon credits issued to ensure credits can
+be identified securely and unambiguously.
+A registry is an information technology system used by a carbon-crediting program to identify
+mitigation activities and track each carbon credit from its issuance through subsequent
+transactions to its retirement or cancellation. Registries, therefore, play a critical role in ensuring
+high integrity by providing a transparent and secure platform to track and verify carbon credits.
+The criterion and requirements ensure that a carbon-crediting program has processes and
+procedures in place to provide clarity with respect to the issuance and retirement of carbon
+credits. Specifically, the carbon-crediting program’s registry should identify by whom and on
+whose behalf a carbon credit was retired, identify the purpose of retirement, have procedures to
+address erroneous issuance of carbon credits and procedures and requirements to ensure no
+more than one carbon credit is issued per tonne of CO2 equivalent.
+In the Assessment Framework, the ICVCM combines CORSIA rules in relation to registries with
+additional requirements that help ensure that CCP-Eligible carbon-crediting programs operate
+registries of the highest standards.
+See Criterion 2.1 for Tracking in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 28
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+3 Transparency
+The carbon-crediting program shall provide
+comprehensive and transparent information
+on all credited mitigation activities. The
+information shall be publicly available in
+electronic format and shall be accessible
+to non-specialised audiences, to enable
+scrutiny of mitigation activities.
+The design and implementation of a mitigation activity is an intensive process requiring
+significant qualitative and quantitative documentation. Making this information publicly
+available through a registry is key to promoting transparency.
+The Assessment Framework’s criterion on Transparency requires public disclosure of all relevant
+project documentation. To meet the requirements under this criterion, the carbon-crediting
+program must ensure the registry contains detailed information about each mitigation activity
+and is searchable by the general public. By making this information publicly available, interested
+stakeholders will be able to understand how the GHG emission reductions or removals are
+calculated, including how additionality is assessed, GHG emissions reductions or removals are
+quantified, and the environmental and social impacts of the mitigation activity.
+Information about the activity should be publicly available electronically, subject to compelling
+confidentiality constraints. It is also important that information requests from stakeholders are
+appropriately addressed, and that stakeholders are provided with and directed to that information
+on the carbon-crediting program’s website.
+In the Assessment Framework, the ICVCM combines CORSIA rules concerning transparency with
+additional requirements that ensure CCP-Eligible programs operate with full transparency about
+mitigation activities.
+See Criterion 3.1 for Transparency in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 29
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+4 Robust Independent Third-party Validation and Verification
+The carbon-crediting program shall have
+program-level requirements for robust
+independent third-party validation and
+verification of mitigation activities.
+Third-party auditing of the design of mitigation activities and monitoring of GHG emission
+reductions or removals is critical to ensuring that each mitigation activity meets all relevant
+program rules specified in the program documents.
+To meet the criterion and requirements under Robust Independent Third-party Validation
+and Verification, the carbon-crediting program’s documents must set out the rules for how
+VVBs become and remain accredited in relation to the carbon-crediting program, review the
+performance of VVBs, and set standards and develop procedures that guide VVBs in their work.
+These rules include provisions on VVB organisational structure and management, organisational
+resources, validation and verification processes, information requirements, penalties for rule
+breaches and rules ensuring the impartiality of the VVB and the avoidance of conflicts of interest.
+In the Assessment Framework, the ICVCM combines CORSIA rules on third-party validation
+and verification with additional requirements that ensure CCP-Eligible programs are applying
+validation and verification best practices.
+See Criterion 4.1 for Robust Validation and Verification in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 30
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+B. Emissions
+Impact
+5 Additionality
+The greenhouse gas (GHG) emission
+reductions or removals from the mitigation
+activity shall be additional, i.e., they would
+not have occurred in the absence of the
+incentive created by carbon credit revenues.1
+Additionality plays a central role in ensuring that the VCM drives additional climate action and is
+fundamental to the quality and environmental integrity of a carbon credit. Assessing additionality
+helps to determine that carbon credits are issued only to mitigation activities that would not have
+taken place without the incentives associated with the carbon credit.
+Carbon-crediting programs require the demonstration of additionality for specific mitigation
+activities in a variety of ways at the project level, however, the ICVCM does not undertake
+assessments at the individual project level. Instead, it assesses the approaches taken by the
+carbon-crediting program at the methodological level.
+As needed, carbon-crediting programs restrict or change the scope2 of their program or the
+eligibility of certain types of mitigation activities. The Integrity Council, including through the
+CWG and MSWG, will take any such decisions into consideration, alongside other information,
+when assessing the Category for CCP-approval. Relevant restrictions and/or changes in scope
+across various carbon-crediting programs over the years that relate to certain Categories include
+but are not limited to:
+1 There are multiple approaches for additionality that, depending on the type of mitigation activity, can provide strong
+assurances without the need for an investment analysis.
+2 Scope in this context means the applicability of the relevant methodology for use in types of countries, per the
+World Bank classification
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 31
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+ Activities that reduce hydrofluorocarbon-23 (HFC23) emissions;
+ Grid-connected electricity generation using hydroelectric power plants/units;
+ Grid-connected electricity generation using wind, geothermal, or solar power plants/units;
+ Utilisation of recovered waste heat for, inter alia, combined cycle electricity generation and the
+provision of heat for residential, commercial or industrial use;
+ Generation of electricity and/or thermal energy using biomass (this does not include
+efficiency improvements in thermal applications, e.g., cookstoves);
+ Generation of electricity and/or thermal energy using fossil fuels, including activities that
+involve switching from higher to lower carbon content fuel;
+ Replacement of electric lighting with more energy-efficient options;
+ Installation and/or replacement of electricity transmission lines and/or energy efficient
+transformers.
+In addition to meeting other requirements in the Assessment Framework, carbon-crediting
+programs must meet the CORSIA additionality requirements. Carbon-crediting programs must
+have program documents which demonstrate that mitigation activities meet existing host
+country legal requirements, such that the emissions reductions or removals exceed those
+required due to relevant and enforced legal requirements.
+In addition to the above approaches for demonstrating additionality, there are a number
+of recognised types of analysis for additionality that are required to be present in certain
+combinations. These approaches may be combined in the following ways:
+ Investment analysis and market penetration/common practice (optionally combined with
+further approaches); or
+ Barrier analysis and market penetration/common practice, (optionally combined with further
+approaches); or
+ Standardised approaches (no combination required).
+Carbon-crediting programs using alternative approaches that are equivalent in terms of
+stringency may present these to the ICVCM for consideration in the assessment process.
+In the event that a carbon-crediting program’s documents do not meet the additionality
+requirements, but the relevant Category is considered by the ICVCM including through the CWG
+and/or MSWG to meet additionality requirements based on other information (including but not
+limited to relevant literature), the relevant Category may still be approved as CCP-Approved in
+accordance with section 3 of the Assessment Procedure.
+The ICVCM, like CORSIA, has given special consideration to determining additionality in respect
+of Jurisdictional REDD+ (JREDD+) activities, given their unique characteristics relative to project-
+based approaches.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 32
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+The ICVCM recognises the important role of prior consideration of carbon credits in ensuring
+the additionality of credited mitigation activities and that current market practice addresses
+this issue in a variety of ways. In the next iteration of the Assessment Framework the ICVCM will
+consider the effectiveness of approaches to determine prior consideration including criteria
+that limit the allowed time period based on an assessment of the reasonable amount of time to
+produce documentation and/or a reasonable maximum amount of elapsed time between activity
+start date and registration, including for JREDD+ activities. The ICVCM may also consider requiring
+reassessment of additionality at renewal of the crediting period for certain Categories in the next
+iteration of the Assessment Framework.
+See Criteria 8.1 to 8.10 for Additionality in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 33
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+6 Permanence
+The GHG emission reductions or removals
+from the mitigation activity shall be
+permanent or, where there is a risk of
+reversal, there shall be measures in place
+to address those risks and compensate for
+reversals.
+Permanent mitigation of GHG emissions is essential for maintaining net anthropogenic
+emissions in line with the long-term temperature goals of the Paris Agreement. However, many
+activities that enhance or preserve carbon stored in geologic or land-based reservoirs experience
+some degree of reversal risk.
+These risks can be human-induced (e.g., an afforestation project that is converted to cropland)
+or nature-induced (e.g., an afforestation project destroyed by a wildfire). Different activities have
+varying degrees of reversal risk. When the carbon stored in a reservoir by a mitigation activity is
+released to the atmosphere, it can no longer be considered a GHG emission reduction or removal.
+Temporary carbon storage, even over long periods, cannot substitute for permanent emission
+reductions. However, reversible mitigation can still play an important role in efforts to limit global
+warming. Crediting carbon storage for finite timescales, for example, could enable higher volumes
+of near-term investment in mitigation activities and help avoid climate tipping points. In doing
+so, it can also buy time until permanent mitigation solutions become viable at scale, or other
+policies are developed to maintain terrestrial carbon storage indefinitely.
+Under the Permanence CCP, Categories must meet CORSIA permanence requirements as well as
+additional permanence requirements based on associated risk of reversals. As these risks vary by
+Category, the ICVCM has tailored its permanence criteria and requirements as expressed in the
+Assessment Framework, including separate permanence requirements for Jurisdictional REDD+
+Programs, accordingly.
+For certain Categories identified in the Assessment Framework, an approach to monitor and
+compensate for reversals, including through obligations on mitigation activity proponents and
+using pooled buffer reserves, is required. These Categories are:
+ Conservation and avoided conversion (e.g., grassland/rangeland management, avoided
+deforestation);
+ Agriculture soil carbon sequestration;
+ Forestry sequestration (improved forest management, afforestation/reforestation,
+agroforestry);
+ Wetland and marine ecosystem restoration/management (including seagrasses,
+saltmarshes, mangroves, peatlands).
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 34
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Another set of Category types are required to assess reversal risk and manage material risks.
+These Categories are:
+ Mitigation activities involving the displacement of non-renewable biomass;
+ Biochar;
+ CCS with geological storage;
+ Enhanced weathering;
+ CCS with mineralization;
+ CO2 in concrete utilisation.
+The Integrity Council sets out rules that require compensation for reversals. For Categories where
+there is material risk, as noted above, a 40-year minimum commitment to monitor, report, and
+compensate for avoidable reversals, from the start date of the mitigation activity, is required.
+In relation to managing reversal risk and compensating for reversals for such Categories, the
+Assessment Framework provides conditions under which mitigation activity proponents must
+compensate for avoidable reversals, and also sets out requirements for pooled buffer reserves and
+how the carbon credits placed within them are to be used in the case of reversals.
+In its next iteration, the ICVCM will consider longer monitoring and compensation periods (e.g.,
+one hundred years). The ICVCM may also shift monitoring and compensation oversight to the
+program or jurisdiction, in alignment with existing and emerging best practices among carbon-
+crediting programs.
+The next iteration of the Assessment Framework will also require the carbon-crediting program to
+have provisions in place to ensure the continued operation of the pooled buffer reserve until the
+latest date of expiry of the monitoring and compensation period of all registered and completed
+mitigation activities, for instance, when the carbon-crediting program ceases to exist or is
+otherwise prevented from operating the pooled buffer reserve.
+The Assessment Framework applies specific provisions for addressing permanence in a
+Jurisdictional REDD+ Program. These provisions cover use of a pooled buffer reserve and how
+reversals are addressed through that reserve. Given the relative newness of Jurisdictional REDD+
+the ICVCM will continue to analyse JREDD+ permanence for future iterations of the Assessment
+Framework.
+Finally, the ICVCM will also undertake a work program in relation to permanence. Refer to section E
+on Continuous Improvement of the Assessment Framework for additional details.
+See Criteria 9.1 to 9.5 for Permanence in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 35
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+7 Robust Quantification
+The GHG emission reductions or removals
+from the mitigation activity shall be
+robustly quantified, based on conservative
+approaches, completeness and sound
+scientific methods.
+A crucial consideration in strengthening the integrity of the VCM is ensuring that GHG emission
+reductions or removals are robustly quantified so that their levels are not overstated. Robust
+quantification relates to the measurement of emission reductions from an activity, the
+determination of baselines, and the accuracy of the number of credits issued.
+Carbon-crediting programs must, inter alia, address the level of uncertainty of emission
+reductions or removals and ensure the conservativeness of quantification methodologies. It is
+critical for carbon-crediting programs to understand the level of uncertainty associated with the
+data and assumptions used to quantify GHG emission reductions or removals to ensure they are
+estimated conservatively. In this context, conservativeness relates to managing the uncertainty
+in emission measurements and calculations relating to the baseline and credits issued. The
+overriding principle is to choose the most conservative value or quantification methodology to
+address the inherent uncertainty.
+Ensuring robust quantification requires that carbon-crediting programs have a thorough
+methodology-approval process that includes public stakeholder consultations and reviews by
+independent experts. Moreover, carbon-crediting programs must have robust requirements
+and principles governing the quantification of GHG emission reductions and removals. In
+addition, robust quantification requires that carbon-crediting programs ensure that GHG
+emission reductions or removals are verified ex-post. Some carbon-crediting programs also issue
+carbon credits ex-ante. In such instances, only carbon credits issued ex-post may be eligible for
+CCP-Approval.
+Carbon-crediting programs must meet the CORSIA requirements related to robust quantification.
+CORSIA addresses the creation and updates of methodologies which are used to issue carbon
+credits from activities that reduce or remove emissions. At the Category-level, quantification
+approaches must also meet the CORSIA requirements. In addition, the quantification approaches
+in methodologies and other program documents must ensure conservativeness by limiting the
+likelihood that emissions reductions or removals from mitigation activities are overestimated
+and that a very significant overestimation is very unlikely. The overall uncertainty in quantifying
+emissions reductions or removals is to be taken into account by including all causes of
+uncertainty, including assumptions (e.g., baseline scenario), estimation equations or models,
+parameters (e.g., representativeness of default values), and in measurement approaches (e.g., the
+accuracy of measurement methods), and overall uncertainty is required to be assessed as the
+combined uncertainty from individual causes.
+Additional criteria and requirements contain quantification approaches that should be fulfilled in
+quantification methodologies and, where relevant, other program documents used in quantifying
+emissions reductions or removals for a given Category of carbon credits. These requirements
+include that:
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 36
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+ Boundaries should enable conservativeness and account for emissions sources and sinks,
+and, where possible, their location;
+ Baselines must be conservative, consider uncertainties, legal requirements and rebound
+effects, avoid perverse incentives, and be reviewed at appropriate intervals;
+ All material sources of leakage must be taken into account and minimised with deductions
+applied for residual leakage. Estimation of leakage to be robust and conservative due to
+uncertainty;
+ The quantified emission reductions or removals should be attributable to the mitigation
+activity;
+ Aggregate duration of crediting periods should be activity-appropriate;
+ Activities have robust monitoring including robust and conservative measurement,
+consideration of uncertainty, assignment of responsibilities, and quality control.
+The Assessment Framework contains several areas related to Robust Quantification where the
+ICVCM has signalled its intention to increase the future stringency of requirements.
+Carbon-crediting programs should regularly review and update their quantification
+methodologies to ensure environmental integrity. Therefore, in the next iteration of the
+Assessment Framework, the ICVCM will include a minimum elapsed time (e.g., every five years)
+for this review and update to take place. The ICVCM will consult with relevant stakeholders to
+understand existing practice and the best periodicity for this review cycle.
+The ICVCM also understands the importance of a consistent approach to calculating CO2
+equivalence and will introduce requirements to align approaches used by carbon-crediting programs
+with the agreed values used internationally, i.e., the 100-year Global Warming Potential (GWP) values
+from the 5th IPCC assessment report, in the next iteration of the Assessment Framework.
+The ICVCM emphasises the importance of robust quantification and the need to create robust and
+sufficiently refined methodologies to lower the risk that credited emission reductions or removals
+are overestimated, and will continue to consider ways to set criteria that reduce the likelihood
+of overestimation and criteria that will ensure that the ambition of the baseline is enhanced
+upon update and/or review.3 The ICVCM will also consider whether to require quantification
+methodologies to ensure that the approach to updating and reviewing the baseline increases the
+ambition of the baseline over time.
+In relation to JREDD+, the ICVCM will consider whether to require carbon-crediting programs
+to have provisions stipulating that any registered Project-based mitigation activity within a
+Jurisdictional REDD+ Program takes into account the provisions of that Jurisdictional REDD+
+Program where required by the jurisdiction.
+Finally, the ICVCM will also undertake a work program in relation to robust quantification under
+its Paris Alignment work program. See section E on Continuous Improvement of the Assessment
+Framework.
+See Criteria 5.1 to 5.3 and Criteria 10.1 to 10.8 in the Assessment Framework.
+3 See also Continuous Improvement work program on Paris Alignment in the context of baselines that relate to assessing how
+baseline scenarios and baseline emission and removal quantification can take into account and be aligned to Paris Agreement
+goals, the host country NDC and the LT-LEDs of the host country, if any.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 37
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+8 No Double Counting
+The GHG emission reductions or removals
+from the mitigation activity shall not be
+double counted, i.e., they shall only be
+counted once towards achieving mitigation
+targets or goals. Double counting covers
+double issuance, double claiming, and
+double use.
+Double counting of carbon credits and/or GHG emission reductions or removals undermines
+the integrity of the VCM. Double counting can manifest in a number of ways and the ICVCM
+requirements ensure that the carbon-crediting programs manage the risks of double counting.
+Double issuance: This occurs when two or more carbon credits coexist at the same time
+for one GHG emission reduction or removal, under the same or different carbon-crediting or
+other programs. Double issuance can also occur where two or more mitigation activities have
+overlapping GHG accounting boundaries. The carbon-crediting program must have provisions
+avoiding issuance of more than one credit in relation to the same GHG emission reduction or
+removal in such cases.
+Double use: This occurs when one carbon credit is claimed towards multiple mitigation targets/
+goals (e.g., once each by two different entities or twice by one entity).
+Double claiming with mandatory domestic mitigation schemes: This occurs when a
+carbon-crediting program issues a carbon credit in respect of GHG emission reductions or
+removals that are covered by a mandatory domestic mitigation scheme (e.g., emissions trading
+system). In the context of the ICVCM, it is considered that a Nationally Determined Contribution
+(NDC) under the Paris Agreement does not constitute a mandatory domestic mitigation scheme.
+While a NDC may be put into effect through a variety of instruments, including mandatory
+domestic mitigation schemes, it is considered to be separate from the latter.
+The Integrity Council has established a CCP Attribute in relation to host country authorisation for
+use towards ‘other international mitigation purposes’ pursuant to Article 6 of the Paris Agreement
+(see section D below). The question of how to manage double counting in all its forms in the
+context of Article 6, and whether double claiming with NDCs should be avoided on the basis of
+a corresponding adjustment as set out in Article 6 implementing guidance, will be addressed
+in the ICVCM work program, described in section E Continuous Improvement of the Assessment
+Framework.
+Double claiming with mitigation incentivisation schemes: This occurs when a carbon-crediting
+program issues a carbon credit for a GHG emission reduction or removal for which another
+environmental credit related to GHG emission mitigation is being issued and traded under a
+different environmental credit market (such as Renewable Energy Certificates).
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 38
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+At the Program-level, the carbon-crediting programs must have provisions in place that prevent
+double registration of mitigation activities and double issuance of carbon credits. In addition,
+carbon-crediting programs must also have provisions that prevent double use of carbon credits
+within their registry.
+At the Category-level, carbon crediting programs must must seek to avoid double issuance
+through provisions to identify potential overlaps in cases where there is a material risk of
+overlapping claims. In cases where there is risk of double claiming, carbon-crediting programs
+must ensure either that overlapping activities are not issued credits or that any relevant
+mitigation impacts are not counted towards the achievement of targets or obligations under the
+mandatory domestic mitigation scheme. Finally, for Categories where there is a material risk
+of double claiming, the carbon-crediting program must have provisions to ensure that carbon
+credits are not issued for GHG emission reductions or removals achieved by a mitigation activity
+where units related to the same climate impacts of the mitigation activity are traded in other
+environmental markets.
+See Criteria 6.1 to 6.5 for No Double Counting in the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 39
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+C. Sustainable
+Development
+9 Sustainable Development Benefits and Safeguards
+The carbon-crediting program shall have
+clear guidance, tools and compliance
+procedures to ensure mitigation activities
+conform with or go beyond widely established
+industry best practices on social and
+environmental safeguards while delivering
+positive sustainable development impacts.
+In a high-integrity VCM, carbon-crediting programs take steps to ensure that mitigation activities
+adhere to environmental and social safeguards and contribute to the Sustainable Development
+Goals (SDGs). Carbon-crediting programs have measures in place to ensure that, in the context of
+the host country, mitigation activity proponents inform how SDG impacts are consistent with SDG
+objectives, respect human rights and comply with relevant safeguards. Program-level processes
+ensure that mitigation activity proponents assess environmental and social risks associated with
+proposed mitigation activities, taking into account the size and scale of the relevant mitigation
+activity.
+Where the context requires, mitigation activities are required to ensure free, prior and informed
+consent (FPIC) processes with IPs & LCs, protect and improve livelihoods, protect and restore
+biodiversity and ecosystem services, enhance climate resilience and adaptation, reduce pollution,
+and be transparent about the sharing of benefits from the mitigation activity with IPs & LCs.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 40
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Under Program-level criteria and requirements in the Assessment Framework, carbon-crediting
+programs must meet the CORSIA requirements to Safeguards System and Sustainable
+Development Criteria. In addition to the relevant CORSIA requirements, carbon-crediting programs
+must ensure compliance with relevant national requirements, applicable laws and rules of the
+relevant jurisdiction. They must also assess risks of negative environmental and social impacts
+associated with relevant safeguards. In that context, the Assessment Framework builds on the
+work of widely applied best-in-class standards including the World Bank, International Finance
+Corporation, United Nations Development Programme, United Nations Declaration on the Rights
+of Indigenous Peoples, United Nations Environment Programme, the Cancun Safeguards, and the
+International Labour Organization Fundamental Conventions, among others.
+The Program-level criteria contain numerous requirements applicable to how the carbon-
+crediting programs ensure mitigation activities have addressed risks relating to safeguards and
+sustainable development and, where appropriate, have included measures to address them in
+validated design documents. These requirements cover:
+ Labour Rights and Working Conditions;
+ Resource Efficiency and Pollution Prevention;
+ Land Acquisition and Involuntary Resettlement;
+ Biodiversity Conservation and Sustainable Management of Living Natural Resources;
+ Indigenous Peoples, Local Communities, and Cultural Heritage;
+ Respect for Human Rights, Stakeholder Engagement;
+ Gender Equality;
+ Robust Benefit-Sharing;
+ Cancun Safeguards.
+In addition, carbon-crediting programs are required to ensure mitigation activities provide
+information on consistency with host country SDG objectives, how any SDG benefits are delivered,
+and what standardised tools or methods, if any, were used.
+The ICVCM is aware that carbon-crediting programs have recently or are currently developing new
+and expanded requirements in this area and, as a result, carbon credits issued in the past might
+not have been subject to the more advanced criteria currently applicable to the carbon-crediting
+programs. The ICVCM has therefore created Category-level criteria applicable to all carbon credits,
+including those that might have been issued earlier, to address this issue.
+At the Category-level, mitigation activities must meet CORSIA requirements related to Safeguards
+System (do no net harm provisions) and Sustainable Development. In addition, where a Category
+also operates under a third-party linked certification scheme or third-party linked robust set of
+requirements relevant to safeguards and to sustainable development benefits, or specific further
+requirements of the carbon-crediting program, the carbon-crediting program must provide
+information for the assessment process in the Assessment Platform.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 41
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+The Assessment Framework contains areas related to Sustainable Development Benefits and
+Safeguards, listed below, where the ICVCM has signalled its intention to increase the future
+stringency of requirements at both the Program-level and Category-level.
+The ICVCM recognises that approaches to sustainable development benefits and safeguards are
+currently evolving and that this is a clear area for improvement in the VCM. The ICVCM will consult
+with relevant stakeholders on Program-level requirements to understand how current practice can
+be improved (see section E Continuous Improvement of the Assessment Framework) and how to
+incorporate any increases in stringency with criteria set out under section C.7 of the Assessment
+Framework into its next iteration to ensure:
+ The program rather than the proponent assesses the social and environmental risks;
+ Consistency with conservation objectives for terrestrial and marine habitats, including with
+regard to invasive alien species, avoiding conversion of high conservation value habitats and
+protecting habitats of endangered species, including areas needed for habitat connectivity;
+ Promotion of more sustainable use of resources, including energy, water and soil;
+ Best practice for IPs & LCs consultation and FPIC processes to be more inclusive of women
+and vulnerable and/or marginalised groups, and in particular to participate in the planning,
+implementation, and monitoring of any resettlement activities, with full consent;
+ Avoidance of negative impacts on IPs & LCs’ protected territories and resources, nor on their
+development priorities and governance; respect for areas inhabited by or believed to be
+inhabited by uncontacted or isolated IPs & LCs;
+ Transparency on use and management of revenues for benefit sharing;
+ Gender assessment and gender action plan and use of gender disaggregated data to monitor,
+assess and report on gender impacts;
+ Validation and verification requirements related to environmental and social safeguards.
+At the Category-level, the ICVCM is aware that further work is needed to improve sustainable
+development benefits and safeguards associated with mitigation activities. For the next iteration
+of the Assessment Framework, and through the Continuous Improvement work program, the
+ICVCM will draw upon available safeguards and SDG impact measurement and management
+protocols including third-party certification requirements to develop further criteria and a risk
+and impact rating framework for Categories.
+The ICVCM will consider requiring methodologies to submit evidence of the level of change
+achieved and the degree to which sustainable development benefits can be attributed to the
+mitigation activity. The ICVCM will also consider requiring methodologies to include provisions
+promoting net positive sustainable development benefits.
+See Criteria 7.1 to 7.11 for Sustainable Development Benefits and Safeguards and Criteria 11.1 and 11.2 in the
+Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 42
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+10 Contribution Towards Net Zero Emissions
+The mitigation activity shall avoid locking-
+in levels of GHG emissions, technologies
+or carbon-intensive practices that are
+incompatible with the objective of achieving
+net zero GHG emissions by mid-century.
+Contributing to the global transition towards net zero emissions is a global imperative and
+inscribed as the long-term goal under the Paris Agreement: achieving a balance of greenhouse
+gas emissions and removals in the second half of this century. For compatibility with the global
+goal of net zero, mitigation activities, even if they lead to short-term emission reductions, should
+be discouraged if the result locks in an increase in long-term GHG emissions.
+The ICVCM has therefore determined that in order to ensure that CCP-Approved carbon credits
+are not misaligned with the contribution to net zero, certain Categories are ineligible for CCP-
+Approval. These Categories include mitigation activities that:
+ Directly lead to an increase in the extraction of fossil fuels, such as Carbon Capture and
+Storage technologies used for Enhanced Oil Recovery;
+ Relate to unabated coal-fired electricity generation;
+ Involve any other unabated fossil fuel-powered electricity generation other than new gas-fired
+generation as a part of increased zero-emissions generation capacity in support of national
+low-carbon energy transition plans;
+ Focus on road transport that rely on the continued use of solely fossil-fuelled engines.
+The approach put forward by the ICVCM ensures an initial step towards aligning carbon-crediting
+programs and Categories that are compatible with and mindful of the IPCC recommendations
+and with the development and energy transition priorities of developing countries. It allows
+for new net zero emissions from gas-fired generation in the context of transition planning and
+implementation, the use of carbon capture, utilisation and storage (CCUS) technology, as long
+as use of those technologies result in a net decrease of emissions, and hybrid vehicles, which
+represent important GHG reduction opportunities through efficiency and remain necessary
+elements of national policies for a large part of the world. CCP-Approval for these approaches
+will require carbon-crediting programs to ensure that new or revised methodologies require
+mitigation activity proponents to assess the compatibility of the mitigation activity with the
+transition to net zero, in reference to the net zero objectives of the relevant host country.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 43
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Finally, in the next iteration of the Assessment Framework, the ICVCM will consider enhancing the
+assessment of compatibility with the transition to net zero to all (both new and existing) active
+methodologies. This could be accomplished by requiring a dedicated section in all methodologies
+requiring mitigation activity proponents using the methodology to describe how the activities
+eligible under that methodology are compatible with a transition towards net zero in the relevant
+host country, including any expected contribution.
+See Criteria 12.1 to 12.2 for Contribution Towards Net Zero of the Assessment Framework.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 44
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+D. CCP Attributes
+Attributes can be used to identify additional features related to the mitigation activity for which
+the carbon credit has been issued. Such identification enables mitigation activity proponents to
+showcase the features of the mitigation activity and allows buyers to purchase carbon credits
+that match their preferences. To facilitate the identification of these additional features, the
+ICVCM has included CCP Attributes in this Assessment Framework.
+Carbon credits that are CCP-Approved as a result of the assessment process may then, in
+accordance with the Assessment Procedure, additionally be tagged with relevant CCP Attributes. A
+carbon credit may have more than one CCP Attribute, but each must be distinguished from other
+CCP Attributes that may be allocated to the carbon credit.
+Attribute 1 relates to ‘Host country authorisation pursuant to Article 6 of the Paris Agreement.’
+This attribute refers to whether the host country has authorised the carbon credit (‘mitigation
+outcomes.’ the GHG emission reductions or removals represented by the carbon credit) for ‘other
+international mitigation purposes’ under guidance adopted pursuant to Article 6 (specifically
+cooperative approaches referred to in Article 6, paragraph 2) of the Paris Agreement. Some buyers
+are keen to purchase carbon credits in respect of which there is a host country authorisation for
+Article 6 purposes. This attribute facilitates identifying such carbon credits.4
+Attribute 2, ‘Share of Proceeds for Adaptation,’ refers to whether the mitigation activity makes a
+voluntary contribution to the Adaptation Fund of the UNFCCC.
+Attribute 3 is ‘Quantified positive SDG impacts.’ This attribute refers to whether the mitigation
+activity quantifies a positive contribution to Sustainable Development (excluding SDG 13). It differs
+from requirements in section 4.C.7 of the Assessment Framework (criteria related to Sustainable
+Development Benefits and Safeguards) because the attribute relates to quantification of SDG
+impacts. This will facilitate the identification of carbon credits with quantified positive impacts.
+Such quantified positive SDG impacts must align with the sustainable development priorities of
+the host country, where those are relevant to the mitigation activity.5
+Other attributes may be developed at the discretion of the ICVCM.
+4 This issue is also connected to section 4.B.6 Assessment Framework (criteria related to No Double Counting) and the work
+program to be undertaken by the ICVCM described in section E below. The ICVCM will undertake a work program on related
+matters (see section E below).
+5 This issue is also connected to section 4.B.6 of the Assessment Framework (criteria related to No Double Counting) and the
+work program to be undertaken by the ICVCM described in section E below. The ICVCM will undertake a work program on related
+matters (see section E below).
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 45
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+E. CONTINUOUS
+IMPROVEMENT OF
+THE ASSESSMENT
+FRAMEWORK
+In line with best practices in standard setting, the Integrity Council has designed a process for
+continuous improvement of the CCPs and the Assessment Framework. The process ensures the
+continued relevance and effectiveness in meeting the stated objectives of the Integrity Council.
+Work on developing the next iteration of the Assessment Framework begins after the release
+of this first iteration. It will include input by multi-stakeholder work programs detailed in the
+sections below. It will include consultation processes (public and via workshops with multi-
+stakeholder groups such as carbon-crediting programs, project developers, academics, IPs & LCs,
+etc.) and analysis necessary to inform its development.
+The process for developing the next iteration of the CCPs and the Assessment Framework begins
+in the second half of 2023 with the aim of publishing in 2025 and implementation in 2026.
+Paris Alignment
+Corresponding Adjustments pursuant to guidance on Article 6, paragraph 2 of the Paris
+Agreement
+It is broadly understood that double counting must not occur where carbon credits are transferred
+internationally for use towards NDCs under the Paris Agreement. This understanding is also
+reflected in Article 6 guidance agreed at the UNFCCC COP26 in 2021. There is, however, an active
+debate in the VCM about how to manage double counting in all its forms in the context of Article
+6, and whether double claiming with NDCs should be avoided on the basis of a corresponding
+adjustment as set out in Article 6 implementing guidance, in the context of companies using
+carbon credits towards voluntary climate commitments. The ICVCM considers that this issue
+remains open after UNFCCC COP27 and needs further study.
+As countries move to implement systems to deliver on their Paris Agreement commitments the
+VCM and host country systems will increasingly interact. The ICVCM and VCMI will co-lead a joint
+work program to consider:
+ Identification and assessment of scenarios related to corresponding adjustments;
+ Impacts of corresponding adjustments and implications for carbon credit integrity.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 46
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Share of Proceeds for Adaptation Finance
+In addition to the CCP Attribute for a Share of Proceeds for Adaptation Finance (SOPA)6, the
+Integrity Council will establish a work program to consider:
+ Whether SOPA should be mandatory or voluntary;
+ Potential exemptions based on mitigation activity type or size based on the mitigation and
+adaptation impacts, and on benefits and revenues to communities participating in GHG
+mitigation activities/programs in developing countries;
+ The readiness of buyers of carbon credits to make such a contribution;
+ The merits of voluntary compared to mandatory approaches;
+ The appropriate destination of any carbon credits/revenue;
+ The impact on market participants and the incentives created.
+Baselines and NDC alignment
+The Integrity Council will establish a work program to consider:
+ How baseline scenarios and baseline emission and removal quantification can take into
+account and be aligned to the Paris Agreement goals, the host country Nationally Determined
+Contribution (NDC) and the Long-term Low-Emission Development Strategies (LT-LEDs) of the
+host country, where appropriate.
+Sustainable Development Benefits and Safeguards
+In addition to the requirements under section 4.C.7 Sustainable Development Benefits and
+Safeguards and the CCP Attribute for quantified positive SDG impacts7, the Integrity Council
+recognises that approaches to environmental and social safeguards are currently evolving
+and that this is a clear area for improvement in the VCM. The ICVCM will consult with relevant
+stakeholders to understand how current practice can be improved in order to develop new
+requirements for the next iteration of the Assessment Framework. The work program will include
+all elements listed in table 7.12 of the Assessment Framework.
+Permanence
+The ICVCM recognises the evolving market practice around ensuring permanence and measuring
+and addressing reversals. A work program will address the following aspects of permanence and
+addressing reversals:
+ Monitoring and compensation periods and/or reserve requirements, including consideration
+of methods to provide for longer monitoring and compensation periods (e.g., one hundred
+years), to consider whether monitoring and compensation periods should count from the
+start of the first crediting period or from the vintage of the mitigation outcome, and to
+consider options for transferring the monitoring and compensation oversight to the carbon-
+crediting program or the jurisdiction, including taking into account emerging and existing
+best practice among carbon-crediting programs;
+6 See section D, CCP Attribute 2: Share of Proceeds for Adaptation
+7 See Section D, CCP Attribute 3: Quantified positive SDG impact
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 47
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+ Pooled buffer reserves, their design, sufficiency (including periodic stress testing considering
+a range of scenarios), feasibility, and possible new designs;
+ Reversal risk assessment tools and procedures (including risks presented by climate
+change);
+ Insurance products and mechanisms;
+ Different approaches to permanence.
+In addition, the Integrity Council plans the following work programs to commence in 2024:
+Digital MRV
+The ICVCM recognizes the importance and limitations of Digital Monitoring, Reporting, and
+Verification (D-MRV) for the evolution and future best practice of the VCM. A work program on
+these issues will consider how remote sensing data, machine learning, AI and Web3 as applied to
+the VCM, for both jurisdictional and project-based crediting approaches could support enhanced
+transparency, integrity and efficiency of the VCM. Topics to be considered in relation to D-MRV
+might include:
+ D-MRV in the context of carbon credit quality assessments and review, including
+consideration of whether a universal standard for data quality and management would be
+useful across the market;
+ Minimum data resolution levels required to conduct project-specific assessments;
+ Accuracy and Attribution methodologies and best practices;
+ Acceptable uncertainty levels in data and its application in the VCM;
+ Peer review requirements for data, data sets and research methods related to D-MRV and the
+VCS.
+Market Transparency, Standardisation, and Scalability
+The ICVCM considers that there are opportunities to improve market standards around
+transparency and data infrastructure for credits, building on existing initiatives. This work
+program will include:
+ Universal tracking and transparency infrastructure (registry requirements and
+interoperability) for the global carbon market leveraging existing and emerging technologies
+and initiatives;
+ Credit pricing disclosure and tracking systems;
+ Guidance on reporting on revenue;
+ Standardised contracts.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 48
+FOREWORD SECTION ONE SECTION two SSEECCTTIIOONN tThHrReEeE SECTION four SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Oversight of VVBs and MRV systems
+The ICVCM considers that there are opportunities to improve market standards around how
+carbon-crediting programs oversee VVBs and MRV systems. This work program will include:
+ Best practice for accreditation, training and competency requirements for validators and
+verifiers;
+ Review of existing oversight mechanisms of VVB performance and procedures including
+systematic monitoring and consequences for poor performance;
+ Information and disclosure requirements for VVB bodies;
+ Approaches to independent spot checks, document review and completeness checks of
+validation and verification documents as well as registry requirements;
+ Approaches to triage, root-cause analysis and learning lessons when quality issues emerge
+for a project or credit type Category or methodology.
+Simplified Approaches for Small Projects
+The ICVCM considers that there may be opportunities to develop simplified approaches for
+small mitigation activities while maintaining high integrity and carefully assessing potential
+unintended consequences that such approaches could create. This work program will include
+consideration of:
+ Definition and cut-off for small mitigation activities and eligibility requirements for issuing
+organisations and programs;
+ Standardised assumptions with appropriate allowance for conservativeness;
+ Existing frameworks that can simplify and streamline risk assessments;
+ Sample-based approaches;
+ Consideration of nationally regulated mechanisms for accreditation and verification of
+credits.
+Jurisdictional Crediting Approaches
+The ICVCM considers that it would be beneficial to further evolve special considerations for
+jurisdictional crediting approaches, including areas such as:
+ Permanence;
+ Additionality, including prior consideration and applicability of financial consideration;
+ Establishing standardised baselines;
+ Retroactive crediting (and consideration may be relevant for non-jurisdictional approaches);
+ Nesting provisions.
+Section 3: Summary for Decision Makers - Core Carbon Principles - January 2024, Version 1.1 | 49

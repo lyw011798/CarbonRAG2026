@@ -1,0 +1,1467 @@
+4
+SECTION
+ASSESSMENT
+FRAMEWORK
+January 2024, Version 1.1
+4
+SECTION
+ASSESSMENT
+FRAMEWORK
+January 2024, Version 1.1
+4
+SECTION
+ASSESSMENT
+FRAMEWORK
+January 2024, Version 1.1
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+SECTION 4
+PART I: REQUIREMENTS FOR CARBON-CREDITING PROGRAMS 52
+A. GOVERNANCE 53
+1 Effective governance
+2 Tracking
+3 Transparency
+4 Robust independent third-party validation and verification
+B. EMISSIONS IMPACT 58
+5 Robust quantification of GHG emission reductions and removals
+6 No double-counting
+C. SUSTAINABLE DEVELOPMENT BENEFITS AND SAFEGUARDS 63
+7 Sustainable development benefits and safeguards
+PART II REQUIREMENTS RELATING TO CATEGORIES 72
+B. EMISSIONS IMPACT 73
+8 Additionality
+9 Permanence
+10 Robust quantification
+11 No double-counting
+C. SUSTAINABLE DEVELOPMENT BENEFITS AND SAFEGUARDS 95
+12 Sustainable development benefits and safeguards
+13 Contribution to net zero transition
+PART III REQUIREMENTS RELATING TO CCP ATTRIBUTES 100
+CCP Attribute 1: Host country authorization pursuant to Article 6
+of the Paris Agreement
+CCP Attribute 2: Share of Proceeds for Adaptation
+CCP Attribute 3: Quantified positive SDG impacts
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 51
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+PART I
+REQUIREMENTS
+FOR CARBON-
+CREDITING
+PROGRAMS
+The Assessment Framework contains the requirements for carbon-crediting programs and
+requirements for Categories of carbon credits (Categories).
+The Assessment Framework should be read in conjunction with the Summary for Decision
+Makers, the Definitions and the Assessment Procedure.
+The Integrity Council for the Voluntary Carbon Market (Integrity Council or ICVCM) also notes that
+the Summary for Decision Makers contains an explanation of the rationale for the criteria and
+requirements in this Assessment Framework and an explanation of the approaches that will
+be taken in the assessment process in relation to certain Categories. Reading the Summary for
+Decision Makers is therefore recommended.
+In this Assessment Framework, all Category criteria and requirements apply to all Categories
+except for Jurisdictional REDD+. Certain Category-level requirements are specific to Jurisdictional
+REDD+ Programs. This is the case for additionality (see criteria 8.9 and 8.10) and permanence (see
+criterion 9.5), and in those sections, only those requirements need to be met by Jurisdictional
+REDD+ Programs. However, no specific provisions were necessary for Jurisdictional REDD+
+Programs in other Category-level requirements, notably robust quantification, so all of the criteria
+in section 10 apply. This means that for carbon-crediting programs with Jurisdictional REDD+
+Programs, it will be important to note which criteria are applicable. As a result, this specific
+approach for Jurisdictional REDD+ Programs will have implications for how the assessment by the
+Categories Working Group (CWG) and, if relevant, the Multi-Stakeholder Working Group (MSWG), is
+undertaken.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 52
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+A. Governance
+CORSIA-eligible programs are required to provide information on their CORSIA eligibility. CORSIA-
+eligible programs will have to provide relevant information for the additional requirements
+detailed in the Assessment Framework and included in the ICVCM Assessment Platform.
+Carbon-crediting programs that have not yet applied for CORSIA eligibility will be required to
+demonstrate to the Integrity Council that they meet the requirements of CORSIA through their
+application to the ICVCM, as set out in the ICVCM Assessment Platform. They must also have to
+demonstrate that they meet the additional requirements detailed in the Assessment Framework
+included in the ICVCM Assessment Platform.
+Carbon-crediting programs that have applied to CORSIA but have not achieved CORSIA eligibility
+should contact the ICVCM before applying as set out in the Assessment Procedure.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 53
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+1. EFFECTIVE GOVERNANCE
+The carbon-crediting program shall have
+effective program governance to ensure
+transparency, accountability, continuous
+improvement and the overall quality of
+carbon credits.
+CRITERION 1.1: EFFECTIVE GOVERNANCE
+Table 1.1
+Effective governance
+Requirements
+a) In addition to CORSIA requirements related to governance framework, the carbon-crediting program shall:
+1) have a board comprised of independent board members who assume fiduciary responsibility for the
+organisation and operate according to robust bylaws;
+2) publish an annual report that contains the organisation’s revenues, expenses, and net assets over
+the past year and provides an overview of the organisation’s mission, major programs and activities,
+and governance;
+3) have processes in place to ensure corporate social and environmental responsibility;
+4) have robust anti-money laundering processes in place;
+5) follow practices consistent with robust anti-bribery and anti-corruption guidance and regulation.
+CRITERION 1.2: PUBLIC ENGAGEMENT, CONSULTATION, AND GRIEVANCES
+Table 1.2
+Public engagement, consultation, and grievances1
+Requirements
+a) In addition to CORSIA requirements related to public engagement, consultation and grievances, the
+carbon-crediting program shall have a process for:
+1) robust and transparent local and global stakeholder consultation, which provide for public
+comment and issue resolution;
+2) addressing grievances, for which the process shall be clear and transparent, ensure impartiality
+and where appropriate, confidentiality, in the filing and resolution of grievances and for which
+any applicable fees shall not impede legitimate access to the grievance process by civil society
+organisations or of Indigenous Peoples and Local Communities (IPs & LCs).
+1 See Criteria 7 in relation to safeguards relating to IPs & LCs
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 54
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+2. TRACKING
+The carbon-crediting program shall operate
+or make use of a registry to uniquely identify,
+record and track mitigation activities and
+carbon credits issued to ensure credits can
+be identified securely and unambiguously.
+CRITERION 2.1: EFFECTIVE REGISTRIES
+Table 2.1
+Effective registries (retirement and addressing erroneous issuance)
+Requirements
+a) In addition to CORSIA requirements related to carbon credits in the carbon-crediting program
+registry, the carbon-crediting program shall:
+1) require identification of the entity on whose behalf the carbon credit was retired;
+2) require the identification of the purpose of retirement;
+3) have procedures to address erroneous issuance of carbon credits that identify remedial
+measures (e.g., cancellation, compensation through replacement) and the entities responsible
+for implementing these.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 55
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+3. TRANSPARENCY
+The carbon-crediting program shall provide
+comprehensive and transparent information
+on all credited mitigation activities. The
+information shall be publicly available in
+electronic format and shall be accessible
+to non-specialised audiences, to enable
+scrutiny of mitigation activities.
+CRITERION 3.1: INFORMATION
+Table 3.1
+Information
+Requirements
+a) In addition to CORSIA requirements, the carbon-crediting program shall ensure that in relation to
+each mitigation activity that requests registration or that is registered, all relevant documentation
+relating to the mitigation activity is made publicly available (subject to confidentiality and
+proprietary, privacy and data protection restrictions) including:
+1) all necessary information, such as spreadsheets used for calculations, to enable third parties
+to assess the social and environmental impacts of the mitigation activity and to replicate
+the GHG emission reduction or removal calculations (including baseline quantification), and
+assessment of additionality;
+2) a mitigation activity design document that includes:
+i. a non-technical summary;
+ii. detailed information on the mitigation activity, including its location and proponents;
+iii. a description of the technologies or practices applied;
+iv. the environmental and social impacts;
+v. the methodology used;
+vi. information on how the methodology is and has been applied for the purpose of
+determining the baseline, demonstrating additionality and quantifying GHG emission
+reductions or removals;
+3) For Categories listed in 9.1 b) 1, information relating to the monitoring and compensation period.
+b) The carbon-crediting program shall ensure all relevant program documents are publicly available
+and have processes to ensure that where requests are made in relation to information that is
+missing from its website and/or registry, that information is provided (subject to confidentiality
+and proprietary, privacy and data protection restrictions) and made public alongside other relevant
+public information.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 56
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+4. ROBUST INDEPENDENT THIRD-PARTY
+VALIDATION AND VERIFICATION
+The carbon-crediting program shall have
+program-level requirements for robust
+independent third-party validation and
+verification of mitigation activities.
+CRITERION 4.1: ROBUST INDEPENDENT THIRD-PARTY VALIDATION AND VERIFICATION
+Table 4.1
+Robust independent third-party validation and verification
+Requirements
+a) In addition to CORSIA requirements, in relation to validation of mitigation activities and verification
+of GHG emission reductions and removals, the carbon-crediting program shall:
+1) require validation and verification bodies (VVBs) to be accredited by a recognised international
+accreditation standard (e.g., according to the current edition of ISO 14065 and ISO 14066, or per
+rules relating to the UNFCCC Kyoto Protocol Clean Development Mechanism or Paris Agreement
+Article 6, paragraph 4 Supervisory Body);
+2) have a process for managing VVB performance, including systematic review of validation and
+verification activities, reports and remedial measures to address performance issues including
+measures to ensure that poor VVB performance is reported to the relevant accreditation body,
+and provisions to suspend or revoke the participation of a VVB in the carbon-crediting program.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 57
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+B. EMISSIONS
+IMPACT
+5. ROBUST QUANTIFICATION OF GHG EMISSION
+REDUCTIONS AND REMOVALS
+The GHG emission reductions or removals
+from the mitigation activity shall be
+robustly quantified, based on conservative
+approaches, completeness and sound
+scientific methods.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 58
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 5.1: METHODOLOGY APPROVAL PROCESS
+Table 5.1
+Methodology approval process
+Requirements
+a) In addition to CORSIA requirements related to Clear Methodologies and Protocols and their
+Development Process, the carbon-crediting program shall have a process for developing and
+adopting updates to existing quantification methodologies.
+b) Approved methodologies or general carbon-crediting program provisions shall address the following
+essential components:
+1) applicability or eligibility criteria;
+2) determination of the accounting boundary;
+3) determination of additionality (to the extent this is not covered in other general carbon-
+crediting program provisions);
+4) establishing the baseline scenario;
+5) quantification of GHG emission reductions or removals;
+6) monitoring practices.
+c) The carbon-crediting program shall require that, prior to approval, new methodologies and major
+revisions of existing methodologies undergo review by a group of independent experts and a public
+stakeholder consultation.
+d) The carbon-crediting program shall have procedures to review, suspend and/or withdraw the use
+of methodologies where the carbon-crediting program has determined, based on evidence, that
+GHG emission reductions or removals are being overestimated or that additionality might not be
+ensured.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 59
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 5.2: REQUIREMENTS FOR QUANTIFYING GHG EMISSION
+REDUCTIONS OR REMOVALS
+Table 5.2
+Quantifying GHG emission reductions or removals
+Requirements
+a) In addition to CORSIA requirements2, the carbon-crediting program shall:
+1) clearly define a carbon credit as one metric tonne of CO2 equivalent of GHG emission reductions
+or removals;
+2) disclose the Global Warming Potential (GWP) values used to calculate the CO2 equivalence;
+3) define the length of crediting periods, including the total length of combined crediting periods;
+4) provide guidance on steps and requirements for renewal of the crediting periods and any
+renewal of the crediting period shall include a reassessment of the baseline scenario, including
+whether the conditions and barriers at the start of the mitigation activity still prevail, and an
+update of relevant parameters used to calculate emissions reductions and removals;
+5) assess the overall uncertainty of emission reductions or removals associated with an activity
+type and/or require that the mitigation activity proponent assess the overall uncertainty
+in accordance with an approved methodology. In estimating overall uncertainty all causes
+of uncertainty shall be considered, including assumptions (e.g., baseline scenario),
+estimation equations or models, parameters (e.g., representativeness of default values); and
+measurements (e.g., the accuracy of measurement methods). The overall uncertainty shall be
+assessed as the combined uncertainty from individual causes;
+6) have a systematic approach to ensuring the conservativeness of quantification methodologies
+it approves for use;
+7) require in its program documents that existing government policies and legal requirements
+that lower GHG emissions (e.g., feed-in tariffs for renewable energy, minimum product efficiency
+standards, air quality requirements or carbon taxes) be included when determining the
+baseline emissions. The carbon-crediting program may have provisions to consider the level of
+enforcement of such policies and legal requirements as well as any associated grace periods.
+2 CORSIA “Eligibility Criterion”, “Carbon offset credits must be based on a realistic and credible baseline” and “Carbon offset
+credits must be quantified, monitored, reported and verified”
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 60
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 5.3: EX-POST DETERMINATION OF EMISSION REDUCTIONS OR REMOVALS
+Table 5.3
+Ex-post determination of emissions reductions or removals
+Requirements
+a) Carbon credits that are issued ex-ante are not CCP-eligible. Where a carbon-crediting program
+supports both ex-ante and ex-post issuance, it shall have procedures in place to transparently
+identify units that are issued ex-ante and are thus ineligible under the ICVCM.
+5.4 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 5.4
+Next iteration of the Assessment Framework
+Threshold Requirements
+Relating to Carbon-crediting programs should regularly review and update their quantification
+Criterion 5.1 methodologies to ensure continued environmental integrity. In the next iteration of the
+Assessment Framework, the ICVCM will include a minimum elapsed time (e.g., every five
+years) for this review and update. The ICVCM will consult with relevant stakeholders to
+understand existing practice and the best frequency for this review cycle.
+Relating to The ICVCM understands the importance of a consistent approach to calculating CO2
+Criterion 5.2 equivalence and will introduce requirements in the next iteration of the Assessment
+Framework to align approaches used by carbon-crediting programs with the agreed
+values used internationally (e.g., 100-year GWP values from the 5th IPCC assessment
+report).3
+3 Or such other values as Parties to the UNFCCC may adopt as GWP values for use in national GHG inventories and for
+accounting for NDCs.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 61
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+6. NO DOUBLE-COUNTING
+The GHG emission reductions or removals
+from the mitigation activity shall not be
+double counted, i.e., they shall only be
+counted once towards achieving mitigation
+targets or goals. Double counting covers
+double issuance, double claiming, and
+double use.
+CRITERION 6.1: NO DOUBLE ISSUANCE (DOUBLE REGISTRATION)
+Table 6.1
+No double issuance (double registration)
+Requirements
+a) The carbon-crediting program shall have provisions to:
+1) prevent the registration of any mitigation activity that has been registered under another
+carbon-crediting program and is still active under that program; and
+2) ensure that it does not issue carbon credits for GHG emission reductions or removals where
+another program has issued credits to the same mitigation activity and/or for the same
+GHG emission reductions or removals and has not cancelled those credits for the purpose of
+avoiding double issuance.
+CRITERION 6.2: NO DOUBLE USE
+Table 6.2
+No double use
+Requirements
+a) The carbon-crediting program shall have registry provisions that prevent the further transfer,
+retirement or cancellation of a carbon credit once it has been cancelled or retired.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 62
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+C. SUSTAINABLE
+DEVELOPMENT
+BENEFITS AND
+SAFEGUARDS
+7. SUSTAINABLE DEVELOPMENT BENEFITS
+AND SAFEGUARDS
+The carbon-crediting program shall have clear
+guidance, tools and compliance procedures
+to ensure mitigation activities conform with
+or go beyond widely established industry
+best practices on social and environmental
+safeguards while delivering positive
+sustainable development impacts.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 63
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.1: ASSESSMENT AND MANAGEMENT OF ENVIRONMENTAL
+AND SOCIAL RISKS
+Table 7.1
+Assessment and management of environmental and social risks
+Requirements
+a) In addition to CORSIA requirements relating to Safeguards System and Sustainable Development
+Criteria, the carbon-crediting program shall require mitigation activity proponents to:
+1) abide by national and local laws, objectives, programs and regulations and, where relevant,
+international conventions and agreements; 4
+2) assess associated risks of negative environmental and social impacts with regard to the
+safeguards contained in criteria 7.2 to 7.8 (inclusive), taking into account the scope and scale of
+the mitigation activity;
+3) ensure free, prior and informed Consent (FPIC) processes for IPs & LCs, where applicable, and
+conduct stakeholder consultations, including local stakeholders, as part of project design and
+implementation in a manner that is inclusive, culturally appropriate, and respectful of local
+knowledge, take these consultations into account and respond to local stakeholders’ views.
+b) Where, pursuant to criterion 7.1 a) 2) above, the mitigation activity proponents have assessed that
+the mitigation activity poses risks of negative environmental and/or social impacts with regard to
+any of criteria 7.2 to 7.8 (inclusive) the carbon-crediting program shall require the mitigation activity
+proponents to:
+1) include measures, commensurate with the identified risks, to minimise and address such
+negative environmental and/or social impacts, in validated design documents prior to
+registration;
+2) include information on the measures implemented pursuant to criterion 7.1 b) 1) above,
+commensurate with the identified risks in the monitoring report.
+$4 https://www.un.org/development/desa/indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf$
+https://www.ohchr.org/en/what-are-human-rights/international-bill-human-rights
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 64
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.2: LABOUR RIGHTS AND WORKING CONDITIONS
+Table 7.2
+Labour rights and working conditions
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity:
+1) provides safe and healthy working conditions for employees;
+2) provides fair treatment of all employees, avoiding discrimination and ensuring equal
+opportunities;
+3) prohibits the use of forced labour, child labour, or trafficked persons, and protects contracted
+workers employed by third parties.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents that the mitigation activity adheres to the above safeguards or that it has put in
+place the measures referred to in criterion 7.1 b) 1) above.
+CRITERION 7.3: RESOURCE EFFICIENCY AND POLLUTION PREVENTION
+Table 7.3
+Resource efficiency and pollution prevention
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity minimises:
+1) pollutant emissions to air;
+2) pollutant discharges to water, noise and vibration;
+3) generation of waste and release of hazardous materials, chemical pesticides and fertilisers.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents:
+1) whether the mitigation activity results in pollutant emissions to air, pollutant discharges
+to water, noise and vibration, the generation of waste, the release of hazardous materials,
+chemical pesticides and fertilisers;
+2) where the mitigation activity results in any of the impacts listed in 1) above, that it has put in
+place the measures referred to in criterion 7.1 b) 1) above.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 65
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.4: LAND ACQUISITION AND INVOLUNTARY RESETTLEMENT
+Table 7.4
+Land acquisition and involuntary resettlement
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity avoids, or where this is not feasible, minimises forced physical and or economic
+displacement.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents:
+1) whether the mitigation activity results in forced physical and/or economic displacement;
+2) where the mitigation activity results in the impacts listed in 1) above, that it has put in place
+the measures referred to in criterion 7.1 b) 1) above.
+CRITERION 7.5: BIODIVERSITY CONSERVATION AND SUSTAINABLE MANAGEMENT
+OF LIVING NATURAL RESOURCES
+Table 7.5
+Biodiversity conservation and sustainable management of living natural resources
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity:
+1) avoids, or where this is not feasible, minimises negative impacts on terrestrial and marine
+biodiversity and ecosystems;
+2) protects the habitats of rare, threatened, and endangered species, including areas needed for
+habitat connectivity;
+3) does not convert natural forests, grasslands, wetlands, or high conservation value habitats;
+4) minimises soil degradation and soil erosion;
+5) minimises water consumption and stress in the mitigation activity.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents:
+1) whether the mitigation activity has negative impacts on terrestrial and marine biodiversity and
+ecosystems, on habitats of rare, threatened, and endangered species, on soil degradation and
+soil erosion, and on water consumption and water stress;
+2) where the mitigation activity results in any of the impacts listed in 1) above, that it has put in
+place the measures referred to in criterion 7.1 b) 1) above.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 66
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.6: INDIGENOUS PEOPLES, LOCAL COMMUNITIES, AND CULTURAL HERITAGE
+Table 7.6
+Indigenous Peoples, Local Communities, and cultural heritage
+Requirements
+a) Where the mitigation activity directly or indirectly impacts IPs & LCs, including livelihoods,
+ancestral knowledge and cultural heritage, the carbon-crediting program shall require mitigation
+activity proponents to ensure that the mitigation activity:
+1) recognises, respects and promotes the protection of the rights of IPs & LCs in line with
+applicable international human rights law, and the United Nations Declaration on the Rights of
+Indigenous Peoples and ILO Convention 169 on Indigenous and Tribal Peoples;5
+2) identifies the rights-holders possibly affected by the mitigation activity (including customary
+rights of local rights holders);
+3) when relevant to circumstances, has applied the FPIC process;
+4) does not force eviction or any physical or economic displacement of IPs & LCs, including
+through access restrictions to lands, territories, or resources, unless agreed upon with IPs &
+LCs during the FPIC process;
+5) preserves and protects cultural heritage consistent with IPs & LCs protocols/rules/plans on the
+management of cultural heritage or UNESCO Cultural Heritage conventions.
+b) Where the mitigation activity directly or indirectly impacts IPs & LCs, including livelihoods,
+ancestral knowledge and cultural heritage, the carbon-crediting program shall require that
+mitigation activity proponents confirm in validated design documents that the mitigation activity
+adheres to the above safeguards or that it has put in place the measures referred to in criterion 7.1 b)
+1) above.
+CRITERION 7.7: RESPECT FOR HUMAN RIGHTS, STAKEHOLDER ENGAGEMENT
+Table 7.7
+Respect for human rights, stakeholder engagement
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity:
+1) avoids discrimination and respects human rights;
+2) abides by the International Bill of Human Rights6 and universal instruments ratified by the host
+country;
+3) takes into account and responds to local stakeholders’ views.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents that the mitigation activity adheres to the above safeguards, or that it has put in
+place the measures referred to in criterion 7.1 b) 1) above.
+$5 https://www.un.org/development/desa/indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf$
+6 https://www.ohchr.org/en/what-are-human-rights/international-bill-human-rights
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 67
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.8: GENDER EQUALITY
+Table 7.8
+Gender equality
+Requirements
+a) The carbon-crediting program shall require mitigation activity proponents to ensure that the
+mitigation activity:
+1) provides for equal opportunities in the context of gender;
+2) protects against and appropriately responds to violence against women and girls;
+3) provides equal pay for equal work.
+b) The carbon-crediting program shall require that mitigation activity proponents confirm in validated
+design documents that the mitigation activity adheres to the above safeguards or that it has put in
+place the measures referred to in criterion 7.1 b) 1) above.
+CRITERION 7.9: ROBUST BENEFIT-SHARING
+Table 7.9
+Robust benefit-sharing
+Requirements
+a) Where the carbon-crediting program requires arrangements for benefit-sharing with IPs & LCs, the
+carbon-crediting program shall require that mitigation activity proponents:
+1) include in validated design documents information on how benefit-sharing arrangements that
+are appropriate to the context and consistent with applicable national rules and regulations will
+be designed and implemented through a benefit-sharing plan;
+2) confirm in validated design documents that the draft and final benefit-sharing plan have been
+shared with the affected IPs & LCs in a form, manner, and language understandable to them;
+3) make benefit-sharing outcomes that result from the benefit-sharing plan publicly available,
+subject to applicable legal restrictions.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 68
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 7.10: CANCUN SAFEGUARDS
+Table 7.10
+Cancun Safeguards
+Requirements
+a) The carbon-crediting program shall, for all REDD+ mitigation activities, require that the mitigation
+activity is consistent with all relevant Cancun Safeguards as set out in paragraph 71 of decision 1/
+CP.16 of the United Nations Framework Convention on Climate Change.7
+CRITERION 7.11: ENSURING POSITIVE SDG IMPACTS
+Table 7.11
+Ensuring positive SDG impacts
+Requirements
+a) The carbon-crediting program shall require that mitigation activity proponents, in validated design
+documents:
+1) provide information on how the mitigation activity is consistent with the SDG objectives of the
+host country, where the SDG objectives are relevant, and such is feasible;
+2) demonstrate, if applicable, through qualitative assessment how the mitigation activity delivers
+positive SDG impacts for certain SDGs (excluding SDG 13), if any;
+3) provide information on any standardised tools and methods that were used to assess the SDG
+impacts.
+7 https://unfccc.int/resource/docs/2010/cop16/eng/07a01.pdf
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 69
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+7.12: NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 7.12
+Next iteration of the Assessment Framework
+Threshold Requirements
+Relating to The ICVCM Framework recognises that approaches to environmental and social safeguards
+Criterion 7 in are currently evolving and that this is a clear area for improvement in the VCM. The ICVCM will
+general consult with relevant stakeholders to understand how current practice can be improved (see
+section E of the Summary for Decision Makers) and how best to incorporate the requirements
+in the table below into the next iteration of the Assessment Framework.
+Requirements ensuring:
+In relation to
+• assessment by the carbon-crediting program of the environmental and social risks
+criterion 7.1
+associated with the mitigation activity, activity type, or host country, which take into
+account the scope and scale of a mitigation activity;
+• validation and verification requirements related to environmental and social safeguards;
+• best practice with regard to local stakeholder consultations and FPIC processes for IPs &
+LCs, in particular how these can be designed to be more inclusive and reflect the views of
+women and vulnerable and/or marginalised groups.
+In relation to Requirements ensuring that the mitigation activity promotes more sustainable use of
+criterion 7.3 resources, including energy and water.
+In relation to Requirements ensuring:
+criterion 7.4
+• the meaningful and informed participation of affected individuals and communities in
+the planning, implementation, and monitoring of resettlement activities, including, where
+applicable, FPIC;
+• that where avoidance of displacement is not feasible, displacement only occurs with the
+consent of affected parties, with full justification and appropriate legal protection and
+compensation and is accepted by affected communities.
+In relation to Requirements ensuring:
+criterion 7.5
+• consistency with conservation objectives for terrestrial and marine habitats;
+• compliance with international, national and local laws regulating the introduction of
+invasive alien species of flora and fauna affecting biodiversity;
+• no conversion of natural forests, grasslands, wetlands or high conservation value
+habitats;
+• the protection of habitats of rare, threatened, and endangered terrestrial and marine
+species, including areas needed for habitat connectivity;
+• the minimisation of soil degradation, soil erosion, water consumption, and water stress in
+the mitigation activity area.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 70
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+Table 7.12 [continued]
+Next iteration of the Assessment Framework
+Threshold Requirements
+In relation to Requirements ensuring:
+criterion 7.6
+• avoidance of negative impacts on land, territories, and resources protected under
+relevant laws and regulations concerning IPs & LCs;
+• avoidance of negative impacts on the self-determined climate, conservation, and
+sustainable development priorities, decision-making mechanisms, and forms of self-
+government of IPs & LCs as defined by them in alignment with the United Nations
+Declaration on the Rights of Indigenous Peoples (UNDRIP)8 and ILO Convention 169 on
+Indigenous and Tribal Peoples;9
+• respect for areas inhabited by or believed to be inhabited by uncontacted or isolated
+IPs & LCs;
+• translation of relevant documents into relevant and appropriate languages(s)
+including with regard to Article 13 of the UNDRIP.
+In relation to Requirements ensuring:
+criterion 7.8
+• a gender assessment and gender action plan;
+• use of gender disaggregated data to monitor, assess and report on gender impacts.
+In relation to Requirements ensuring:
+criterion 7.9
+• transparency on use and management of revenues for benefit sharing.
+$$
+8 https://www.un.org/development/desa/indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf
+9 https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C169
+$$
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 71
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+PART II
+REQUIREMENTS
+RELATING TO
+CATEGORIES
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 72
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+B. EMISSIONS
+IMPACT
+8. ADDITIONALITY
+The GHG emission reductions or removals
+from the mitigation activity shall be
+additional, i.e., they would not have
+occurred in the absence of the incentive
+created by carbon credit revenues.10
+10 There are multiple approaches for additionality that, depending on the type of mitigation activity, can provide strong assurances
+without the need for an investment analysis.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 73
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.1: ADDITIONALITY DEMONSTRATION
+Table 8.1
+Additionality demonstration
+Requirements
+a) The carbon-crediting program shall meet CORSIA requirements relating to additionality.11
+b) The carbon-crediting program shall have provisions that:
+1) meet the requirements of criterion 8.2 below (existing host country legal requirements); AND
+2) meet the requirements of criterion 8.3 below (consideration of carbon credits); AND
+3) consistent with criterion 8.4 below (additionality approaches), meet the requirements of
+criteria 8.5 to 8.8 below (investment analysis, barrier analysis, market penetration/common
+practice, standardised approaches).
+c) Where a carbon-crediting program considers that its alternative additionality approaches meet
+the same threshold of additionality as achieved by the requirements in criteria 8.4 to 8.9 below
+in relation to one or more Categories it may, per section 3 of the Assessment Procedure, submit an
+explanation of such and shall make such explanation publicly available.
+d) Jurisdictional REDD+ Programs shall be required to meet the CORSIA requirements12 relating to
+additionality and the requirements relating to additionality set out in criteria 8.9 to 8.10.
+CRITERION 8.2 EXISTING HOST COUNTRY LEGAL REQUIREMENTS
+Table 8.2
+Existing host country legal requirements
+Requirements
+a) In addition to CORSIA requirements related to additionality, the carbon-crediting program shall:
+1) ensure that the mitigation activity is registered only if the resulting carbon credits represent
+emission reductions or removals that exceed those required due to relevant legal requirements
+that are enforced. For high-income countries13, all legal requirements shall be deemed to
+be enforced. For countries other than high-income countries, legal requirements shall only
+be deemed to be unenforced based on authoritative and up-to-date information of non-
+enforcement that is relevant and applicable to the mitigation activity;
+2) require that the evaluation of 1) above to be conducted either by the mitigation activity
+proponents and be validated by a VVB and/or the carbon-crediting program. The evaluation
+shall be conducted:
+i. prior to the registration of the mitigation activity; and
+ii. at an appropriate frequency thereafter, for example, at each renewal of a crediting period or
+at every verification where the crediting period is longer than five years.
+11 CORSIA “Eligibility Criterion”, “Carbon offset programs must generate units that represent emission reductions, avoidance, or
+removals that are additional”.
+12 Ibid.
+13 https://blogs.worldbank.org/opendata/new-world-bank-group-country-classifications-income-level-fy24#_ftn1
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 74
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.3 CONSIDERATION OF CARBON CREDITS (PRIOR CONSIDERATION)
+Table 8.3
+Consideration of carbon credits (prior consideration)
+Requirements
+Consideration of carbon credits may be demonstrated by either Approach A AND/OR Approach B below.
+Approach A: Demonstration through evidence
+a) The carbon-crediting program shall:
+1) require mitigation activity proponents to provide publicly available documented evidence of
+the consideration of carbon credits (e.g., stakeholder consultations) prior to the start date of
+the mitigation activity, and for the documented evidence to be assessed by a VVB and/or by the
+carbon-crediting program as part of validation of the mitigation activity; AND
+2) require mitigation activity proponents to provide the documented evidence to the carbon-
+crediting program no later than one year after the start date of the mitigation activity; AND
+3) limit the allowed time period between the documented date of the evidence and the later date
+of registration of the mitigation activity to a reasonable period of time; AND/OR
+4) allow mitigation activity proponents to provide publicly available or credible third-party
+attested evidence that they considered carbon credits prior to the start date of the mitigation
+activity and shall require that the evidence be assessed by a VVB and/or the carbon-crediting
+program.
+Approach B: Alternative approach based on limitation of time between start date and validation/
+submission for registration
+b) The carbon-crediting program shall have provisions that establish a reasonable maximum period
+between the start date of the mitigation activity and validation by a VVB (and/or the carbon-
+crediting program) or submission for registration, taking into account the time needed to submit
+the relevant documentation (e.g., two to three years, depending on the Category type).
+CRITERION 8.4 ADDITIONALITY APPROACHES
+Table 8.4
+Additionality approaches
+Requirements
+a) The carbon-crediting program shall have provisions requiring the mitigation activity to demonstrate
+additionality through any of the following:
+1) an investment analysis combined with a market penetration/common practice assessment per
+criteria 8.5 and 8.7 below (optionally combined with further approaches);
+2) a barrier analysis combined with a market penetration/common practice assessment per
+criteria 8.6 and 8.7 below (optionally combined with further approaches);
+3) a standardised approach per criterion 8.8 below (optionally combined with further approaches).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 75
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.5 ADDITIONALITY APPROACH - INVESTMENT ANALYSIS
+Table 8.5
+Investment analysis
+Requirements
+a) Where a carbon-crediting program allows use of investment analysis to demonstrate additionality, it shall
+require all of the following:
+1) a suitable financial indicator, such as the net present value (NPV) or internal rate of return (IRR), to be
+used in the calculation;
+2) the calculation of the financial indicator to include all relevant costs (CAPEX, OPEX) and all revenues,
+including subsidies or official development aid, where applicable;
+3) the assumptions, data and conclusions in the investment analysis to be:
+i. transparently documented in the documentation submitted for registration;14
+ii. appropriately justified and substantiated by evidence; AND
+iii. consistent with information presented to the company’s decision-making management and
+investors/lenders;
+4) that all parameters and assumptions used in the analysis are internally consistent (i.e., cash flows
+shall be expressed in either real or nominal terms consistently, and the calculation shall be consistent
+with the indicator used, such as project IRR or equity IRR);
+5) in case of the benchmark analysis, that the financial benchmark used is consistent with the weighted
+average cost of capital (or the cost of equity, as applicable) that is commonly applicable to the country,
+sector and type of mitigation activity;
+6) in case of the benchmark analysis, that additionality is demonstrated if the analysis shows that:
+i. the mitigation activity would not meet the required financial benchmark without carbon credit
+revenues; AND
+ii. the economic performance of the mitigation activity increases decisively through carbon credit
+revenues; AND
+iii. carbon credit revenues can raise the economic performance at or above the required financial
+benchmark;
+7) that the period of assessment shall reflect the period of expected operation of the underlying
+mitigation activity or shall be a period of at least ten years and include the value of the assets at the
+end of the assessment period;
+8) in case of the investment comparison analysis:
+i. that the alternative scenarios considered are mutually exclusive and provide the same type of
+products or service levels as the mitigation activity, where applicable;
+ii. that additionality is demonstrated if the analysis shows that the mitigation activity would not be
+the economically most attractive scenario in absence of carbon credits;
+9) that a sensitivity analysis shall be conducted to show whether the conclusion regarding the financial
+attractiveness is robust to reasonable variation in the critical assumptions;
+10) that all elements of the investment analysis are assessed as part of the validation by a VVB and/or the
+carbon-crediting program.
+b) Where a carbon-crediting program considers that its alternative additionality approaches meet the same
+threshold of additionality as achieved by the requirements above in relation to one or more Categories it
+may, per section 3 of the Assessment Procedure, submit an explanation of such and all relevant provisions
+to the ICVCM and shall make such explanation publicly available.
+14 Note criteria 3.1 a) and b) in relation to information being made publicly available subject to confidentiality and proprietary,
+privacy and data protection restrictions.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 76
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.6 ADDITIONALITY APPROACH: BARRIER ANALYSIS
+Table 8.6
+Barrier analysis
+Requirements
+a) Where a carbon-crediting program allows the use of barrier analysis to demonstrate additionality, it shall
+require all of the following:
+1) that the types of barriers that may be considered are limited to the following:
+i. financial barriers (e.g., loans or other forms of financing are not accessible for the type of
+mitigation activity and country due to financier’s assessment of risks);
+ii. institutional barriers (e.g., the investor not being the beneficiary of cost savings associated with
+the investment);
+iii. information barriers (e.g., lack of awareness in households of the lifecycle costs of energy efficient
+appliances); OR
+iv. other barriers specific to the mitigation activity and/or region where the mitigation activity is
+implemented if these barriers are explicitly identified and elaborated in the relevant quantification
+methodology or other program documents;
+2) that the mitigation activity proponents shall be required:
+i. to identify specific barriers, and where possible, quantify such barriers; AND
+ii. to provide verifiable evidence to demonstrate each identified barrier and verifiable evidence that
+the carbon credit revenues are the decisive element in overcoming each identified barrier; AND
+iii. to demonstrate that at least one other alternative to the mitigation activity does not face
+significant barriers, including the barriers faced by the mitigation activity;
+3) that the evidence used shall be applied conservatively. In case of uncertainty in the level of the
+identified barrier, the evidence or the value shall be interpreted to assure that it is very unlikely15 that
+the effect of the barrier is overestimated. Such evidence may include independent studies, publicly
+available surveys, relevant market data, or data from national or international statistics;
+4) that all elements of the barrier analysis are assessed as part of the validation by a VVB and/or the
+carbon-crediting program.
+b) Where a carbon-crediting program considers that its alternative additionality approaches meet the same
+threshold of additionality as achieved by the requirements above in relation to one or more Categories it
+may, per section 3 of the Assessment Procedure, submit an explanation of such and all relevant provisions
+to the ICVCM and shall make such explanation publicly available.
+15 The term very unlikely is used per IPCC (zero to ten percent probability) and how it defines confidence levels, and to the
+extent any multi-stakeholder working group assesses a Category against this requirement, the assessment would be
+guided by the IPCC usage.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 77
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.7 ADDITIONALITY APPROACH - MARKET PENETRATION/COMMON PRACTICE
+Table 8.7
+Market penetration/common practice
+Requirements
+a) Where a carbon-crediting program allows market penetration/common practice assessments to
+demonstrate additionality, it shall require all of the following:
+1) market penetration/common practice approaches to be appropriately defined in terms of recent
+uptake or existing stock/diffusion of technologies, services or practices in relation to a realistic
+maximum market size or potential, taking into account any constraints for the uptake of the relevant
+technology, service, or practice;16
+2) an appropriate geographical boundary for assessing market penetration/common practice for the type
+of technology, service or practice, taking into account relevant market boundaries, where applicable;
+3) that the additionality assessment is only passed if the market penetration/common practice approach
+does not surpass an appropriate threshold defined by the carbon-crediting program, taking into
+account the type of mitigation activity;
+4) that all elements of the market penetration/common practice assessment, including adherence to the
+provisions above, are assessed as part of the validation by a VVB and/or the carbon-crediting program.
+CRITERION 8.8 ADDITIONALITY APPROACH – STANDARDISED APPROACHES
+Table 8.8
+Standardised approaches
+Requirements
+a) Where a carbon-crediting program allows use of standardised approaches to demonstrate additionality, it
+shall set out a clear process by which the carbon-crediting program may develop standardised approaches,
+including objective justification of criteria and expert review, and require all of the following:
+1) that the standardized approach is to be defined at an appropriate level of aggregation of technologies/
+activities and at a high level of stringency comparable to criteria 8.1 to 8.7;
+2) that methodological approaches and data used to derive each standardised approach shall be made
+publicly available, together with a detailed explanation justifying the assessment of additionality;
+3) that analysis underlying each standardized approach shall be reviewed regularly (e.g., every three
+years), to ensure that any changing circumstances are appropriately reflected (e.g., reduced costs for
+the relevant technology). Any update resulting from a review is not required to retroactively apply to
+registered mitigation activities;
+4) that the adherence of a mitigation activity to the criteria of the standardized approach is assessed as
+part of the validation by a VVB and/or the carbon-crediting program.
+b) Where a carbon-crediting program considers that its alternative additionality approaches meet the same
+threshold of additionality as achieved by the requirements above in relation to one or more Categories it
+may, per section 3 of the Assessment Procedure, submit an explanation of such and all relevant provisions
+to the ICVCM and shall make such explanation publicly available.
+16 This requirement does not preclude the carbon-crediting program’s program documents from allowing the assessment
+to exclude the mitigation activity itself, where appropriate.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 78
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.9 ADDITIONALITY FOR JURSIDICTIONAL REDD+ PROGRAMS:
+DEMONSTRATION OF NEW MITIGATION ACTIONS OR ENHANCED IMPLEMENTATION OF
+ONGOING MITIGATION ACTIONS
+Table 8.9
+Jurisdictional REDD+: Demonstration of new mitigation actions or enhanced imple-
+mentation of ongoing mitigation
+Requirements
+a) The carbon-crediting program shall have provisions in place that require:
+1) the Jurisdictional REDD+ Program proponent to:
+i. submit an implementation plan (meaning a comprehensive and strategic implementation
+document(s), containing the scope of the program and planned actions that may include, inter
+alia, policies, laws, proposed regulatory frameworks, technical assistance programs, enforcement
+measures, regulations, legal rights frameworks, and/or incentive mechanisms);
+ii. identify the new mitigation actions or enhanced implementation of ongoing mitigation actions
+and demonstrate that they are designed for the purpose of significantly addressing key drivers
+of deforestation and degradation at jurisdictional scale in order to reduce emissions (and where
+applicable, enhance removals). This information shall be included in the implementation plan;
+iii. report on the implementation of the new mitigation actions or enhanced implementation of
+ongoing mitigation actions in monitoring reports;
+2) validation/verification of the requirements in 1) above by a VVB and/or the carbon-crediting program;
+3) the Jurisdictional REDD+ Program proponent to provide evidence to the carbon-crediting program
+demonstrating that expected revenues from carbon credits (or results-based finance) are decisive
+for enabling the implementation of the Jurisdictional REDD+ Program (for example, by providing
+information on how expected revenues catalyse mitigation actions and/or how expected revenues are
+instrumental in financing the mitigation actions).
+b) Where a carbon-crediting program considers that its alternative additionality approaches meet the same
+threshold of additionality as achieved by the requirements above it may, per section 3 of the Assessment
+Procedure, submit an explanation of such and all relevant provisions to the ICVCM and shall make such
+explanation publicly available.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 79
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 8.10 ADDITIONALITY FOR JURISDICTIONAL REDD+ PROGRAMS:
+CONSIDERATION OF CARBON CREDITS
+Table 8.10
+Jurisdictional REDD+: Consideration of carbon credits
+Requirements
+The requirements of Approach A or Approach B shall be met.
+Approach A: Demonstration through evidence
+a) The carbon-crediting program shall have provisions in place that:
+1) require the Jurisdictional REDD+ Program proponent to provide documented evidence that the
+Jurisdictional REDD+ Program proponent considered carbon credits or results-based finance related
+payments prior to the implementation of the new mitigation actions or the enhanced implementation
+of ongoing mitigation actions;
+2) specify that the documented evidence in 1) above may include either or both of:
+i. a formal document of intent (e.g., notification; minutes of meetings of relevant jurisdictional
+authorities; investment documents; proof of participation in readiness activities) showing a
+decision to participate in voluntary carbon markets or a results-based finance framework; or
+ii. proof of a public stakeholder consultation on the proposed Jurisdictional REDD+ Program.
+Approach B: Alternative approach based on limitation of time
+b) The carbon-crediting program shall have provisions that establish a reasonable maximum period between
+the start date of the mitigation activity and validation by a VVB (and/or the carbon-crediting program) or
+submission for registration, taking into account the time needed to submit the relevant documentation for
+the Jurisdictional REDD+ Program under the carbon-crediting program.17
+17 The carbon-crediting program must address the risk that carbon credits are issued in respect of declining deforestation
+or degradation rates during this time period that do not result from the new mitigation actions or enhanced
+implementation of ongoing mitigation actions (referred to in criterion 8.9 a) 1) ii).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 80
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+8.11 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 8.11
+Next iteration of the Assessment Framework
+Threshold Requirements
+In relation to The ICVCM may consider requiring reassessment of additionality at renewal of the crediting
+criterion 8.1 period for certain Categories.
+Prior The ICVCM recognizes the important role that prior consideration of carbon credits plays in
+consideration ensuring the additionality of credited mitigation activities and that current market practice
+addresses this issue in a variety of ways. In the next iteration of the Assessment Framework,
+the ICVCM will consider criteria that limit the allowed time period based on an assessment
+of the reasonable amount of time to produce documentation and/or a reasonable amount of
+elapsed time between activity start date and registration, including for Jurisdictional REDD+
+Programs.
+In relation to The ICVCM may exclude criterion 8.3 Approach B and criterion 8.3 Approach A a) 4 in order to
+criterion 8.3 ensure that carbon-crediting programs have developed requisite rules to address additionality
+in line with criterion 8.3 Approach A a) 1) to 3).
+In relation to The ICVCM may exclude criterion 8.9 Approach B and criterion 8.10 Approach B in order to
+criterion 8.9 and ensure that carbon-crediting programs have developed requisite rules to address additionality
+8.10 in respect of prior consideration of carbon credits and/or results-based finance and the
+applicability of financial additionality to Jurisdictional REDD+ Programs.18
+18 Note also the Continuous Improvement Work Program on jurisdictional approaches.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 81
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+9. PERMANENCE
+The GHG emission reductions or removals
+from the mitigation activity shall be
+permanent or, where there is a risk of
+reversal, there shall be measures in place
+to address those risks and compensate
+for reversals.
+CRITERION 9.1 CATEGORIES TO WHICH PERMANENCE REQUIREMENTS APPLY
+Table 9.1
+Categories to which permanence requirements apply
+Requirements
+a) The CORSIA requirements relating to permanence19 shall be met.
+b) The following Categories of mitigation activity are considered to have a material risk of reversal. Carbon
+credits issued for mitigation activities in the Categories below may only be CCP-Approved if all the
+requirements in criteria 9.2 to 9.5 related to permanence are met:
+1) storage and protection of carbon in biogenic reservoirs, including:
+i. conservation and avoided conversion (e.g., grassland/rangeland management, avoided
+deforestation);
+ii. agriculture soil carbon sequestration;
+iii. forestry sequestration (improved forest management, afforestation/reforestation, agroforestry);
+iv. wetland and marine ecosystem restoration/management (including seagrasses, saltmarshes,
+mangroves, peatlands).
+c) The carbon-crediting program shall assess the risk of reversals and where material risk is identified, have
+appropriate measures to avoid material risks of reversals for the following Categories:
+1) mitigation activities involving the displacement of non-renewable biomass;
+2) biochar;
+3) CCS with geological storage;
+4) enhanced weathering;
+5) CCS with mineralization;
+6) CO2 in concrete utilization.
+d) Jurisdictional REDD + Programs shall be required to meet only the requirements for permanence set out in
+criterion 9.5 below.
+19 CORSIA “Eligibility Criterion”, “Permanence – Carbon offset credits must represent emissions reductions, avoidance,
+or carbon sequestration that are permanent. If there is risk of reductions or removals being reversed, then either (a)
+such credits are not eligible or (b) mitigation measures are in place to monitor, mitigate, and compensate any material
+incidence of non-permanence”.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 82
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 9.2 COMPENSATION FOR REVERSALS
+Table 9.2
+Compensation for reversals
+Requirements
+a) The carbon-crediting program shall cancel a carbon credit for each tonne of CO2 equivalent reversed. OR
+b) The carbon-crediting program shall require the mitigation activity proponents to cancel a carbon credit for
+each tonne of CO2 equivalent reversed.
+CRITERION 9.3 MONITORING AND COMPENSATION PERIOD
+Table 9.3
+Monitoring and compensation period
+Requirements
+a) The carbon-crediting program shall in relation to Categories listed in criterion 9.1 b) 1) above:
+1) require a monitoring and compensation period for such mitigation activities of at least forty years
+from the start of the first crediting period or to at least the end of the crediting period, whichever is the
+later;
+2) require mitigation activity proponents20 to monitor and report any reversals for the full monitoring and
+compensation period and compensate for avoidable reversals;
+3) refrain from issuing further carbon credits until avoidable reversals have been compensated;
+4) draw upon the pooled buffer reserve if avoidable reversals are not compensated per a) 2) above;
+5) treat cessation of monitoring and verification as an avoidable reversal.
+20 Or the carbon-crediting program or host country, if applicable.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 83
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 9.4 COMPENSATION MECHANISM
+Table 9.4
+Compensation mechanism
+Requirements
+a) The carbon-crediting program shall, in relation to Categories listed in criterion 9.1 b) 1), above:
+1) require estimation of the reversal risk using a clearly defined methodology that is made publicly
+available;
+2) require or incentivise mitigation activity proponents to take measures to mitigate potential
+reversal risks;
+3) define and apply clear criteria for determining whether a reversal is avoidable or unavoidable;
+4) implement a pooled buffer reserve to compensate for reversals to which all relevant mitigation
+activities contribute, and from which reversals from any contributing mitigation activities may
+be compensated (in order to meet the requirements of criterion 9.2);
+5) with respect to the pooled buffer reserve:
+i. ensure that the proportion of carbon credits placed in the pooled buffer reserve are at least
+twenty percent of the total carbon credits issued to contributing mitigation activities; OR
+ii. ensure that the carbon credits placed in the pooled buffer reserve are proportional to
+the reversal risk of the mitigation activity over the full length of the monitoring and
+compensation period and account for the risk that the mitigation activity proponents do not
+compensate for avoidable reversals; AND
+iii. make publicly available information on the pooled buffer reserve contents, including origin
+of carbon credits (e.g., mitigation activity, activity type and vintage).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 84
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 9.5 JURISDICTIONAL REDD+ PERMANENCE
+Table 9.5
+Jurisdictional REDD+ Permanence
+Requirements
+a) In relation to a Jurisdictional REDD+ Program, the carbon-crediting program shall:
+1) implement a pooled buffer reserve to which each participating Jurisdictional REDD+ Program
+proponent shall contribute and from which reversals that occur within in the accounting boundaries
+of the Jurisdictional REDD+ Program while the Jurisdictional REDD+ Program proponent is
+participating in the carbon-crediting program may be compensated;
+2) require that the percentage of carbon credits that a Jurisdictional REDD+ Program proponent must
+place into the pooled buffer reserve is proportional to the reversal risk and adequate to compensate
+for potential reversals for a minimum of forty years from the start of the first crediting period;
+3) where a reversal exceeds the total contribution to the pooled buffer reserve made by the relevant
+Jurisdictional REDD+ Program proponent prior to the reversal, require the participating Jurisdictional
+REDD+ Program proponent to replenish the pooled buffer reserve to return the pooled buffer reserve to
+a percentage proportionate to the risk per 9.5 a) 2) above;
+4) require that all the carbon credits in the pooled buffer reserve contributed by that Jurisdictional REDD
++ Program proponent be immediately cancelled when that Jurisdictional REDD + Program proponent
+leaves the carbon-crediting program;
+5) provide evidence to support 9.5 a) 2) above.
+9.6 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 9.6
+Next iteration of the Assessment Framework
+Threshold Requirements
+In relation to The ICVCM will consider longer monitoring and compensation periods (e.g., one hundred
+permanence years) and shifting the monitoring and compensation oversight to the carbon-crediting
+program or the jurisdiction aligned with existing and emerging best practice among carbon-
+crediting programs. Given the relative newness of Jurisdictional REDD+ approaches and the
+lack of experience with jurisdictional programs to date, the ICVCM will continue to analyse
+the adequacy of the Jurisdictional REDD+ permanence criteria and consider specific criteria
+related to permanence for future iterations of the Assessment Framework. 21
+In relation to In the next iteration of the Assessment Framework, the ICVCM will require the carbon-crediting
+criterion 9.4 program to have provisions in place to ensure the continued operation of the pooled buffer
+reserve until the latest date of expiry of the monitoring and compensation period of all
+registered and completed mitigation activities. This may be, for example, when the carbon-
+crediting program ceases to exist or is otherwise prevented from operating the pooled buffer
+reserve.
+21 Note also the Continuous Improvement Work Program on permanence.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 85
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+10. ROBUST QUANTIFICATION
+The GHG emission reductions or removals
+from the mitigation activity shall be
+robustly quantified, based on conservative
+approaches, completeness and sound
+scientific methods.
+CRITERION 10.1 ROBUST QUANTIFICATION OF EMISSION REDUCTIONS OR REMOVALS
+Table 10.1
+Robust quantification of emission reductions or removals
+Requirements
+a) Quantification approaches shall meet CORSIA requirements.
+b) The quantification approaches in quantification methodologies and other program documents applicable
+to the Category shall ensure conservativeness so that:
+1) it is likely22 that the quantified emission reductions or removals from the mitigation activities using
+that quantification methodology and other program documents are not overestimated, taking into
+account the overall uncertainty in quantifying the emission reductions or removals;
+AND
+2) it is very unlikely23 that emission reductions or removals from a mitigation activity using the
+quantification methodology and other program documents can be very significantly overestimated.
+c) The overall uncertainty to be taken into account per criterion 10.1 b) 1) above shall include all causes
+of uncertainty, including in assumptions (e.g., baseline scenario), estimation equations or models,
+parameters (e.g., representativeness of default values) and in measurement approaches (e.g., the accuracy
+of measurement methods) and overall uncertainty is required to be assessed as the combined uncertainty
+from individual causes.
+d) The carbon-crediting program shall ensure overall conservativeness per criterion 10.1 b) and robust
+quantification through the specific provisions in criteria 10.2 to 10.8 below.24
+e) Where a carbon-crediting program considers that its alternative quantification approaches meet the same
+threshold as the requirements achieved in criteria 10.2 to 10.8 below in relation to one or more Categories
+it may, per section 3 of the Assessment Procedure, submit an explanation of such and shall make such
+explanation publicly available.
+22 The term likely is used per IPCC (sixty-six to one hundred percent probability) and how it defines confidence levels, and
+to the extent any multi-stakeholder working group assesses a Category against this requirement, the assessment would
+be guided by the IPCC usage.
+23 The term very unlikely is used per IPCC (zero to ten percent probability), and as described above (see footnote 21).
+24 One possible means, among others, to ensuring conservativeness, is through applying in the quantification
+methodology a discount factor commensurate to the overall uncertainty of quantified emission reductions.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 86
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 10.2 BOUNDARY FOR THE MITIGATION ACTIVITY
+Table 10.2
+Boundary for the mitigation activity
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or applicable program documents require mitigation activity
+proponents to account for all significant emission sources or sinks altered by the mitigation activity,
+unless the omission leads to a more conservative quantification of emission reductions or removals
+and the omission is duly justified in the quantification methodology;
+2) the quantification methodology or applicable program documents require mitigation activity
+proponents to delineate the boundary of the mitigation activity (e.g. physical, administrative,
+geographic, jurisdictional, as appropriate) including the altered emission sources and sinks and,
+where practicable, the location of the emission sources and sinks unless the omission leads to a more
+conservative quantification of emission reductions or removals and the omission is duly justified in
+the quantification methodology.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 87
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 10.3 DETERMINATION OF THE BASELINE SCENARIO AND QUANTIFICATION OF
+BASELINE EMISSIONS OR REMOVALS
+Table 10.3
+Determination of the baseline scenario and quantification of baseline emissions or
+removals
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or applicable program documents ensure that the baseline scenario to
+be used is selected in a conservative manner, including by:
+i. considering different scenarios, including the best available technology (BAT) or practice in the
+country/region of the mitigation activity or statistically relevant historical information;
+ii. considering uncertainties in choosing between different candidate baseline scenarios;
+iii. ensuring that existing government policies and legal requirements are considered in determining
+the baseline scenario (i.e., as long as their enforcement is widespread, except for high-income
+countries where government policies and legal requirements are considered enforced); and
+iv. ensuring that rebound effects (i.e., an increase in product use or service level as a result of the
+implementation of a mitigation activity, e.g., when introducing energy-efficient appliances) are
+accounted for;
+2) the quantification methodology or applicable program documents ensure that the overall degree of
+conservativeness in the quantification of baseline emissions or removals is based on the level of the
+overall uncertainty, taking into account the choice of assumptions, models, parameters, data sources,
+measurements methods and other factors;25
+3) the quantification methodology or applicable program documents ensure that any potential perverse
+incentives for the mitigation activity proponent to inflate quantified baseline emissions (or depress
+baseline removals) are taken into account; and
+4) the quantification methodology or applicable program documents ensure that the baseline scenario
+and quantification of baseline emissions or removals are updated or reviewed at a frequency that
+appropriately reflects changing circumstances. These circumstances could include changes in
+government policies and legal requirements.
+25 For example, in the Category of avoided unplanned deforestation, conservativeness could be facilitated through
+ensuring that the baseline for expected deforestation in the crediting period, or key parameters for setting the baseline,
+are provided by the carbon-crediting program or an independent third party chosen by the carbon-crediting program
+and ensuring that the baseline is derived from larger-scale jurisdictional or regional activity data, if this is available and
+such is possible, and based on an assessment of risk of deforestation in the mitigation activity area.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 88
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 10.4 QUANTIFICATION OF EMISSIONS OR REMOVALS FROM THE MITIGATION
+ACTIVITY
+Table 10.4
+Quantification of emissions or removals from the mitigation activity
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or applicable program documents use approaches to quantify
+emissions or removals from the mitigation activity that are conservative in light of the uncertainties,
+taking into account the choice of assumptions, models, parameters, data sources, default factors,
+measurements methods and other factors;
+2) the quantification methodology or applicable program documents use comparable quantification
+approaches for both baseline and mitigation activity emissions or removals.
+CRITERION 10.5 QUANTIFICATION OF LEAKAGE EMISSIONS
+Table 10.5
+Quantification of emissions or removals from the mitigation activity
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or related program documents ensure that all relevant potential
+sources of leakage associated with the type of mitigation activity are considered;
+2) the quantification methodology or related program documents includes all material sources of leakage
+in the quantification of emission reductions or removals, except where the omission of leakage
+sources is conservative, and consider the following potential sources of leakage, where material:26
+i. Upstream/downstream emissions;27
+ii. Activity-shifting;
+iii. Market leakage;
+iv. Ecological leakage;
+3) the quantification methodology or related program documents ensure minimization of any material
+sources of leakage emissions through requirements in the respective quantification methodologies
+(e.g., through requirements that avoid leakage);
+4) the quantification methodology or related program documents ensure estimation and deduction of
+any residual leakage emissions in the quantification of emission reductions or removals including
+through specific tools or standardized approaches; and
+5) the quantification methodology or related program documents ensure that the estimation of leakage
+emissions is robust and conservative in the light of the uncertainties, taking into account the choice
+of assumptions, models, parameters, data sources, measurements methods and other factors.
+26 Some methodologies may include leakage emissions directly in the calculation of (net) emission reductions, while
+others may account for leakage emissions separately. Whether an increase in emissions caused by a mitigation activity
+is formally designated as “leakage” is not important, as long as all material effects of an activity on emissions are
+accounted for.
+27 i. to iv. – see Definitions.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 89
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 10.6 ATTRIBUTABILITY OF THE QUANTIFIED EMISSION REDUCTIONS OR
+REMOVALS TO THE MITIGATION ACTIVITY
+Table 10.6
+Attributability of the quantified emission reductions or removals to the mitigation
+activity
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or related program documents ensure that the credited emission
+reductions or removals result from the implementation of the mitigation activity and not from changes
+in exogenous factors that are not related to the mitigation activity.
+CRITERION 10.7 AGGREGATE DURATION OF ALL CREDITING PERIODS
+Table 10.7
+Aggregate duration of all crediting periods
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or related program documents ensure that aggregate crediting periods
+are short enough to allow for a progressive increase in ambition over time; and
+2) the quantification methodology or related program documents ensure that crediting periods are
+appropriate to the type of mitigation activity, based on, inter alia, the rate of technological change,
+lifetime of equipment used in the baseline scenario or change in the regulatory environment.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 90
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 10.8 MONITORING APPROACHES
+Table 10.8
+Monitoring approaches
+Requirements
+a) The following approaches are considered to enable conservativeness and robust quantification:
+1) the quantification methodology or applicable program documents ensure robust monitoring by:
+i. requiring the establishment of an operational and management plan for monitoring that
+addresses the assignment of responsibilities of various parties and the operational process of
+monitoring;
+ii. specifying the monitoring approach(es) for all parameters needed for the quantification of
+emission reductions or removals;
+iii. ensuring that the approaches related to use of measurements, sampling, data from third parties
+(e.g., studies, statistics, satellite data) or default values are robust, statistically representative or
+conservative;
+iv. ensuring that the choice of the approaches, data, measurement methods or default values
+appropriately addresses uncertainty and leads to a conservative estimate of emission reductions
+or removals;
+v. requiring appropriate quality assurance and quality control measures, such as cross-checking the
+monitoring results with other sources of data; and
+vi. requiring a plan or procedure for conservative treatment and deduction of emission reductions or
+removals in case of unexpected interruption or errors in monitoring equipment or procedures;
+2) the quantification methodology or applicable program documents may provide for alternative
+monitoring approaches to be used when the mitigation activity becomes inaccessible for temporary
+periods (e.g., is in a conflict zone, or where human movement restrictions are in place, e.g., due to
+pandemic).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 91
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+10.9 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 10.9
+Next iteration of the Assessment Framework
+Threshold Requirements
+The ICVCM emphasises the importance of robust quantification and the need to create robust
+and sufficiently refined methodologies to lower the risk that credited emission reductions or
+removals are overestimated and will continue to consider ways to set criteria that reduce the
+likelihood of overestimation and criteria that will ensure that the ambition of the baseline is
+enhanced upon update and/or review.28
+In relation to The ICVCM will consider whether to require carbon-crediting programs to have provisions
+Jurisdictional requiring that where it has a registered Project-based mitigation activity within a
+REDD+ Jurisdictional REDD+ Program29 (as defined), that the Project-based mitigation activity takes
+into account the provisions of that Jurisdictional REDD+ Program where the Jurisdiction
+requires it.
+In relation to The ICVCM will consider whether to require quantification methodologies to ensure that the
+criterion 10.3 approach to updating and reviewing the baseline increases the ambition of the baseline over
+time.
+28 See also the Continuous Improvement work program on Paris Alignment in the context of baselines that relates to
+assessing how baseline scenarios and baseline emission and removal quantification can take into account and be
+aligned to Paris Agreement goals, the host country NDC, and the LT-LEDs of the host country, if any.
+29 See definitions: A “Project-based mitigation activity within a Jurisdictional REDD+ Program” refers to a project-based
+mitigation activity aimed at reducing emissions and/or enhancing removals (reduced emissions for deforestation and
+forest degradation, enhancement or conservation of forest carbon stocks, sustainable management of forests) that
+is located within a jurisdiction covered by a registered Jurisdictional REDD+ Program and for which the accounting
+boundaries overlap with the Jurisdictional REDD+ Program.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 92
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+11. NO DOUBLE-COUNTING
+The GHG emission reductions or removals
+from the mitigation activity shall not be
+double counted, they shall only be counted
+once towards achieving mitigation targets
+or goals. Double counting covers double
+issuance, double claiming, and double use.
+CRITERION 11.1: NO DOUBLE ISSUANCE (OVERLAPPING CLAIMS)
+Table 11.1
+No double issuance (overlapping claims)
+Requirements
+a) For Categories where there is a material risk of overlapping claims, the carbon-crediting program shall have
+provisions to identify potential overlaps between different mitigation activities and ensure that where there
+are overlapping GHG accounting boundaries between mitigation activities, it will only issue one carbon
+credit for the GHG emission reductions or removals that occur within the GHG accounting boundaries of
+more than one mitigation activity, including by:
+1) disallowing registration of any mitigation activity whose GHG accounting boundaries overlap with the
+GHG accounting boundaries for carbon-crediting of another mitigation activity;
+2) disallowing carbon credits for GHG emission reductions or removals that occur within the GHG
+accounting boundaries of another mitigation activity, under the same program.
+b) The carbon-crediting program (‘program A’) shall also have provisions in place to apply, where practicable,
+the requirements set out in a) above in respect of mitigation activities registered under another carbon-
+crediting program (‘program B’), that have GHG accounting boundaries that overlap with mitigation
+activities that are registered with the carbon-crediting program (program A).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 93
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 11.2: NO DOUBLE CLAIMING WITH MANDATORY DOMESTIC MITIGATION
+SCHEMES
+Table 11.2
+No double claiming with mandatory domestic mitigation schemes
+Requirements
+a) For Categories where there is a material risk of double claiming, the carbon-crediting program shall have
+provisions to ensure either that:
+1) mitigation activities that generate GHG emission reductions or removals that overlap with mandatory
+domestic mitigation schemes (e.g., emissions trading systems or renewable energy quotas) are not
+registered and/or carbon credits are not issued; or
+2) when carbon credits are associated with GHG emission reductions or removals that are also covered
+by the mandatory domestic mitigation scheme, the mandatory domestic mitigation scheme has
+measures in place to ensure that any relevant impacts of the mitigation activity (e.g., the GHG emission
+reductions achieved or the kilowatt-hours of renewable electricity produced) are not counted towards
+the achievement of targets or obligations under the mandatory domestic mitigation scheme (e.g., by
+cancelling allowances from the emissions trading system before issuing carbon credits).
+CRITERION 11.3: NO DOUBLE CLAIMING OF GHG MITIGATION ARISING FROM OTHER
+ENVIRONMENTAL CREDITS
+Table 11.3
+No double claiming of GHG mitigation arising from other environmental credits
+Requirements
+a) For Categories where there is a material risk of double claiming, the carbon-crediting program shall have
+provisions to ensure that carbon credits are not issued for GHG emission reductions or removals achieved
+by a mitigation activity where units related to the same climate impacts of the mitigation activity are
+traded in other environmental markets or accounting frameworks (e.g., Renewable Energy Certificates
+generated from renewable energy projects).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 94
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+C. SUSTAINABLE
+DEVELOPMENT
+BENEFITS AND
+SAFEGUARDS
+12. SUSTAINABLE DEVELOPMENT BENEFITS
+AND SAFEGUARDS
+The carbon-crediting program shall have clear
+guidance, tools and compliance procedures
+to ensure mitigation activities conform with
+or go beyond widely established industry
+best practices on social and environmental
+safeguards while delivering positive
+sustainable development impacts.
+The Program-level criteria contain numerous requirements applicable to how carbon-crediting
+programs ensure mitigation activities have addressed risks relating to safeguards and
+sustainable development. See also Table 7.12 above in relation to the next iteration of the
+Assessment Framework, the Continuous Improvement work program that will address all points
+listed in Table 7.12 and Attribute 3 relating to Quantified SD benefits.
+The ICVCM is aware that carbon-crediting programs have more recently or are currently developing
+new and expanded requirements in this area and, as a result, carbon credits issued in the past
+might not have been subject to the more advanced criteria in section 7 that apply to CCP-Eligible
+carbon-crediting programs. As such, in order to establish criteria applicable to all carbon credits,
+including those that might have been issued earlier, the ICVCM have created the baseline
+Category-level criteria in 12.1 and 12.2 below.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 95
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 12.1 SAFEGUARDS
+Table 12.1
+Safeguards
+Requirements
+a) Mitigation activities shall meet CORSIA requirements related to Safeguards systems.
+b) Where a Category is typically also operating under a third party-linked certification scheme or third
+party-linked robust set of requirements that are relevant to safeguards (e.g., IFC Environmental and Social
+Performance Standards) or to specific further requirements of the carbon-crediting program relating to
+safeguards, the carbon-crediting program shall provide such information for the assessment process in the
+Assessment Platform.
+CRITERION 12.2 SUSTAINABLE DEVELOPMENT BENEFITS
+Table 12.2
+Sustainable Development benefits
+Requirements
+a) Mitigation activities shall meet CORSIA requirements related to sustainable development.
+b) Where a Category is typically also operating under a third party linked certification scheme or third party-
+linked robust set of requirements30 that are relevant to sustainable development benefits, or to specific
+further requirements of the carbon-crediting program relating to sustainable development, the carbon-
+crediting program shall provide such information for assessment in the Assessment Platform.
+30 For example, Gold Standard SDG Impact Tool (operated by the Gold Standard), Sustainable Development Verified Impact
+Standard (SD Vista) (operated by Verra), Climate, Community & Biodiversity Standards (CCB) (operated by Verra).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 96
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+12.3 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 12.3
+Next iteration of the Assessment Framework
+Threshold Requirements
+General The ICVCM is aware that further work is needed to improve sustainable development benefits
+and safeguards associated with mitigation activities. For the next iteration of the Assessment
+Framework, and through the Continuous Improvement work program, the ICVCM will draw
+upon available safeguards and SDG impact measurement and management protocols
+including third party certification requirements to develop further criteria and a risk and
+impact rating framework for Categories.
+In relation to The ICVCM will consider requiring methodologies to require evidence of level of change
+criterion 12.2 achieved and the degree to which sustainable development benefits can be attributed to the
+mitigation activity.
+The ICVCM will consider requiring methodologies to include provisions promoting net positive
+sustainable development benefit.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 97
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+13 CONTRIBUTION TO NET ZERO TRANSITION
+The mitigation activity shall avoid locking-
+in levels of GHG emissions, technologies
+or carbon-intensive practices that are
+incompatible with the objective of achieving
+net zero GHG emissions by mid-century.
+CRITERION 13.1 CATEGORIES INCOMPATIBLE WITH CONTRIBUTION TO NET ZERO
+TRANSITION
+Table 13.1
+Categories incompatible with contribution to net zero transition
+Requirements
+a) Carbon credits issued under Categories listed in criterion a) 1) below are not eligible to be CCP-Approved:
+1) categories:
+i. mitigation activities that directly lead to an increase in the extraction of fossil fuels (e.g.,
+exploration and extraction of fossil fuels);
+ii. mitigation activities relating to coal-fired electricity generation;
+iii. mitigation activities that involve any other unabated fossil fuel-powered electricity generation,
+other than new gas-fired generation that is part of increased zero-emissions generation capacity
+in support of national low carbon energy transitions;
+iv. mitigation activities focused on road transport that rely on the continued use of solely fossil
+fueled powered engines.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 98
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CRITERION 13.2 CONTRIBUTION TO NET ZERO TRANSITION
+Table 13.2
+Contribution to net zero transition
+Requirements
+a) Carbon-crediting programs shall ensure that new or revised methodologies require mitigation activity
+proponents to assess compatibility of the mitigation activity with transition to net zero by reference to the
+net zero objectives of the host country.
+13.3 NEXT ITERATION OF THE ASSESSMENT FRAMEWORK
+Table 13.3
+Next iteration of the Assessment Framework
+Threshold Requirements
+In relation to The ICVCM will consider extending assessment of compatibility with transition to net zero to
+criterion 13.2 existing active methodologies, by requiring a dedicated section in all methodologies requiring
+that mitigation activities using the methodology describe how the mitigation activity is
+compatible with a transition towards net zero in the relevant host country, including the
+potential contribution of the mitigation activity.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 99
+Threshold | Requirements
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+PART III
+REQUIREMENTS
+RELATING TO CCP
+ATTRIBUTES
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 100
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CCP ATTRIBUTE 1: HOST COUNTRY AUTHORIZATION PURSUANT TO ARTICLE 6
+OF THE PARIS AGREEMENT
+Table 1
+CCP Attribute 1: Host country authorization pursuant to Article 6 of the Paris
+Agreement
+Requirements for the CCP Attribute
+a) The carbon-crediting program shall have a unique tag for this CCP Attribute that shall be different
+from other CCP Attributes.
+b) The carbon-crediting program shall ensure an Article 6 authorization associated with the carbon
+credits has been provided by the host country before it grants the carbon credits the Attribute of
+Article 6 authorization and marks the carbon credits accordingly in the carbon-crediting program
+registry.
+c) The carbon-crediting program shall make the information received in relation to Article 6
+authorizations publicly available and ensure the information is kept up to date on its website.
+d) The carbon-crediting program shall prepare regular reports on the status of carbon credits
+associated with Article 6 authorizations and make these reports publicly available, including data
+disaggregated by host country, mitigation activity and vintage. The carbon-crediting program shall
+provide each host country with information relating to carbon credits associated with Article 6
+authorizations by that country, including information relating to mitigation activities and vintages.31
+e) The carbon-crediting program shall regularly seek evidence of the appropriate application of
+corresponding adjustments pursuant to Article 6 authorization by the host country. If such evidence
+cannot be obtained within two years of the required application of corresponding adjustments
+pursuant to Article 6 of the Paris Agreement, the carbon-crediting program shall withdraw this
+Attribute from carbon credits in its registry and inform the relevant account holders.
+31 This provision facilitates the application of corresponding adjustments by host countries in cases where the “first international
+transfer” for OIMP has been defined as the “use or cancellation”, in accordance with paragraph 2.b of the Article 6, paragraph 2
+(decision 2/CMA.3).
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 101
+FOREWORD SECTION ONE SECTION two SECTION three SSEECCTTIIOONN ffoouurr SECTION five SECTION six JANUARY 2024 - VERSION 1.1
+CCP ATTRIBUTE 2: SHARE OF PROCEEDS FOR ADAPTATION
+Table 2
+CCP Attribute 2: Share of Proceeds for Adaptation
+Requirements for the CCP Attribute
+a) The carbon-crediting program shall have a unique tag for this CCP Attribute that shall be different
+from other CCP Attributes.
+b) The carbon-crediting program shall ensure that the following requirement has been satisfied before
+it grants the carbon credits the Attribute of a Share of Proceeds for Adaptation and marks the carbon
+credits accordingly in the carbon-crediting program registry:
+1) the mitigation activity proponents have provided satisfactory information to demonstrate that:
+i. a monetary contribution that the mitigation activity proponents have confirmed is
+equivalent to five percent of the revenue associated with the issued carbon credits has
+been made to the Adaptation Fund; and/or
+ii. at least five percent of issued carbon credits have been forwarded to a dedicated registry
+account managed by or on behalf of the Adaptation Fund.
+c) The carbon-crediting program shall make the information in relation to monetary contributions
+and/or carbon credits forwarded to the Adaptation Fund publicly available on its website and ensure
+the information is kept up to date.
+CCP ATTRIBUTE 3: QUANTIFIED POSITIVE SDG IMPACTS
+Table 3
+CCP Attribute 3: Quantified positive SDG impacts
+Requirements for the CCP Attribute
+a) The carbon-crediting program shall have a unique tag for this CCP Attribute that shall be different
+from other CCP Attributes.
+b) The carbon-crediting program shall ensure the following requirements have been satisfied before
+it grants the carbon credits the Attribute of quantified positive SDG impacts, and marks the carbon
+credits accordingly in the carbon-crediting program registry:
+1) the SDG impacts of the mitigation activity have been monitored and quantified ex-post using a
+method, tool or standard32 recognised by a CCP-Eligible carbon-crediting program;
+2) the application of the method, tool or standard33 demonstrates quantified positive impact for
+one or more SDGs (other than SDG 13);
+3) the quantification of the positive SDG impacts according to the method, tool or standard has
+been verified by a VVB.
+32 Including third-party linked certification scheme or third-party linked robust set of requirements.
+33 Carbon-crediting programs can refer to or be guided by existing methods of quantification including Gold Standard SDG
+Impact Tool (operated by the Gold Standard), Sustainable Development Verified Impact Standard (SD Vista) (operated by
+Verra), Climate, Community & Biodiversity Standards (CCB) (operated by Verra) or other relevant programs.
+Section 4: Assessment Framework - Core Carbon Principles - January 2024, Version 1.1 | 102

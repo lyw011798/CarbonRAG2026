@@ -1,0 +1,809 @@
+6
+SECTION
+ASSESSMENT
+PROCEDURE
+April 2024, Version 1.2
+SECTION
+6
+ASSESSMENT
+PROCEDURE
+April 2024, Version 1.2
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+SECTION 6
+1 INTRODUCTION 112
+2 ASSESSMENT OF CARBON-CREDITING PROGRAMS 115
+3 ASSESSMENT OF CATEGORIES 119
+4 APPLYING ASSESSMENT DECISIONS 123
+5 ONGOING ASSURANCE AND ENFORCEMENT 125
+6 HEARINGS, INDEPENDENT REVIEW, COMPLAINTS 132
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 111
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+1 Introduction
+Purpose of this Assessment Procedure
+1.1 This document sets out the procedure for carbon-crediting programs to be assessed as
+CCP-Eligible programs and for the assessment of Categories of carbon credits (Categories)
+as CCP-Approved so that CCP-Eligible programs are able to tag CCP-Approved carbon credits.
+It also identifies how CCP-Approved carbon credits may, where they meet the requirements
+in the CCP Attributes section of the Assessment Framework, be tagged in respect of such
+attributes. This Assessment Procedure should be read in conjunction with the Summary
+for Decision Makers, Assessment Framework, Definitions, which apply to this Assessment
+Procedure, and Terms and Conditions. Readers may also wish to review the Introduction and
+Feedback Statement.
+1.2 The Integrity Council for the Voluntary Carbon Market (Integrity Council or ICVCM) may adopt
+further procedures, terms of reference documents and guidance to support implementation
+of this Assessment Procedure and may revise or update this Assessment Procedure from
+time to time.
+1.3 The Integrity Council’s governance structure and operational functions1 that are relevant to
+this Assessment Procedure are set out below:
+(a) The Governing Board has overall responsibility for the Integrity Council’s decisions and
+work. It appoints the leadership of both the Expert Panel and the Executive Secretariat.
+Governing Board committees comprising independent members of the Governing Board
+make recommendations to the full Governing Board and the Governing Board may
+delegate decisions within an agreed scope of delegation to such committees;
+(b) The Expert Panel makes recommendations to the Governing Board on various topics,
+including development and application of the CCPs and Assessment Framework and
+areas of continuous improvement, as well as carrying out other tasks as set out in this
+Assessment Procedure under the oversight of the Governing Board;
+1 As set out in the Integrity Council’s Modalities & Procedures.
+Note that in this Assessment Procedure the term Integrity Council may be used to indicate the Secretariat together with (a)
+the Expert Panel and/or its members and (b) any relevant committee of the Governing Board delegated to have assessment
+functions, each undertaking functions in accordance with the functions assigned to them in the Modalities & Procedures.
+References to the Governing Board include a reference to the committee that has the relevant delegated functions.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 112
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+(c) The Executive Secretariat (Secretariat) provides operational support to the Governing
+Board (including its committees), to the Expert Panel and to any multi-stakeholder
+working groups and work programs, for example for standard-setting, assessment,
+assurance, oversight, market formation, communications and governance activity;
+(d) Multi-stakeholder groups including external experts provide input and advice to the
+Integrity Council, including its Governing Board and relevant committees.
+Overview of Assessment
+1.4 Assessment to enable identification of CCP-Approved carbon credits is achieved by the
+following steps:
+(a) Assessment of carbon-crediting programs (“Program-level assessment”): The
+Integrity Council assesses whether applicant carbon-crediting programs satisfy the
+relevant CCPs using the Assessment Framework. Carbon credits will only be deemed
+CCP-Approved if they are issued by a carbon-crediting program that has been assessed
+to fulfil these principles and criteria and requirements. See section 2 of this Assessment
+Procedure;
+(b) Assessment of Categories of carbon credits (“Category assessment”): The Integrity
+Council assesses which Categories meet the relevant CCPs using the criteria and
+requirements applicable to Categories in the Assessment Framework. Carbon credits will
+only be deemed CCP-Approved if they belong to a Category that has been assessed under
+this Assessment Procedure to fulfil these principles and criteria and requirements. See
+section 3 of this Assessment Procedure;
+(c) Identification of CCP-Approved carbon credits: Following the completion of the
+previous two steps, CCP-Eligible programs will identify which carbon credits are CCP-
+Approved and tag them as such in its program registry together with any relevant CCP
+Attributes. The identification and tagging by carbon-crediting programs will be overseen
+by the Integrity Council. See section 4 of this Assessment Procedure.
+1.5 Assessment of an applicant carbon-crediting program will tend to precede assessment of
+Categories, but the Integrity Council may at times choose to assess certain Categories before
+assessment of the applicant carbon-crediting program has been completed, in which case
+assessment of Categories in relation to that applicant carbon-crediting program will remain
+pending until completion of the Program-level assessment and will be finalised only if and
+when the applicant carbon-crediting program is decided to be CCP-Eligible (including CCP-
+Eligible conditional on remedial action being completed).
+Confidentiality during the assessment process
+1.6 All information received from applicant carbon-crediting programs per sections 2 and 3 of
+this Assessment Procedure will be used for the purpose of assessing the carbon-crediting
+program and Categories against the Assessment Framework and related processes under
+this Assessment Procedure. Further provisions relating to confidentiality are set out in the
+Terms and Conditions.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 113
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+Stakeholder input
+1.7 In line with its Governing Principles and Mandate2 including Inclusion, Transparency and
+Continual Improvement, the Integrity Council encourages feedback from any stakeholders.
+1.8 Stakeholders may provide input at any time (info@icvcm.org), including in relation to
+specific Applications or Category assessments. Input will be acknowledged within five
+working days. Stakeholder input will be made public on the ICVCM website, unless it is
+offensive, irrelevant or presents other material risk to the Integrity Council process, in which
+case the fact of the submission, but not the contents, will be listed on the ICVCM website.
+Feedback
+1.9 Feedback on the Integrity Council’s work is welcome at any time and may be submitted to
+info@icvcm.org, including the word “feedback” in the subject line of the email. Feedback will
+be acknowledged within five working days.
+Working language
+1.10 The working language of the ICVCM will be English.
+Exclusion of Liability and No Reliance
+1.11 Notwithstanding any other term or provision of the Assessment Procedure, the Summary
+for Decision Makers, Assessment Framework, Definitions or the Terms and Conditions,
+the Integrity Council shall have no liability whatsoever (and whether contractual or non-
+contractual) arising out of or in connection with the implementation, application or
+operation of the Assessment Procedure, related documents and/or the carrying out of any
+Assessment, the completion or outcome of any Assessment or the use of or reliance upon
+any Assessment by any person including, but not limited to, the labelling/tagging or failure
+to label/tag any carbon credit (or the suspension or termination of such labelling/tagging)
+or otherwise howsoever arising. Any Assessment is wholly dependent upon information and
+documentation provided by the applicant carbon-crediting program (for which the Integrity
+Council has no responsibility or liability). Any Assessment is an opinion, not a statement
+of fact or a recommendation. No contract, express or implied, exists between the Integrity
+Council and any person in respect of any Assessment, other than the applicant carbon-
+crediting program under the relevant Contract. No representation, warranty, undertaking
+or assurance, express or implied, is or will be made by the Integrity Council, its affiliates,
+associates, advisers, directors, employees or representatives or any other person as to the
+truth, accuracy, completeness, correctness or fairness of any Assessment.
+Supporting documentation
+1.12 The Integrity Council, may, at its discretion, issue guidance documents (including, for
+example manuals) to support the implementation of this Assessment Procedure.
+2 Key Governing Principles and Mandate
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 114
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+2 ASSESSMENT OF
+CARBON-CREDITING
+PROGRAMS
+2.1 This section sets out the procedure by which the Integrity Council assesses carbon-crediting
+programs against the CCPs and the criteria and requirements in the Assessment Framework
+(Program-level) in order to take a decision to approve or not approve the carbon-crediting
+program as CCP-Eligible.
+Application by a carbon-crediting program to the Integrity Council
+2.2 Any carbon-crediting program that issues carbon credits may apply to the Integrity Council
+for assessment of its program.
+2.3 Any carbon-crediting program that wishes to be assessed should notify the Integrity Council
+of its intention to apply by sending an email to applications@icvcm.org. The Secretariat
+will endeavour to provide the carbon-crediting program with login instructions for the
+Assessment Platform no later than ten working days following the notification.
+2.4 To apply, the carbon-crediting program must submit the detailed application with
+appropriate supporting information, documentation and evidence (Application), through the
+Assessment Platform.
+2.5 As part of the Application, the carbon-crediting program must reply to all the questions and
+submit all necessary documents required in the Assessment Platform and must agree to the
+Terms and Conditions, through the Assessment Platform. The carbon-crediting program may
+withdraw its program Application at any time before a final decision has been taken by the
+ICVCM on the approval pursuant to 2.22 below, by emailing applications@icvcm.org.
+A withdrawn Application means that the Application and Category assessments being
+undertaken in accordance with section 3 of this Assessment Procedure will not be further
+processed, and the carbon-crediting program’s withdrawal will be made public on the ICVCM
+website.
+2.6 Following submission of the Application, the Secretariat will undertake a completeness
+review pursuant to 2.14 below and provide the carbon-crediting program with an estimate of
+the expected timeframe for the assessment, based on its current workload.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 115
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+2.7 In accordance with the Assessment Framework, for CORSIA-eligible carbon-crediting
+programs, certain sections of the Assessment Framework refer to CORSIA eligibility and
+requirements. The ICVCM Application under this Assessment Procedure is completed by
+reference to that CORSIA eligibility and documents supplied in the application submitted to
+CORSIA.
+2.8 A carbon-crediting program that has not applied for CORSIA must complete all sections of
+the ICVCM Application by providing the information, documents and evidence that would be
+required under CORSIA and as indicated in the Assessment Platform.
+2.9 A carbon-crediting program that has applied to CORSIA but has not achieved CORSIA
+eligibility must contact the Secretariat before applying under this Assessment Procedure
+(applications@icvcm.org).
+2.10 Following submission of the Application by a carbon-crediting program and confirmation of
+completeness by the Secretariat, the Application will be made public, on the ICVCM website,
+subject to any redactions agreed between the Integrity Council and the carbon-crediting
+program where there is a compelling rationale for confidentiality.
+2.11 The Integrity Council’s carbon-crediting program assessment will be treated as confidential
+during the assessment. The Integrity Council will publish Decisions of the Governing Board
+relating to carbon-crediting program Applications, including reasons for the Decision as set
+out in this section.
+Processing Applications
+2.12 The Integrity Council will aim to present an assessment Decision for consideration by the
+Governing Board within four calendar months of receipt of the completed Application (two
+months if CORSIA-eligible), subject to workload. The expected timeline is subject to change.
+The Secretariat will notify the applicant carbon-crediting program as soon as practicable
+if the assessment is expected to take longer, including due to requests to provide further
+information, or remedial actions.
+2.13 On receipt of an Application submitted through the Assessment Platform, the Integrity
+Council will perform an initial completeness review of documentation submitted. The
+Secretariat will notify the carbon-crediting program of any apparent gaps in information,
+documentation or evidence submitted through the Assessment Platform, which must be
+resolved by the carbon-crediting program in order for the assessment to proceed. Where the
+Application is complete, the Secretariat will notify the carbon-crediting program that the
+Application is complete and that the Application will proceed to the assessment stage.
+2.14 Complete Applications will be processed in the order in which they are confirmed as
+complete.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 116
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+Application assessment
+2.15 The Integrity Council will process the Application and prepare a draft Assessment Report,
+on the basis of the Application submitted by the carbon-crediting program and, where
+applicable, other relevant public documentation and stakeholder comments submitted per
+1.7-1.8 above, if any, identified by the Integrity Council as relevant to the Application.
+2.16 The Integrity Council will communicate with the carbon-crediting program to resolve any
+issues identified during the assessment and preparation of the draft Assessment Report.
+The carbon-crediting program may submit additional information, documentation or
+evidence in order to resolve such issues.
+2.17 Where the Integrity Council identifies issues that require changes to the carbon-crediting
+program’s program documents, or other carbon-crediting program processes in order
+to meet the CCPs and the criteria and requirements of the Assessment Framework, the
+Secretariat will notify the carbon-crediting program of the required changes. These may
+be classified as minor changes, such that approval is not subject to completion of those
+changes, or may require remedial actions that must be resolved before the carbon-crediting
+program can be approved. Any required minor changes and/or remedial actions will be
+included in the draft Assessment Report.
+2.18 The draft Assessment Report will include, as a minimum, summary information about
+the Program, its Application, any remedial actions, and recommendations from any
+relevant committee and from the Expert Panel. The Integrity Council shall provide the
+draft Assessment Report to the relevant carbon-crediting program and the carbon-
+crediting program may submit information to explain how its program documents or other
+documents address issues underlying the assessment, including, where applicable, the
+issue underlying any remedial action. The Integrity Council may revise the draft Assessment
+Report on the basis of that information.
+2.19 The draft Assessment Report and a recommendation for the Decision for one of (a) to (c) in
+2.20 below, will be submitted to the Governing Board.
+2.20 The Governing Board shall consider the draft Assessment Report and the recommendation
+for the Decision and whether to take a Decision to:
+(a) Approve the carbon-crediting program as CCP-Eligible; or
+(b) Approve the carbon-crediting program as CCP-Eligible conditional on completion of
+remedial actions; or
+(c) Reject the Application of the carbon-crediting program.
+2.21 Where the Governing Board considers it is likely to take a 2.20 (b) or (c) Decision, the
+Integrity Council shall provide a copy of the final Assessment Report and draft Decision to
+the carbon-crediting program for its review and comments prior to any Decision per 2.22.
+The carbon-crediting program may request a hearing, in accordance with section 6 of this
+Assessment Procedure. After the hearing, if held, the Governing Board shall take a Decision
+per 2.22 that also takes into account written and oral information from the hearing.
+2.22 The Governing Board shall consider the final Assessment Report and recommendation for
+the Decision and take one of the Decisions set out in 2.20 above.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 117
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+Notification and publication
+2.23 The Integrity Council will publish the Decision on the ICVCM Website.
+2.24 Where the Decision is a 2.20 (b) decision, the Approval is conditional upon the remedial
+actions being completed to the satisfaction of the Integrity Council, based on information
+submitted by the carbon-crediting program. Until the completion of the remedial actions to
+the satisfaction of the Integrity Council, the CCP-Eligible program may not tag any carbon
+credits as CCP-Approved or with CCP Attributes per section 4 below.
+2.25 A carbon-crediting program that has been rejected per a Decision under 2.20 (c) may
+resubmit an Application no earlier than six months from the date of that Decision.
+CCP-Eligibility of the Program
+2.26 Subject to suspension or termination of eligibility pursuant to section 5 of this Assessment
+Procedure, an approved carbon-crediting program is CCP-Eligible from the date of the CCP-
+Eligibility Decision until such time as a new or revised version of the Assessment Framework
+has been published, the new or updated Application by the carbon-crediting program
+has been processed and a Decision made in accordance with the Assessment Procedure
+(including any update or revision thereof).
+2.27 A CCP-Eligible program may be subject to Interim Review of its CCP-Eligibility in accordance
+with the provisions on Interim Review contained in section 5 below.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 118
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+3 Assessment
+of Categories
+3.1 In order to enable CCP-Eligible programs to tag carbon credits as CCP-Approved, the Integrity
+Council will undertake an assessment of Categories3 against the criteria and requirements
+relating to Categories set out in the Assessment Framework. This section describes that
+assessment process and how a Decision that a Category is/Categories are CCP-Approved is
+taken by the Integrity Council. This section may be revised and supplemented with further
+provisions from time to time based on experience of the Integrity Council.
+Grouping of Categories for assessment
+3.2 The Integrity Council will convene a multi-stakeholder Categories Working Group (CWG) to
+assess Categories that will operate pursuant to terms of reference that will be made public
+on the ICVCM website.4
+3.3 The CWG will be tasked to review Categories, based on, inter alia, public classifications of
+Categories5, publicly available academic literature6, information from relevant carbon-
+crediting programs, ratings agencies, and other public information relating to Categories.
+The CWG will take into consideration any decisions that impose restrictions and/or changes
+in scope or applicability of relevant Categories that have been taken by carbon-crediting
+programs.
+3.4 Based on the information listed in 3.3, the CWG will prepare an initial analysis. The initial
+analysis of the CWG will result in Categories being provisionally grouped for assessment into
+one of the following groups:
+(a) Internal assessment process;
+(b) Multistakeholder assessment process;
+(c) Very unlikely to meet the criteria and requirements of the Assessment Framework.
+3 Assessment will be of categories of credits under active methodologies unless otherwise requested by a carbon-crediting program
+4 The Terms of Reference will be made public in due course.
+5 For example, the Berkeley Voluntary Registry Offsets Database
+6 In relation to additionality requirements, literature may be used to support an assessment that the Category is additional in the
+event that the relevant carbon-crediting program documents do not meet all of the relevant criteria and requirements.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 119
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+3.5 The CWG’s initial analysis will be reviewed by the Integrity Council and recommendations on
+the grouping of the Categories for the assessment will be made to the Governing Board. The
+recommendation shall include the initial analysis and may, but is not required to, include
+policy considerations in respect of any one or more Categories. The Governing Board will take
+a decision in relation to the groupings for assessment in accordance with 3.4 above. The
+groupings for assessment will be made public on the ICVCM website, along with relevant
+information. The groupings of Categories are subject to change during the assessment
+process based on findings in the assessment.
+3.6 A CCP-Eligible program, or a carbon-crediting program that has notified the Integrity Council
+of its intention to apply to be assessed pursuant to section 2 of this Assessment Procedure
+may, at any time, exclude one or more of its methodologies from further assessment under
+this Assessment Procedure, via the Assessment Platform or by emailing the Secretariat
+(applications@icvcm.org). In relation to methodologies that are excluded by the carbon-
+crediting program, the Secretariat will maintain a public list on the ICVCM website of
+excluded methodologies or versions thereof per applicant or CCP-Eligible program.
+Assessment of Categories
+3.7 For Categories grouped per “(a) Internal assessment process,” the Integrity Council will
+prepare a draft Evaluation Report per 3.12 and a recommendation for a Decision to the
+Governing Board pursuant to 3.13 below.
+3.8 For Categories grouped per “(b) Multistakeholder assessment process,” the Integrity Council
+will appoint and convene Multi-Stakeholder Working Groups (MSWGs), that will operate
+pursuant to terms of reference that will be made public on the ICVCM website.7
+3.9 The assessment of Categories in group “(b) Multistakeholder assessment process,” will
+be sequenced based on current market share and market trends and the Secretariat will
+publish an indicative sequencing of assessments.
+3.10 The MSWGs will be tasked to assess relevant criteria and requirements of specific Categories,
+including their underlying methodologies, based on, inter alia, public classifications of
+Categories,8 publicly available academic literature9, information from ratings agencies,
+carbon-crediting program specific information including information submitted as part of
+its Application, and other public information relating to Categories. The MSWGs will take
+into consideration any decisions that impose restrictions and/or changes in the scope or
+applicability of relevant Categories that have been taken by carbon-crediting programs.
+3.11 Based on the information listed in 3.10, MSWGs, with the support of the Integrity Council,
+will prepare assessments of whether the Category/Categories meet(s) the relevant criteria
+and requirements in the Assessment Framework. The MSWGs may make one of the following
+assessments and may, but is not required to, include policy considerations in addition to its
+assessment.
+(a) The Category/Categories meet(s) the relevant criteria and requirements for CCP-approval;
+(b) The Category/Categories meet(s) the relevant criteria and requirements for CCP-approval
+if the relevant carbon-crediting program(s) take(s) remedial action;
+7 The Terms of Reference will be made public in due course.
+8 For example, the Berkeley Voluntary Registry Offsets Database.
+9 See footnote 7 above.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 120
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+(c) The Category/Categories does not/do not meet the relevant criteria and requirements for
+CCP-approval.
+3.12 Each Category assessment and policy considerations, if any, will be reviewed by the Integrity
+Council and the Integrity Council will prepare a draft Evaluation Report on the basis of
+each Category assessment and any policy considerations, if any. The Integrity Council may,
+but is not required to, include further policy considerations. The Integrity Council shall
+provide the draft Evaluation Report to the relevant carbon-crediting program. The carbon-
+crediting program may submit information to explain how its program documents or other
+documents address issues underlying the assessment. The Integrity Council may revise the
+draft Evaluation Report on the basis of that information. The draft Evaluation Report and
+a recommendation for the Decision for one of 3.13 (a) to (c) below, will be submitted to the
+Governing Board.
+3.13 The Governing Board shall consider the draft Evaluation Report and the recommendation
+for a Decision and other relevant information, including policy considerations, if any, and
+whether to take a Decision that:
+(a) The Category/Categories meet(s) the relevant criteria and requirements for CCP-approval;
+(b) The Category/Categories meet(s) the relevant criteria and requirements for CCP-approval
+if the relevant program takes remedial action;
+(c) The Category/Categories does not/do not meet the relevant criteria and requirements for
+CCP-approval.
+3.14 Where the recommendation is for a 3.13 (b) Decision the Integrity Council shall provide a
+copy of the final Evaluation Report and draft Decision including the remedial action to the
+carbon-crediting program prior to any Decision per 3.16. The carbon-crediting program may
+request a hearing, in accordance with section 6 of this Assessment Procedure. After the
+hearing, if held, the Governing Board shall take a Decision on the Category/Categories per
+3.16 below that also takes into account written and oral information from the hearing.
+3.15 Where the recommendation is for a 3.13 (c) Decision, the Integrity Council shall provide a
+copy of the final Evaluation Report and draft Decision to the carbon- crediting program prior
+to any Decision per 3.16. The carbon-crediting program may request a hearing, in accordance
+with section 6 of this Assessment Procedure. After the hearing, if held, the Governing Board
+shall take a decision on the Category/Categories per 3.16 below that also takes into account
+written and oral information from the hearing.
+3.16 The Governing Board shall consider the final Evaluation Report and recommendation for the
+Decision and take one of the Decisions set out in 3.13 above.
+3.17 Where the Governing Board takes a 3.13 (a) Decision, the Decision will be made publicly
+available on the ICVCM website in accordance with 3.22 below.
+3.18 Where the Governing Board takes a 3.13 (c) Decision, the Integrity Council will immediately
+notify the Decision to the relevant carbon-crediting program and will make the Decision
+public on the ICVCM website.
+3.19 Where the Governing Board takes a 3.13 (b) Decision, the Secretariat will immediately notify
+the Decision to the relevant carbon-crediting program and will make the Decision public on
+the ICVCM website. The Decision shall specify the remedial action to be taken by the carbon-
+crediting program.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 121
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+3.20 Where the Decision is a 3.13 (b) Decision, the CCP-Approval of the Category is conditional
+upon the remedial action being completed to the satisfaction of the Integrity Council, based
+on information submitted by the carbon-crediting program. Until the completion of the
+remedial action to the satisfaction of the Integrity Council, the CCP-Eligible program may
+not tag any carbon credits in the relevant Category as CCP-Approved or with CCP Attributes
+per section 4 below. Completion of remedial action shall be determined by a subsequent
+Decision of the Governing Board, which will be made publicly available on the ICVCM website
+in accordance with 3.22 below.
+3.21 For Categories grouped per 3.5 based on options in 3.4 as “(c) Very unlikely to meet the
+criteria and requirements of the Assessment Framework,” upon the completion of the
+assessment for Categories grouped (a) and (b), the Integrity Council will prepare a draft
+Evaluation Report and a recommendation for a Decision to the Governing Board to be taken
+pursuant per 3.16 above. Where the Decision is not a 3.13 (c) Decision, the Governing Board
+shall provide further detailed reasoning in the Decision.
+Timing of Publication of Decisions granting CCP-Approval
+3.22 The Integrity Council may coordinate the timing of publication of Decisions awarding CCP-
+Approval to Categories with the relevant carbon-crediting program(s) to enable the carbon-
+crediting program to identify and prepare to tag relevant CCP-Approved carbon credits.
+CCP Attributes
+3.23 A CCP-Eligible program may tag CCP-Approved carbon credits with relevant CCP Attributes
+where the criteria and requirements in relation to CCP Attributes as set out in the
+Assessment Framework have been met.
+CCP-Approval
+3.24 A carbon credit that has been tagged as CCP-Approved shall retain the CCP-Approved tag
+until it is retired or cancelled.
+3.25 Subject to termination or suspension of the CCP-Eligible program and/or the CCP-Approval
+of the Category per section 5 of this Assessment Procedure, the CCP-Approval of the Category
+applies to all issued carbon credits included within the Category at the date of the CCP-
+Approval Decision. The CCP-Approval also applies to all carbon credits in the Category that
+are issued by the CCP-Eligible program after the date of the CCP-Approval Decision.
+3.26 Where a CCP-Eligible program includes a new Category within its scope (for example, due
+to a new version of a methodology, a new methodology, or a new approach to address
+non-permanence risks) or wishes to seek the approval of a Category that was previously
+withdrawn per 3.6 above, it may request assessment of that Category in order for it to
+be included as a CCP-Approved Category in accordance with this section 3 and further
+procedures that may be developed by the Integrity Council.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 122
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+4 Applying
+Assessment
+Decisions
+Tagging of carbon credits as CCP-Eligible
+4.1 A CCP-Eligible program may tag carbon credits as CCP-Approved where all of the following
+conditions are met:
+(a) The issuing carbon-crediting program has been determined by the Integrity Council to be
+CCP-Eligible pursuant to section 2 of this Assessment Procedure;
+(b) The carbon credit belongs to a Category that has been determined by the Integrity
+Council to be CCP-Approved pursuant to section 3 of this Assessment Procedure.
+4.2 Each CCP-Eligible program will work with its registry to identify the carbon credits to be
+tagged as CCP-Approved and that may be tagged with relevant CCP Attributes. The carbon-
+crediting program shall document in writing the process and information used to identify
+which carbon credits are to be tagged as CCP-Approved and with relevant CCP Attributes.
+4.3 The carbon-crediting program shall be responsible for the accuracy of tagging of CCP-
+Approved carbon credits in the program registry and for the accuracy of tagging of CCP
+Attributes.
+Integrity Council Assurance of Accuracy
+4.4 The Integrity Council will be responsible for assurance over the tagging of CCP-Approved
+carbon credits by CCP-Eligible programs, including the tagging of CCP Attributes.
+4.5 The Integrity Council will seek to achieve high confidence that carbon credits are tagged
+accurately and may place reliance on information in the relevant carbon-crediting program
+registry concerning the carbon credits.
+4.6 Assurance may include the following steps:
+(a) Review with the carbon-crediting program of the CCP-Approved carbon credit
+identification process;
+(b) Audit by the Integrity Council and/or the CCP-Eligible program of the identification
+process and information used;
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 123
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+(c) Positive confirmation through sampling of CCP-Approved tagged carbon credits in the
+program registry, to confirm the tagged carbon credits match the Categories specified in
+the relevant Decision. CCP Attributes may also be sampled;
+(d) Negative confirmation through data analysis of the set of CCP-Approved tagged carbon
+credits to ensure that carbon credits that do not match the Categories and conditions
+specified in the Decision in various respects are not tagged.
+4.7 In the event that any incorrect tagging is identified, the CCP-Eligible program will be required
+to correct the incorrect tagging within five working days and to notify the Integrity Council
+when the correction is completed. The Integrity Council may extend its sample and/or
+perform follow-up assurance as it deems appropriate to ensure that incorrect tagging has
+been resolved.
+4.8 Assurance processes may lead to investigations and/or Interim Review processes as
+described in section 5 below.
+4.9 The Secretariat will prepare a periodic assurance report for consideration by the Governing
+Board.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 124
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+5 Ongoing
+Assurance and
+Enforcement
+Ongoing Assurance
+5.1 The aim of the Integrity Council’s ongoing oversight and assurance is:
+(a) To promote transparency, which encourages greater scrutiny of mitigation activities and
+carbon-crediting programs;
+(b) To ensure CCP-Eligible programs are complying with the CCPs and Assessment
+Framework;
+(c) To be alert to thematic issues (real or perceived) that warrant follow up or lessons to be
+shared, to ensure high integrity is maintained.
+Responsibility of Programs
+5.2 A CCP-Eligible program shall adhere to the governance, program documents and practices
+as set out in its Application and to enforce the requirements of the methodologies, tools,
+standards and other documents that have formed the basis for approval as CCP-Approval in
+relation to Categories.
+5.3 A CCP-Eligible program shall comply with the criteria and requirements set out in the
+Assessment Framework.
+5.4 A CCP-Eligible program shall ensure it has procedures for handling questions and
+complaints from mitigation activity proponents and third parties, including stakeholders,
+about its tagging of CCP-Approved carbon credits and other aspects of its compliance with
+the ICVCM Assessment Framework. The procedures shall be notified to the Integrity Council.
+The Integrity Council may redirect stakeholder complaints received under section 6 below to
+the relevant CCP-Eligible program, if appropriate.
+5.5 A CCP-Eligible program should notify the Integrity Council as soon as possible (subject to
+any legal restrictions) where:
+(a) It anticipates, or has implemented, a material change in its governance, program
+documents and practices that formed part of its Application, such as a merger or
+transfer of decision-making powers, in respect of the CCP-Eligible program or of a
+CCP-Approved Category, including changes related to documents and tools. A material
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 125
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+change is one that could reasonably be expected to affect the Integrity Council’s
+eligibility Decision for a carbon-crediting program or approval Decision for a Category;
+(b) A material failure to comply with the criteria and requirements set out in the Assessment
+Framework has or is likely to have occurred.
+5.6 The Integrity Council may undertake an Interim Review of a CCP-Eligible program or CCP-
+Approved Category as a result of a notification pursuant to 5.5.
+5.7 A CCP-Eligible program shall provide an annual report to the ICVCM containing information
+on the application of the Assessment Framework and CCP-Approval during the relevant
+year, including CCP-Approved tagging, complaints and revisions and updates to documents
+relevant to the CCP-Eligible status of the program, based on a template to be developed by
+the Integrity Council.
+Performance monitoring by the Integrity Council
+5.8 The Integrity Council will, at its discretion, monitor the performance of CCP-Eligible programs
+and CCP-Approved Categories. Monitoring will be risk-based and through actions that may
+include:
+(a) Review of data and market intelligence;
+(b) Reviewing issues and themes that arise through the CCP-Eligible program’s own
+oversight and complaints process (as reported per section 5.7 above);
+(c) Spot-checks and sample-based auditing;
+(d) Monitoring complaints and issues arising in the VCM;
+(e) Thematic analysis of any trends and patterns emerging from the above actions;
+(f) Ongoing consultation and input through ICVCM work programs;
+(g) Inviting input from stakeholders on areas for possible improvement.
+Investigations
+5.9 Where the Integrity Council considers, in its sole discretion, an investigation is necessary to
+resolve identified issues:
+(a) It may inform the CCP-Eligible program, and the CCP-Eligible program shall work in good
+faith to resolve identified issues with the Integrity Council;
+(b) Necessary investigation will be led by the CCP-Eligible program, but the Integrity Council
+reserves the right to investigate if required;
+(c) The Integrity Council may raise issues or request or perform spot-checks, on a risk-
+based approach informed by market intelligence, thematic analysis and grievances
+raised and the CCP-Eligible program will seek to address those issues and accommodate
+spot-checks;
+(d) The Integrity Council will consider adequacy and effectiveness of resolution and
+improvement actions arising from investigations.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 126
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+5.10 The Integrity Council may initiate an assessment based on available information at its
+own discretion at any time where it suspects misuse of the Integrity Council brand, CCP
+trademark or risk of market confusion, such as where an organisation has not been
+assessed as CCP-Eligible by the Integrity Council but has made claims in relation to the CCP,
+such as a claim to be CCP compliant.
+Interim Review
+5.11 The Integrity Council may initiate an Interim Review of the CCP-Eligible program or of a CCP-
+Approved Category, at its sole discretion, if it becomes aware of a material change or if it has
+cause to suspect material failings, including but not limited to:
+(a) Material, or repeated instances of non-compliance with the CCPs and Assessment
+Framework criteria and requirements;
+(b) In relation to a carbon-crediting program CCP-Eligibility Decision, failure to implement
+minor changes or complete remedial actions;
+(c) Non-disclosure by the carbon-crediting program of a material change, as required by 5.4;
+(d) Changes in the CORSIA application requirements, Emission Unit Eligibility Criteria and/
+or other changes in CORSIA that have implications for the ICVCM;
+(e) For a CORSIA-Eligible program, the lapsing or revocation of CORSIA eligibility;
+(f) An apparent non-adherence by the CCP-Eligible program to its governance and practices
+as set out in its Application where the non-adherence may reasonably be expected to
+lead to a material breach of the CCPs and Assessment Framework;
+(g) Material failure to cooperate with the Integrity Council’s investigations and/or to
+respond to reasonable requests made in accordance with published processes;
+(h) Failure to rectify material issues or errors that have been identified during any
+investigation;
+(i) Fraud or gross negligence, false disclosure to the Integrity Council, publishing or
+allowing misleading information to be released.
+5.12 Where, in accordance with 5.11, the Integrity Council considers initiating an Interim Review:
+(a) The Integrity Council will analyse the case and prepare a proposal on the scope and
+modalities of any Interim Review required, for example re-performing a section(s) of the
+Assessment Procedure and provide a recommendation to the Governing Board;
+(b) The Governing Board will make a Decision on initiating an Interim Review;
+(c) Where the Governing Board decides to initiate an Interim Review, the Integrity Council
+will communicate with the CCP-Eligible program as appropriate to gather information,
+clarify issues or agree upon remediation actions;
+(d) The Integrity Council will prepare a report including its findings, required remedial
+actions, if any, and make a recommendation for a draft Decision for one of 5.13 (a) to (c).
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 127
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+5.13 The Governing Board will review the report and consider whether to take a Decision to:
+(a) Close the Interim Review due to resolution of the identified issues, including any agreed
+remediation plan;
+(b) Suspend the CCP-Eligibility of the carbon-crediting program or the CCP-Approval of the
+Categories, as applicable, in accordance with this section 5;
+(c) Terminate the CCP-Eligibility of the carbon-crediting program or the CCP-Approval of the
+Categories, as applicable in accordance with this section 5.
+5.14 Where the Governing Board considers it is likely to make a 5.13 (a) recommendation, the
+draft Decision shall be provided to the CCP-Eligible program. The Governing Board shall
+adopt a Decision to close the Interim Review due to resolution of the identified issues. The
+fact of the Interim Review and its closure, but not the Decision, shall be made public on the
+ICVCM website.
+5.15 Where the Governing Board considers it likely to take a 5.13 (b) or (c) decision, the draft
+Decision will be provided to the CCP-Eligible program in accordance with the provisions
+below, as applicable. The CCP-Eligible program may request a hearing in accordance with
+section 6 of this Assessment Procedure. The Decision of the Governing Board shall take into
+account written or oral information provided in the hearing.
+Suspension of CCP-Eligibility or CCP-Approval
+5.16 The Integrity Council reserves the right to suspend the eligibility of a CCP-Eligible program or
+approval of CCP-Approved Categories following an Interim Review completed in accordance
+with this section 5, where, in the view of the Governing Board, such suspension is necessary
+and proportionate in order to protect the functioning of the VCM and reputation of the
+Integrity Council.
+5.17 Where the Governing Board has determined pursuant to the Interim Review that suspension
+is appropriate:
+(a) The Integrity Council will provide the CCP-Eligible program with the draft Suspension
+Decision. The draft Suspension Decision shall as a minimum contain: the grounds for
+the suspension, sufficient information for the carbon-crediting program to understand
+how the Integrity Council came to the view that suspension was necessary and
+proportionate, and the conditions to be satisfied by the carbon-crediting program for the
+program or Categories to be reinstated;
+(b) The carbon-crediting program will have a response period of eight weeks to provide a
+rebuttal and/or undertake remediation and provide evidence of such remediation to
+the Integrity Council. In exceptional circumstances, the Integrity Council may, due to
+the seriousness and/or urgency of the issue, provide a shorter response period to the
+carbon-crediting program, of not less than five working days;
+(c) The carbon-crediting program will have the right to a hearing in front of the Governing
+Board in accordance with section 6 below, prior to any Decision. The Decision of the
+Governing Board shall take into account written or oral information provided in the
+hearing;
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 128
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+(d) The Governing Board shall review and may revise the draft Suspension Decision
+based on the hearing, if any, or rebuttal and/or remediation by the program, including
+determining that suspension is no longer required, in which case it shall not suspend
+the CCP-Eligibility of the carbon-crediting program/the CCP-Approval of the Category, as
+applicable.
+5.18 The Governing Board shall consider the revised draft Suspension Decision pursuant to
+section 5.14 and shall take a Decision to:
+(a) Not suspend the carbon-crediting program;
+(b) Suspend the carbon-crediting program, in which case the Suspension Decision shall
+as a minimum contain: the grounds for the suspension, sufficient information for the
+carbon-crediting program to understand how the Integrity Council came to the view that
+suspension was necessary and proportionate, and the conditions to be satisfied by the
+program for the carbon-crediting program or Categories to be reinstated. The Suspension
+Decision shall have immediate effect.
+5.19 The Suspension Decision shall be notified immediately to the carbon-crediting program.
+Within two working days of a Suspension Decision being notified pursuant to section 6 of
+this Assessment Procedure, a non-confidential version of the Decision will be made public
+on the ICVCM website.
+5.20 During a period of suspension of the CCP-Eligibility of a carbon-crediting program, the
+carbon-crediting program is not permitted to tag any carbon credits as CCP-Approved or
+tag any carbon credits with CCP Attributes or identify any new mitigation activities as
+CCP-Approved.
+5.21 During a period of suspension of the CCP-Approval of a Category, the carbon-crediting
+program is not permitted to tag any carbon credits of that Category as CCP-Approved or
+tag any carbon credits of that Category with CCP Attributes or identify any new mitigation
+activities of that Category as CCP-Approved.
+5.22 As soon as the carbon-crediting program has fulfilled, to the satisfaction of the Integrity
+Council, the relevant condition(s) for lifting the suspension as set out in the Suspension
+Decision, the Integrity Council shall prepare a draft Reinstatement Decision containing
+sufficient information on how the carbon-crediting program has resolved the issues that
+were the grounds for suspension and how it has met the conditions for reinstatement, for
+consideration by the Governing Board.
+5.23 The draft Reinstatement Decision shall be provided to the carbon-crediting program.
+The carbon-crediting program shall have two working days to comment on the draft
+Reinstatement Decision. The Integrity Council shall review the comments and may revise the
+draft Reinstatement Decision.
+5.24 The Governing Board shall consider the draft Reinstatement Decision and the
+recommendation and shall, unless otherwise decided by the Governing Board, adopt the
+Reinstatement Decision. The Reinstatement Decision shall have immediate effect and shall
+be made public on the ICVCM website.
+5.25 Upon publication of the Reinstatement Decision, the carbon-crediting program may tag
+carbon credits issued during a suspension period as CCP-Approved and CCP Attributes and
+may identify any new mitigation activities as CCP-Approved, if applicable.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 129
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+5.26 Where the carbon-crediting program does not fulfil, to the satisfaction of the Integrity
+Council, the relevant condition(s) for lifting the suspension as set out in the Suspension
+Decision, including any conditions relating to timeframes, the Governing Board may consider
+whether the Interim Review and the suspension process are sufficient for the Governing
+Board to consider termination, in which case, the provisions relating to termination in this
+section shall apply.
+Termination of CCP-Eligibility or CCP-Approval
+5.27 The Integrity Council reserves the right to terminate the CCP-Eligibility of a carbon-crediting
+program or CCP-Approval of a Category. Circumstances under which CCP-Eligibility or
+CCP- Approval designation may be terminated include but are not limited to the most
+severe examples of the circumstances listed in 5.11 above, that raise material doubt as to
+the carbon-crediting program’s competence, conduct and/or commitment to meeting the
+criteria and requirements of the CCPs and the Assessment Framework, overall or in respect
+of the Categories in question, in the opinion of the Governing Board.
+5.28 Termination Decisions may be taken by the Governing Board only after an Interim Review,
+and after any related Suspension Decision, as set out in this section 5.
+5.29 Where the Governing Board has determined pursuant to the Interim Review that termination
+is appropriate:
+(a) The Integrity Council will provide the carbon-crediting program with the draft
+Termination Decision. The draft Termination Decision shall as a minimum contain:
+the grounds for the termination, and sufficient information for the carbon-crediting
+program to understand how the Integrity Council came to the view that termination was
+necessary and proportionate;
+(b) The carbon-crediting program will have a response period of eight weeks to provide a
+rebuttal and/or undertake remediation and provide evidence of such remediation to
+the Integrity Council. In exceptional circumstances, the Integrity Council may, due to
+the seriousness of the issue, provide a shorter response period to the carbon-crediting
+program, of not less than two weeks;
+(c) The carbon-crediting program will have the right to a hearing in front of the Governing
+Board in accordance with section 6 below prior to any Decision. The Decision of the
+Governing Board shall take into account written or oral information provided in the
+hearing.
+5.30 The Governing Board shall consider the revised draft Termination Decision pursuant to 5.27
+above and shall take a Decision to:
+(a) Not terminate the CCP-Eligibility of the program/the CCP-Approval of the Categories;
+(b) Terminate the CCP-Eligibility of the program/the CCP-Approval of the Categories, in
+which case the Termination Decision shall as a minimum contain: the grounds for the
+termination and sufficient information for the carbon-crediting program to understand
+how the Integrity Council came to the view that suspension was necessary and
+proportionate. The Termination Decision shall have immediate effect.
+5.31 The Decision shall be notified immediately to the carbon-crediting program. Within two
+working days of a Termination Decision being notified to the carbon-crediting program, a
+non-confidential version of the Decision will be made public on the ICVCM website.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 130
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+5.32 The termination of CCP-Eligibility of a carbon-crediting program means that, unless
+otherwise decided by the Governing Board and communicated in the relevant Termination
+Decision, no further carbon credits may be tagged as CCP-Approved or tagged with CCP
+Attributes and no new mitigation activities may be identified as CCP-Approved.
+5.33 Carbon credits tagged prior to the date of the Termination Decision are not affected by the
+Termination Decision.
+Sharing Lessons and Continual Improvement
+5.34 The Integrity Council will maintain a confidential record of issues with the implementation
+of the Assessment Framework and the Assessment Procedure that it identifies or that are
+notified to it.
+5.35 The Integrity Council will periodically provide a summary report of anonymised and
+aggregated trends in issues identified for the Governing Board. Where trends are apparent,
+the Governing Board may request the Integrity Council to consider the trends and provide
+a recommendation to the Governing Board on implications, if any, for the next update or
+revision to the Assessment Framework or Assessment Procedure.
+5.36 The Integrity Council may convene carbon-crediting programs and other stakeholders in
+order to share experiences of applying the Assessment Procedure and seek feedback on its
+application.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 131
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+6 Hearings,
+independent review,
+complaints
+Complaints (programs and stakeholders)
+6.1 Pursuant to section 1, 1.7 to 1.9, stakeholders may provide input to the ICVCM at any time, in
+accordance with those provisions. Such input is not treated as a complaint, unless it falls
+within the provisions of 6.2 - 6.6 below.
+6.2 Carbon-crediting programs and stakeholders that wish to make a complaint relating to the
+Integrity Council and/or any CCP-Eligible program, may submit such a complaint to
+info@icvcm.org, including the word “complaint” in the subject line of the email. All
+information received will be treated as confidential. Complaints should be made as soon
+as possible after the event giving rise to the complaint. Complainants must provide their
+contact details (i.e., complaints must not be anonymous) or the complaint will not be
+considered further.
+6.3 The Secretariat will aim to acknowledge the complaint within five working days and to
+investigate and aim to complete the investigation within two months. The Secretariat may,
+but is not required to, inform the complainant of the outcome of its investigation. If the
+Secretariat considers the complaint will require a more complex review or investigation with
+a longer timeframe, including cases involving third parties, the Secretariat will inform the
+complainant of this.
+6.4 Notwithstanding 6.3 above, the Secretariat may forward a stakeholder complaint to a
+CCP-Eligible program where the complaint relates to processes or documents, or specific
+mitigation activities, managed by the CCP-Eligible program and is not a complaint about
+the CCP-Eligible program’s performance in relation to or compliance with the Assessment
+Framework or ICVCM, and will inform the stakeholder accordingly.
+6.5 Where the complaint pertains to the governance and operational functions of the Integrity
+Council, the Secretariat may use external experts to consider the matter and shall inform the
+complainant.
+6.6 The Secretariat will maintain a confidential record of complaints and how they have been
+processed by the ICVCM.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 132
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+6.7 The Integrity Council will periodically provide a summary report of anonymised and
+aggregated trends in complaints for the Governing Board. Where trends are apparent, the
+Governing Board may request the Integrity Council to consider the trends and provide a
+recommendation to the Governing Board on implications, if any, for the next update or
+revision to the Assessment Framework or Assessment Procedure.
+Hearings (programs)
+6.8 A carbon-crediting program may request a hearing in relation to any draft Decision
+addressed to it per sections 2, 3 and 5 that it considers does or may have implications for it.
+The request shall be made by emailing the Secretariat at info@icvcm.org.
+6.9 The hearing may be in-person or virtual and will be organised by the Integrity Council and
+conducted by the Governing Board. Logistics arrangements will be consulted with and then
+communicated to the carbon-crediting program. The Integrity Council will provide to the
+carbon-crediting program all relevant information that forms the basis of the draft Decision
+(including draft Assessment Report or draft Evaluation Report and any draft Decision, as
+applicable), except where information is subject to confidentiality requirements or other
+legal restrictions.
+6.10 The carbon-crediting program may make written submissions for the hearing, including
+evidence to support the submissions and be represented by persons of its choosing, except
+that no representative shall have been previously employed by or worked for the Integrity
+Council in the last two years or served on the Governing Board or the ICVCM Experts in the
+last two years. Representatives shall confirm that they have no conflict of interest per the
+Conflicts of Interest Policy at the start of the hearing.
+6.11 The hearing will be conducted in English and the carbon-crediting program may present
+such written or oral information as it considers necessary.
+6.12 Written submissions prior to and information presented in the hearing shall be taken into
+account by the relevant committee of independent members of the Governing Board in
+the finalisation of the draft Decision, as set out in sections 2, 3 and 5 of this Assessment
+Procedure.
+Independent Review (programs)
+6.13 A carbon-crediting program may request Independent Review by an arbitral panel of any of
+the following:
+(a) Decisions of the Governing Board;
+(b) Actions or inactions by the Integrity Council that are alleged to be in the scope of
+but appear to the carbon-crediting program to be materially inconsistent with the
+Assessment Procedure or Assessment Framework.
+6.14 An Independent Review request shall be made by emailing the Secretariat at info@icvcm.org.
+6.15 The Independent Review is intended as a final arbitration process, as further set out in the
+Terms and Conditions.
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 133
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+icvcm.org
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 134
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+icvcm.org
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 134 | JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+FOREWORD SECTION ONE SECTION two SECTION three SECTION four SECTION five SSEECCTTIIOONN sSiIxX JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
+icvcm.org
+Section 6: Assessment Procedure - Core Carbon Principles - April 2024, Version 1.2 | 134 | FOREWORD | SECTION ONE | SECTION two | SECTION three | SECTION four | SECTION five | SSEECCTTIIOONN sSiIxX | JAANPURAILR Y2 022042 4- V- EVRESRISOINO N1 .12.1
